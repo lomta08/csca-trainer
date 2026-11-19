@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "defaultMode": "acceptEdits",
+    "allow": [
+      "Bash(npm:*)", "Bash(npx:*)", "Bash(node:*)", "Bash(git:*)", "Bash(gh:*)",
+      "Bash(python3:*)", "Bash(pip:*)", "Bash(mkdir:*)", "Bash(ls:*)", "Bash(cat:*)",
+      "WebSearch", "WebFetch"
+    ],
+    "deny": ["Bash(rm -rf /*)", "Bash(sudo:*)"]
+  }
+}
