@@ -1,25 +1,28 @@
 import { Route, Routes, Link } from 'react-router-dom';
+import { lazy, Suspense } from 'react';
 import { Layout } from './components/Layout';
 import { Home } from './pages/Home';
-import { LearnIndex } from './pages/LearnIndex';
-import { Lesson } from './pages/Lesson';
-import { Formulas } from './pages/Formulas';
-import { Practice } from './pages/Practice';
-import { Drill } from './pages/Drill';
-import { MockHome } from './pages/MockHome';
-import { MockRun } from './pages/MockRun';
-import { MockResult } from './pages/MockResult';
-import { Mistakes } from './pages/Mistakes';
-import { Plan } from './pages/Plan';
-import { Tutor } from './pages/Tutor';
-import { Resources } from './pages/Resources';
-import { ChemData } from './pages/ChemData';
-import { Chinese } from './pages/Chinese';
-import { Settings } from './pages/Settings';
+const LearnIndex = lazy(() => import('./pages/LearnIndex').then((m) => ({ default: m.LearnIndex })));
+const Lesson = lazy(() => import('./pages/Lesson').then((m) => ({ default: m.Lesson })));
+const Formulas = lazy(() => import('./pages/Formulas').then((m) => ({ default: m.Formulas })));
+const Practice = lazy(() => import('./pages/Practice').then((m) => ({ default: m.Practice })));
+const Drill = lazy(() => import('./pages/Drill').then((m) => ({ default: m.Drill })));
+const MockHome = lazy(() => import('./pages/MockHome').then((m) => ({ default: m.MockHome })));
+const MockRun = lazy(() => import('./pages/MockRun').then((m) => ({ default: m.MockRun })));
+const MockResult = lazy(() => import('./pages/MockResult').then((m) => ({ default: m.MockResult })));
+const Mistakes = lazy(() => import('./pages/Mistakes').then((m) => ({ default: m.Mistakes })));
+const Plan = lazy(() => import('./pages/Plan').then((m) => ({ default: m.Plan })));
+const Tutor = lazy(() => import('./pages/Tutor').then((m) => ({ default: m.Tutor })));
+const Resources = lazy(() => import('./pages/Resources').then((m) => ({ default: m.Resources })));
+const ChemData = lazy(() => import('./pages/ChemData').then((m) => ({ default: m.ChemData })));
+const Chinese = lazy(() => import('./pages/Chinese').then((m) => ({ default: m.Chinese })));
+const Settings = lazy(() => import('./pages/Settings').then((m) => ({ default: m.Settings })));
+
 
 export function App() {
   return (
     <Layout>
+      <Suspense fallback={<p className="muted">Loading…</p>}>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/learn" element={<LearnIndex />} />
@@ -48,6 +51,7 @@ export function App() {
           }
         />
       </Routes>
+      </Suspense>
     </Layout>
   );
 }

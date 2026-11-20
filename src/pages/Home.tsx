@@ -15,9 +15,9 @@ const PROGRAM_TABLE: [string, string][] = [
   ['Chinese-taught programmes', 'the above + Professional Chinese (Humanities or STEM)'],
 ];
 
-function Bar({ value, cls = '' }: { value: number; cls?: string }) {
+function Bar({ value, cls = '', label = 'Progress' }: { value: number; cls?: string; label?: string }) {
   return (
-    <div className={`progress ${cls}`} role="progressbar" aria-valuenow={Math.round(value * 100)} aria-valuemin={0} aria-valuemax={100}>
+    <div className={`progress ${cls}`} role="progressbar" aria-label={label} aria-valuenow={Math.round(value * 100)} aria-valuemin={0} aria-valuemax={100}>
       <span style={{ width: `${Math.max(0, Math.min(100, value * 100))}%` }} />
     </div>
   );

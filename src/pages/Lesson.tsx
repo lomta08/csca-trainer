@@ -1,14 +1,14 @@
 import { useEffect, useRef } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { allSubtopics, findSubtopic } from '../content/syllabus';
-import { getNote, questionsFor } from '../content';
+import { loadNote, questionsFor, useAsyncText } from '../content';
 import { Md } from '../components/Md';
 import { addStudyTime, markLessonRead, setLastLocation } from '../lib/store';
 
 export function Lesson() {
   const { subject = '', subtopic = '' } = useParams();
   const ref = findSubtopic(subject, subtopic);
-  const note = getNote(subject, subtopic);
+  const note = useAsyncText(() => loadNote(subject, subtopic), [subject, subtopic]);
   const opened = useRef(Date.now());
 
   useEffect(() => {
@@ -52,7 +52,7 @@ export function Lesson() {
       </nav>
       <h1>{ref.subtopic.name}</h1>
       <p className="muted" style={{ marginTop: -8 }}>Syllabus: {ref.subtopic.covers}.</p>
-      <div className="card">{note ? <Md>{note}</Md> : <p>Notes for this topic are coming soon.</p>}</div>
+      <div className="card">{note === undefined ? <p className="muted">Loading…</p> : note ? <Md>{note}</Md> : <p>Notes for this topic are coming soon.</p>}</div>
       <div className="card spread">
         <span>
           <strong>Ready?</strong> {count} questions on this topic{ref.subject.id === 'math' ? ' plus generated ones' : ''}.

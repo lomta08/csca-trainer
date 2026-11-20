@@ -12,7 +12,11 @@
     "test:e2e": "playwright test",
     "validate:content": "tsx scripts/validate-content.ts",
     "verify:numeric": "python scripts/verify/run_all.py",
-    "stats": "tsx scripts/content-stats.ts"
+    "verify:explanations": "python scripts/verify/explanation_check.py",
+    "verify:review": "python scripts/verify/check_review.py",
+    "verify": "npm run validate:content && npm run verify:numeric && npm run verify:explanations && npm run verify:review",
+    "build:mocks": "tsx scripts/build-mocks.ts",
+    "screenshots": "tsx scripts/screenshots.ts"
   },
   "dependencies": {
     "katex": "^0.16.47",

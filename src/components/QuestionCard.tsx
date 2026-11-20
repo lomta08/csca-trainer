@@ -110,7 +110,6 @@ export function QuestionCard(p: QuestionCardProps) {
               className={cls}
               disabled={locked}
               onClick={() => p.onSelect?.(i)}
-              aria-label={`Option ${LETTERS[i]}`}
             >
               <span className="letter" aria-hidden="true">
                 {LETTERS[i]}

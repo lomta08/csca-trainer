@@ -33,6 +33,10 @@ jobs:
         run: npm run validate:content
       - name: Verify numeric answers (sympy)
         run: npm run verify:numeric
+      - name: Explanations reach the marked answer
+        run: npm run verify:explanations
+      - name: Conceptual questions independently re-solved
+        run: npm run verify:review
       - name: Unit tests
         run: npm test
       - name: Type-check and build

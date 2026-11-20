@@ -32,7 +32,7 @@ export function Layout({ children }: { children: ReactNode }) {
       <a href="#main" className="skip-link">Skip to content</a>
       <header className="topbar">
         <div className="topbar-inner">
-          <Link to="/" className="brand" aria-label="CSCA Trainer home">
+          <Link to="/" className="brand">
             <span className="brand-badge" aria-hidden="true">C</span>
             CSCA Trainer
           </Link>
