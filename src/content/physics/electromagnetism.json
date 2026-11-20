@@ -4,7 +4,7 @@
     "subject": "physics",
     "topic": "electromagnetism",
     "subtopic": "electrostatics",
-    "difficulty": 1,
+    "difficulty": 2,
     "question": "Two point charges of $2\\times10^{-6}$ C and $3\\times10^{-6}$ C are $0.3$ m apart. Using $k=9\\times10^9\\ \\text{N}\\cdot\\text{m}^2/\\text{C}^2$, the force between them is",
     "options": [
       "$0.2$ N",
@@ -42,7 +42,7 @@
     "subject": "physics",
     "topic": "electromagnetism",
     "subtopic": "electrostatics",
-    "difficulty": 1,
+    "difficulty": 2,
     "question": "A charge of $2\\times10^{-8}$ C placed at a point in an electric field experiences a force of $4\\times10^{-4}$ N. The field strength there is",
     "options": [
       "$2\\times10^{4}$ N/C",
@@ -156,7 +156,7 @@
     "subject": "physics",
     "topic": "electromagnetism",
     "subtopic": "electrostatics",
-    "difficulty": 1,
+    "difficulty": 2,
     "question": "A capacitor of capacitance $10\\ \\mu\\text{F}$ is connected to a $6$ V supply. The charge stored is",
     "options": [
       "$60$ C",
@@ -289,7 +289,7 @@
     "subject": "physics",
     "topic": "electromagnetism",
     "subtopic": "dc-circuits",
-    "difficulty": 1,
+    "difficulty": 2,
     "question": "A $1000$ W kettle runs for $3$ minutes. The electrical energy it uses is",
     "options": [
       "$3000$ J",
@@ -365,7 +365,7 @@
     "subject": "physics",
     "topic": "electromagnetism",
     "subtopic": "dc-circuits",
-    "difficulty": 2,
+    "difficulty": 3,
     "question": "A $3\\ \\Omega$ resistor is connected in series with a parallel pair of $6\\ \\Omega$ resistors, across a $12$ V supply with negligible internal resistance. The current from the supply is",
     "options": [
       "$0.8$ A",
@@ -688,7 +688,7 @@
     "subject": "physics",
     "topic": "electromagnetism",
     "subtopic": "em-induction",
-    "difficulty": 1,
+    "difficulty": 2,
     "question": "The flux through a $100$-turn coil changes uniformly from $0.02$ Wb to $0.06$ Wb in $0.4$ s. The induced EMF is",
     "options": [
       "$10$ V",

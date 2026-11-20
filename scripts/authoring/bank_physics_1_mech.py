@@ -11,7 +11,7 @@ B.q("p-kin-01", "kinematics", 1,
     r"$v=v_0+at=0+2\times5=10$ m/s.",
     R(0 + 2 * 5))
 
-B.q("p-kin-02", "kinematics", 1,
+B.q("p-kin-02", "kinematics", 2,
     r"A car starts from rest with constant acceleration $2\ \text{m/s}^2$. The distance it travels in the first $5$ s is",
     [r"$25$ m", r"$50$ m", r"$10$ m", r"$12.5$ m"],
     r"$x=v_0t+\tfrac12at^2=0+\tfrac12\times2\times5^2=25$ m.",
@@ -37,7 +37,7 @@ B.q("p-kin-05", "kinematics", 2,
 Stopping distance: $\dfrac{v_0^2}{2a}=\dfrac{400}{10}=40$ m. (Using $t=6$ s in $x=v_0t-\tfrac12at^2$ gives $30$ m — the classic trap.)""",
     R(20 ** 2 / (2 * 5) if 20 / 5 < 6 else 20 * 6 - 2.5 * 36))
 
-B.q("p-kin-06", "kinematics", 1,
+B.q("p-kin-06", "kinematics", 2,
     r"An object moves $30$ m east and then $40$ m north in $10$ s. The magnitude of its average velocity is",
     [r"$5$ m/s", r"$7$ m/s", r"$1$ m/s", r"$3.5$ m/s"],
     r"Average velocity $=\dfrac{\text{displacement}}{\text{time}}$. Displacement $=\sqrt{30^2+40^2}=50$ m, so $\bar v=5$ m/s. ($7$ m/s is the average **speed**, from the path length $70$ m.)",
@@ -49,7 +49,7 @@ B.q("p-kin-07", "kinematics", 2,
     r"$v^2-v_0^2=2ax\Rightarrow a=\dfrac{100-4}{2\times24}=2\ \text{m/s}^2$.",
     R((10 ** 2 - 2 ** 2) / (2 * 24)))
 
-B.q("p-kin-08", "kinematics", 2,
+B.q("p-kin-08", "kinematics", 3,
     r"A ball is thrown horizontally at $10$ m/s from a height of $20$ m " + G10 + r". The horizontal distance it travels before hitting the ground is",
     [r"$20$ m", r"$10$ m", r"$40$ m", r"$200$ m"],
     r"Vertical motion is free fall: $20=\tfrac12\cdot10\,t^2\Rightarrow t=2$ s. Horizontal motion is uniform: $x=v_0t=10\times2=20$ m.",
@@ -116,7 +116,7 @@ B.q("p-new-04", "newtons-laws", 2,
     r"Only the component of gravity along the slope accelerates the block: $a=g\sin30^\circ=10\times\tfrac12=5\ \text{m/s}^2$. The mass cancels.",
     R(g * sp.sin(sp.pi / 6)))
 
-B.q("p-new-05", "newtons-laws", 2,
+B.q("p-new-05", "newtons-laws", 3,
     r"A person of mass $50$ kg stands on a scale in a lift that accelerates **upward** at $2\ \text{m/s}^2$ " + G10 + r". The scale reads",
     [r"$600$ N", r"$500$ N", r"$400$ N", r"$100$ N"],
     r"$N-mg=ma\Rightarrow N=m(g+a)=50\times12=600$ N. The person feels heavier (overweight).",

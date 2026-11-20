@@ -8,16 +8,16 @@
   },
   {
     "subject": "physics",
-    "total": 128,
-    "checked": 91,
-    "conceptual": 37,
+    "total": 185,
+    "checked": 124,
+    "conceptual": 61,
     "failures": []
   },
   {
     "subject": "chemistry",
-    "total": 0,
-    "checked": 0,
-    "conceptual": 0,
+    "total": 162,
+    "checked": 52,
+    "conceptual": 110,
     "failures": []
   }
 ]

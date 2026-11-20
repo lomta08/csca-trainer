@@ -1,0 +1,762 @@
+[
+  {
+    "id": "c-atom-01",
+    "subject": "chemistry",
+    "topic": "theories-laws",
+    "subtopic": "atomic-periodic",
+    "difficulty": 2,
+    "question": "The atom $^{37}_{17}\\mathrm{Cl}$ contains",
+    "options": [
+      "$17$ protons, $20$ neutrons, $17$ electrons",
+      "$17$ protons, $37$ neutrons, $17$ electrons",
+      "$20$ protons, $17$ neutrons, $20$ electrons",
+      "$37$ protons, $17$ neutrons, $37$ electrons"
+    ],
+    "answer": 0,
+    "explanation": "Proton number $Z=17$ (also the electron number in a neutral atom); neutrons $=A-Z=37-17=20$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "c-atom-02",
+    "subject": "chemistry",
+    "topic": "theories-laws",
+    "subtopic": "atomic-periodic",
+    "difficulty": 1,
+    "question": "$^{12}\\mathrm{C}$ and $^{14}\\mathrm{C}$ are",
+    "options": [
+      "allotropes",
+      "isomers",
+      "isotopes",
+      "different elements"
+    ],
+    "answer": 2,
+    "explanation": "Same proton number ($6$), different neutron numbers ($6$ and $8$): isotopes of carbon. They have the same chemical properties.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "c-atom-03",
+    "subject": "chemistry",
+    "topic": "theories-laws",
+    "subtopic": "atomic-periodic",
+    "difficulty": 2,
+    "question": "An element has electron arrangement $2,8,6$. Its position in the periodic table is",
+    "options": [
+      "Period 6, Group IIIA",
+      "Period 3, Group VIIIA",
+      "Period 3, Group VIA",
+      "Period 2, Group VIA"
+    ],
+    "answer": 2,
+    "explanation": "Three electron shells → Period 3; six outer electrons → Group VIA. The element is sulfur ($Z=16$).",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "c-atom-04",
+    "subject": "chemistry",
+    "topic": "theories-laws",
+    "subtopic": "atomic-periodic",
+    "difficulty": 2,
+    "question": "Across Period 3 from Na to Cl, which property **decreases**?",
+    "options": [
+      "Atomic radius",
+      "Non-metallic character",
+      "Electronegativity",
+      "Number of outer electrons"
+    ],
+    "answer": 0,
+    "explanation": "Nuclear charge increases while the number of shells stays $3$, so electrons are pulled closer: the radius decreases. Electronegativity, non-metallic character and outer-electron count increase.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "c-atom-05",
+    "subject": "chemistry",
+    "topic": "theories-laws",
+    "subtopic": "atomic-periodic",
+    "difficulty": 2,
+    "question": "Which hydroxide is the strongest base?",
+    "options": [
+      "$\\mathrm{NaOH}$",
+      "$\\mathrm{KOH}$",
+      "$\\mathrm{Mg(OH)_2}$",
+      "$\\mathrm{Al(OH)_3}$"
+    ],
+    "answer": 1,
+    "explanation": "Metallic character increases down a group and decreases across a period, so K is the most metallic of K, Na, Mg, Al and KOH is the strongest base.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "c-atom-06",
+    "subject": "chemistry",
+    "topic": "theories-laws",
+    "subtopic": "atomic-periodic",
+    "difficulty": 2,
+    "question": "Which acid is the strongest?",
+    "options": [
+      "$\\mathrm{H_2SO_4}$",
+      "$\\mathrm{HClO_4}$",
+      "$\\mathrm{H_3PO_4}$",
+      "$\\mathrm{H_2SiO_3}$"
+    ],
+    "answer": 1,
+    "explanation": "The acidity of the highest oxyacids rises with non-metallic character across Period 3: Si < P < S < Cl. Perchloric acid is the strongest.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "c-atom-07",
+    "subject": "chemistry",
+    "topic": "theories-laws",
+    "subtopic": "atomic-periodic",
+    "difficulty": 1,
+    "question": "The number of electrons in $\\mathrm{Mg^{2+}}$ is ($Z(\\mathrm{Mg})=12$)",
+    "options": [
+      "$12$",
+      "$14$",
+      "$10$",
+      "$2$"
+    ],
+    "answer": 2,
+    "explanation": "Mg loses $2$ electrons to form $\\mathrm{Mg^{2+}}$: $12-2=10$ electrons (the same as Ne).",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "c-atom-08",
+    "subject": "chemistry",
+    "topic": "theories-laws",
+    "subtopic": "atomic-periodic",
+    "difficulty": 3,
+    "question": "Chlorine has two isotopes, $^{35}\\mathrm{Cl}$ and $^{37}\\mathrm{Cl}$, and its relative atomic mass is $35.5$. The percentage abundance of $^{35}\\mathrm{Cl}$ is",
+    "options": [
+      "$50\\%$",
+      "$75\\%$",
+      "$25\\%$",
+      "$66.7\\%$"
+    ],
+    "answer": 1,
+    "explanation": "Let the fraction of $^{35}\\mathrm{Cl}$ be $x$: $35x+37(1-x)=35.5\\Rightarrow2x=1.5\\Rightarrow x=0.75$, i.e. $75\\%$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "c-atom-09",
+    "subject": "chemistry",
+    "topic": "theories-laws",
+    "subtopic": "atomic-periodic",
+    "difficulty": 1,
+    "question": "The elements in the same **group** of the main groups have the same",
+    "options": [
+      "number of outer-shell electrons",
+      "number of electron shells",
+      "atomic radius",
+      "relative atomic mass"
+    ],
+    "answer": 0,
+    "explanation": "Main-group elements in one group share the same number of valence (outer) electrons, which explains their similar chemistry. Elements in the same **period** have the same number of shells.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "c-atom-10",
+    "subject": "chemistry",
+    "topic": "theories-laws",
+    "subtopic": "atomic-periodic",
+    "difficulty": 2,
+    "question": "Which halogen is the most reactive non-metal?",
+    "options": [
+      "$\\mathrm{Cl_2}$",
+      "$\\mathrm{Br_2}$",
+      "$\\mathrm{I_2}$",
+      "$\\mathrm{F_2}$"
+    ],
+    "answer": 3,
+    "explanation": "Down Group VIIA the atoms grow larger and attract electrons less strongly, so reactivity decreases: F > Cl > Br > I. Fluorine is the most reactive non-metal.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "c-atom-11",
+    "subject": "chemistry",
+    "topic": "theories-laws",
+    "subtopic": "atomic-periodic",
+    "difficulty": 3,
+    "question": "$\\mathrm{X^{2-}}$ has $18$ electrons and its nucleus contains $16$ neutrons. The mass number of X is",
+    "options": [
+      "$34$",
+      "$32$",
+      "$36$",
+      "$30$"
+    ],
+    "answer": 1,
+    "explanation": "$\\mathrm{X^{2-}}$ has gained $2$ electrons, so the neutral atom has $16$ electrons and $Z=16$. $A=Z+N=16+16=32$ (it is $^{32}\\mathrm S$).",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "c-bond-01",
+    "subject": "chemistry",
+    "topic": "theories-laws",
+    "subtopic": "bonding",
+    "difficulty": 1,
+    "question": "Which compound contains **ionic** bonds?",
+    "options": [
+      "$\\mathrm{HCl}$",
+      "$\\mathrm{CO_2}$",
+      "$\\mathrm{NaCl}$",
+      "$\\mathrm{CH_4}$"
+    ],
+    "answer": 2,
+    "explanation": "Sodium (an active metal) transfers an electron to chlorine, forming $\\mathrm{Na^+}$ and $\\mathrm{Cl^-}$ held by an ionic bond. The others are molecules with covalent bonds between non-metals.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "c-bond-02",
+    "subject": "chemistry",
+    "topic": "theories-laws",
+    "subtopic": "bonding",
+    "difficulty": 2,
+    "question": "Which molecule is **non-polar** although it contains polar bonds?",
+    "options": [
+      "$\\mathrm{CO_2}$",
+      "$\\mathrm{H_2O}$",
+      "$\\mathrm{NH_3}$",
+      "$\\mathrm{HCl}$"
+    ],
+    "answer": 0,
+    "explanation": "$\\mathrm{CO_2}$ is linear ($\\mathrm{O=C=O}$), so its two bond dipoles cancel. $\\mathrm{H_2O}$ (bent) and $\\mathrm{NH_3}$ (pyramidal) are polar, and HCl has a single polar bond.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "c-bond-03",
+    "subject": "chemistry",
+    "topic": "theories-laws",
+    "subtopic": "bonding",
+    "difficulty": 2,
+    "question": "Water has an unusually high boiling point compared with $\\mathrm{H_2S}$ mainly because",
+    "options": [
+      "the O–H bond is stronger than the S–H bond",
+      "hydrogen bonds form between water molecules",
+      "water molecules are heavier",
+      "water is an ionic compound"
+    ],
+    "answer": 1,
+    "explanation": "Boiling separates molecules, so it depends on intermolecular forces, not on the bonds inside a molecule. Water molecules hydrogen-bond strongly to each other; $\\mathrm{H_2S}$ molecules cannot.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "c-bond-04",
+    "subject": "chemistry",
+    "topic": "theories-laws",
+    "subtopic": "bonding",
+    "difficulty": 2,
+    "question": "The number of shared electron pairs in a nitrogen molecule, $\\mathrm{N\\equiv N}$, is",
+    "options": [
+      "$1$",
+      "$2$",
+      "$3$",
+      "$6$"
+    ],
+    "answer": 2,
+    "explanation": "Each N has $5$ outer electrons and needs $3$ more for an octet, so the atoms share $3$ pairs: a triple bond (one $\\sigma$ and two $\\pi$ bonds).",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "c-bond-05",
+    "subject": "chemistry",
+    "topic": "theories-laws",
+    "subtopic": "bonding",
+    "difficulty": 2,
+    "question": "Which substance contains **both** ionic and covalent bonds?",
+    "options": [
+      "$\\mathrm{NaOH}$",
+      "$\\mathrm{NaCl}$",
+      "$\\mathrm{H_2O}$",
+      "$\\mathrm{MgCl_2}$"
+    ],
+    "answer": 0,
+    "explanation": "$\\mathrm{NaOH}$ consists of $\\mathrm{Na^+}$ and $\\mathrm{OH^-}$ (ionic bond), and the O–H bond inside the hydroxide ion is covalent. NaCl and $\\mathrm{MgCl_2}$ are purely ionic; water is purely covalent.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "c-bond-06",
+    "subject": "chemistry",
+    "topic": "theories-laws",
+    "subtopic": "bonding",
+    "difficulty": 2,
+    "question": "Which substance is a covalent network (atomic) crystal with a very high melting point?",
+    "options": [
+      "Dry ice ($\\mathrm{CO_2}$)",
+      "Diamond",
+      "Iodine",
+      "Sodium chloride"
+    ],
+    "answer": 1,
+    "explanation": "In diamond every carbon is covalently bonded to four others in a giant 3D network. Dry ice and iodine are molecular crystals (weak forces, low melting points); NaCl is ionic.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "c-bond-07",
+    "subject": "chemistry",
+    "topic": "theories-laws",
+    "subtopic": "bonding",
+    "difficulty": 3,
+    "question": "The boiling points of the halogens increase from $\\mathrm{F_2}$ to $\\mathrm{I_2}$ because",
+    "options": [
+      "the covalent bond inside the molecule gets stronger",
+      "hydrogen bonding increases",
+      "the molecules become ionic",
+      "van der Waals forces increase with molecular size"
+    ],
+    "answer": 3,
+    "explanation": "Larger molecules with more electrons have stronger dispersion (van der Waals) forces, so more energy is needed to separate them. The X–X bond actually gets weaker down the group (apart from $\\mathrm F_2$).",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "c-bond-08",
+    "subject": "chemistry",
+    "topic": "theories-laws",
+    "subtopic": "bonding",
+    "difficulty": 1,
+    "question": "Metals conduct electricity well because they contain",
+    "options": [
+      "free ions",
+      "many protons",
+      "hydrogen bonds",
+      "delocalised (free) electrons"
+    ],
+    "answer": 3,
+    "explanation": "In metallic bonding, metal cations sit in a sea of delocalised electrons. These electrons can flow when a voltage is applied.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "c-bond-09",
+    "subject": "chemistry",
+    "topic": "theories-laws",
+    "subtopic": "bonding",
+    "difficulty": 3,
+    "question": "Which change involves breaking **covalent** bonds?",
+    "options": [
+      "Heating $\\mathrm{HI}$ until it decomposes into $\\mathrm{H_2}$ and $\\mathrm{I_2}$",
+      "Iodine subliming",
+      "Melting ice",
+      "Dissolving sugar in water"
+    ],
+    "answer": 0,
+    "explanation": "A chemical change breaks bonds within molecules: H–I bonds break when HI decomposes. Sublimation, melting and dissolving sugar only overcome intermolecular forces.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "c-eq-01",
+    "subject": "chemistry",
+    "topic": "theories-laws",
+    "subtopic": "rate-equilibrium",
+    "difficulty": 1,
+    "question": "Which change does **not** increase the rate of the reaction of zinc granules with dilute sulfuric acid?",
+    "options": [
+      "Using zinc powder instead of granules",
+      "Adding water to the acid",
+      "Warming the acid",
+      "Using more concentrated acid"
+    ],
+    "answer": 1,
+    "explanation": "Adding water dilutes the acid, lowering $[\\mathrm{H^+}]$ and the rate. A larger surface area, higher temperature and higher concentration all increase the rate.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "c-eq-02",
+    "subject": "chemistry",
+    "topic": "theories-laws",
+    "subtopic": "rate-equilibrium",
+    "difficulty": 2,
+    "question": "In a $2$ L container, the amount of a reactant falls from $1.0$ mol to $0.4$ mol in $10$ s. Its average rate of reaction is",
+    "options": [
+      "$0.06\\ \\text{mol/(L}\\cdot\\text{s)}$",
+      "$0.3\\ \\text{mol/(L}\\cdot\\text{s)}$",
+      "$0.03\\ \\text{mol/(L}\\cdot\\text{s)}$",
+      "$0.6\\ \\text{mol/(L}\\cdot\\text{s)}$"
+    ],
+    "answer": 2,
+    "explanation": "$\\Delta c=\\dfrac{1.0-0.4}{2}=0.3$ mol/L, so $v=\\dfrac{0.3}{10}=0.03\\ \\text{mol/(L}\\cdot\\text{s)}$. Forgetting to divide by the volume gives $0.06$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "c-eq-03",
+    "subject": "chemistry",
+    "topic": "theories-laws",
+    "subtopic": "rate-equilibrium",
+    "difficulty": 2,
+    "question": "For $\\mathrm{N_2(g)+3H_2(g)\\rightleftharpoons2NH_3(g)}$, if $v(\\mathrm{N_2})=0.1\\ \\text{mol/(L}\\cdot\\text{min)}$, then $v(\\mathrm{NH_3})=$",
+    "options": [
+      "$0.1\\ \\text{mol/(L}\\cdot\\text{min)}$",
+      "$0.3\\ \\text{mol/(L}\\cdot\\text{min)}$",
+      "$0.05\\ \\text{mol/(L}\\cdot\\text{min)}$",
+      "$0.2\\ \\text{mol/(L}\\cdot\\text{min)}$"
+    ],
+    "answer": 3,
+    "explanation": "Rates are in the ratio of the coefficients: $v(\\mathrm{N_2}):v(\\mathrm{NH_3})=1:2$, so $v(\\mathrm{NH_3})=0.2\\ \\text{mol/(L}\\cdot\\text{min)}$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "c-eq-04",
+    "subject": "chemistry",
+    "topic": "theories-laws",
+    "subtopic": "rate-equilibrium",
+    "difficulty": 1,
+    "question": "A catalyst speeds up a reaction because it",
+    "options": [
+      "increases the enthalpy change",
+      "shifts the equilibrium towards the products",
+      "increases the concentration of reactants",
+      "lowers the activation energy"
+    ],
+    "answer": 3,
+    "explanation": "A catalyst provides a pathway with lower activation energy, so more collisions succeed. It speeds up the forward and reverse reactions equally, so it does not move the equilibrium position.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "c-eq-05",
+    "subject": "chemistry",
+    "topic": "theories-laws",
+    "subtopic": "rate-equilibrium",
+    "difficulty": 3,
+    "question": "For $\\mathrm{2SO_2(g)+O_2(g)\\rightleftharpoons2SO_3(g)}$ ($\\Delta H<0$), which change shifts the equilibrium to the right?",
+    "options": [
+      "Raising the temperature",
+      "Adding a catalyst",
+      "Removing some $\\mathrm{O_2}$",
+      "Increasing the pressure"
+    ],
+    "answer": 3,
+    "explanation": "The forward reaction decreases the number of gas molecules ($3\\to2$), so higher pressure favours it (Le Chatelier). It is exothermic, so heating shifts it left. A catalyst has no effect on the position, and removing a reactant shifts it left.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "c-eq-06",
+    "subject": "chemistry",
+    "topic": "theories-laws",
+    "subtopic": "rate-equilibrium",
+    "difficulty": 2,
+    "question": "For $\\mathrm{H_2(g)+I_2(g)\\rightleftharpoons2HI(g)}$ at equilibrium, increasing the pressure by compressing the container",
+    "options": [
+      "shifts the equilibrium to the right",
+      "shifts the equilibrium to the left",
+      "makes the colour lighter",
+      "does not shift the equilibrium, but the colour darkens"
+    ],
+    "answer": 3,
+    "explanation": "Both sides have $2$ mol of gas, so pressure does not move the equilibrium. Compression raises the concentration of the violet $\\mathrm{I_2}$, so the colour still darkens.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "c-eq-07",
+    "subject": "chemistry",
+    "topic": "theories-laws",
+    "subtopic": "rate-equilibrium",
+    "difficulty": 3,
+    "question": "For $\\mathrm{N_2(g)+3H_2(g)\\rightleftharpoons2NH_3(g)}$, the equilibrium concentrations are $[\\mathrm{N_2}]=1$ mol/L, $[\\mathrm{H_2}]=2$ mol/L and $[\\mathrm{NH_3}]=2$ mol/L. The equilibrium constant $K$ is",
+    "options": [
+      "$1$",
+      "$2$",
+      "$0.25$",
+      "$0.5$"
+    ],
+    "answer": 3,
+    "explanation": "$K=\\dfrac{[\\mathrm{NH_3}]^2}{[\\mathrm{N_2}][\\mathrm{H_2}]^3}=\\dfrac{2^2}{1\\times2^3}=\\dfrac48=0.5$ (units omitted).",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "c-eq-08",
+    "subject": "chemistry",
+    "topic": "theories-laws",
+    "subtopic": "rate-equilibrium",
+    "difficulty": 1,
+    "question": "Which statement about a reaction at chemical equilibrium is correct?",
+    "options": [
+      "The forward and reverse rates are equal and not zero",
+      "The reaction has stopped",
+      "The concentrations of reactants and products are equal",
+      "All the reactants have been used up"
+    ],
+    "answer": 0,
+    "explanation": "Equilibrium is dynamic: both reactions continue at equal rates, so concentrations stay **constant** — but not necessarily equal to each other.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "c-eq-09",
+    "subject": "chemistry",
+    "topic": "theories-laws",
+    "subtopic": "rate-equilibrium",
+    "difficulty": 3,
+    "question": "$2$ mol $\\mathrm{SO_2}$ and $1$ mol $\\mathrm{O_2}$ are put in a $1$ L vessel. At equilibrium, $1.6$ mol $\\mathrm{SO_3}$ has formed ($\\mathrm{2SO_2+O_2\\rightleftharpoons2SO_3}$). The conversion (percentage reacted) of $\\mathrm{SO_2}$ is",
+    "options": [
+      "$80\\%$",
+      "$40\\%$",
+      "$60\\%$",
+      "$20\\%$"
+    ],
+    "answer": 0,
+    "explanation": "$1.6$ mol $\\mathrm{SO_3}$ formed means $1.6$ mol $\\mathrm{SO_2}$ reacted (ratio $2:2$). Conversion $=\\dfrac{1.6}{2}=80\\%$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "c-eq-10",
+    "subject": "chemistry",
+    "topic": "theories-laws",
+    "subtopic": "rate-equilibrium",
+    "difficulty": 2,
+    "question": "For the endothermic reaction $\\mathrm{N_2O_4(g)\\rightleftharpoons2NO_2(g)}$ (colourless ⇌ brown), when the mixture is heated",
+    "options": [
+      "the colour fades",
+      "the colour does not change",
+      "the colour darkens",
+      "the gas becomes colourless"
+    ],
+    "answer": 2,
+    "explanation": "The forward reaction is endothermic, so heating shifts the equilibrium to the right, producing more brown $\\mathrm{NO_2}$.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "c-eq-11",
+    "subject": "chemistry",
+    "topic": "theories-laws",
+    "subtopic": "rate-equilibrium",
+    "difficulty": 2,
+    "question": "A reaction rate doubles for every $10^\\circ$C rise in temperature. Raising the temperature from $20^\\circ$C to $50^\\circ$C multiplies the rate by",
+    "options": [
+      "$6$",
+      "$3$",
+      "$8$",
+      "$4$"
+    ],
+    "answer": 2,
+    "explanation": "$50-20=30^\\circ$C is three $10^\\circ$C steps: $2^3=8$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "c-elec-01",
+    "subject": "chemistry",
+    "topic": "theories-laws",
+    "subtopic": "electrolytes",
+    "difficulty": 1,
+    "question": "Which substance is a **weak** electrolyte?",
+    "options": [
+      "Hydrochloric acid",
+      "Sodium hydroxide",
+      "Sodium chloride",
+      "Acetic acid, $\\mathrm{CH_3COOH}$"
+    ],
+    "answer": 3,
+    "explanation": "Acetic acid is only partly ionised in water: $\\mathrm{CH_3COOH\\rightleftharpoons CH_3COO^-+H^+}$. Strong acids, strong bases and most salts ionise completely.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "c-elec-02",
+    "subject": "chemistry",
+    "topic": "theories-laws",
+    "subtopic": "electrolytes",
+    "difficulty": 2,
+    "question": "Which substance is a non-electrolyte?",
+    "options": [
+      "$\\mathrm{KNO_3}$",
+      "Sucrose (table sugar)",
+      "$\\mathrm{H_2SO_4}$",
+      "$\\mathrm{NH_3\\cdot H_2O}$"
+    ],
+    "answer": 1,
+    "explanation": "Sucrose dissolves as whole molecules and does not conduct. $\\mathrm{KNO_3}$ and $\\mathrm{H_2SO_4}$ are strong electrolytes, and ammonia solution is a weak electrolyte.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "c-elec-03",
+    "subject": "chemistry",
+    "topic": "theories-laws",
+    "subtopic": "electrolytes",
+    "difficulty": 2,
+    "question": "An aqueous solution of $\\mathrm{Na_2CO_3}$ is",
+    "options": [
+      "neutral, because it is a salt",
+      "acidic, because it contains carbon",
+      "alkaline, because $\\mathrm{CO_3^{2-}}$ is hydrolysed",
+      "neutral, because $\\mathrm{Na^+}$ is not hydrolysed"
+    ],
+    "answer": 2,
+    "explanation": "$\\mathrm{CO_3^{2-}+H_2O\\rightleftharpoons HCO_3^-+OH^-}$: the salt of a strong base and a weak acid gives an alkaline solution.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "c-elec-04",
+    "subject": "chemistry",
+    "topic": "theories-laws",
+    "subtopic": "electrolytes",
+    "difficulty": 3,
+    "question": "The solution of which salt is **acidic**?",
+    "options": [
+      "$\\mathrm{NH_4Cl}$",
+      "$\\mathrm{NaCl}$",
+      "$\\mathrm{CH_3COONa}$",
+      "$\\mathrm{K_2SO_4}$"
+    ],
+    "answer": 0,
+    "explanation": "$\\mathrm{NH_4^++H_2O\\rightleftharpoons NH_3\\cdot H_2O+H^+}$: the salt of a weak base and a strong acid is acidic. NaCl and $\\mathrm{K_2SO_4}$ are neutral; $\\mathrm{CH_3COONa}$ is alkaline.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "c-elec-05",
+    "subject": "chemistry",
+    "topic": "theories-laws",
+    "subtopic": "electrolytes",
+    "difficulty": 1,
+    "question": "In the copper–zinc galvanic cell with dilute sulfuric acid, the negative electrode is",
+    "options": [
+      "zinc, which is oxidised",
+      "copper, which is oxidised",
+      "zinc, which is reduced",
+      "copper, which is reduced"
+    ],
+    "answer": 0,
+    "explanation": "The more reactive metal, zinc, loses electrons ($\\mathrm{Zn-2e^-\\rightarrow Zn^{2+}}$): it is the negative electrode (anode). Hydrogen is released at the copper surface.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "c-elec-06",
+    "subject": "chemistry",
+    "topic": "theories-laws",
+    "subtopic": "electrolytes",
+    "difficulty": 3,
+    "question": "In the electrolysis of $\\mathrm{CuCl_2}$ solution with inert electrodes, the product at the **anode** is",
+    "options": [
+      "chlorine gas",
+      "copper",
+      "oxygen gas",
+      "hydrogen gas"
+    ],
+    "answer": 0,
+    "explanation": "Anions migrate to the anode and are oxidised: $\\mathrm{2Cl^--2e^-\\rightarrow Cl_2\\uparrow}$. Copper is deposited at the cathode ($\\mathrm{Cu^{2+}+2e^-\\rightarrow Cu}$).",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "c-elec-07",
+    "subject": "chemistry",
+    "topic": "theories-laws",
+    "subtopic": "electrolytes",
+    "difficulty": 3,
+    "question": "During electrolysis of $\\mathrm{CuSO_4}$ solution, $0.2$ mol of electrons pass through the circuit. The mass of copper deposited at the cathode is (Relative atomic mass: Cu $64$)",
+    "options": [
+      "$12.8$ g",
+      "$3.2$ g",
+      "$6.4$ g",
+      "$64$ g"
+    ],
+    "answer": 2,
+    "explanation": "$\\mathrm{Cu^{2+}+2e^-\\rightarrow Cu}$: $0.2$ mol of electrons deposit $0.1$ mol Cu, i.e. $6.4$ g.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "c-elec-08",
+    "subject": "chemistry",
+    "topic": "theories-laws",
+    "subtopic": "electrolytes",
+    "difficulty": 2,
+    "question": "Diluting a $0.1$ mol/L acetic acid solution tenfold",
+    "options": [
+      "decreases its degree of ionisation",
+      "increases its degree of ionisation",
+      "makes it a strong acid",
+      "increases $[\\mathrm{H^+}]$"
+    ],
+    "answer": 1,
+    "explanation": "Dilution shifts the ionisation equilibrium to the right (more particles in solution), so the **fraction** ionised increases, although $[\\mathrm{H^+}]$ itself decreases.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "c-elec-09",
+    "subject": "chemistry",
+    "topic": "theories-laws",
+    "subtopic": "electrolytes",
+    "difficulty": 1,
+    "question": "Iron rusts fastest when it is",
+    "options": [
+      "in dry air",
+      "in contact with moist air and salt water",
+      "in boiled, oil-covered water",
+      "coated with zinc"
+    ],
+    "answer": 1,
+    "explanation": "Rusting is electrochemical corrosion and needs water and oxygen; dissolved salt (an electrolyte) speeds it up. A zinc coating protects iron sacrificially.",
+    "tags": [
+      "conceptual"
+    ]
+  }
+]

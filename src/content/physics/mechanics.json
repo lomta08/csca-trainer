@@ -23,7 +23,7 @@
     "subject": "physics",
     "topic": "mechanics",
     "subtopic": "kinematics",
-    "difficulty": 1,
+    "difficulty": 2,
     "question": "A car starts from rest with constant acceleration $2\\ \\text{m/s}^2$. The distance it travels in the first $5$ s is",
     "options": [
       "$50$ m",
@@ -99,7 +99,7 @@
     "subject": "physics",
     "topic": "mechanics",
     "subtopic": "kinematics",
-    "difficulty": 1,
+    "difficulty": 2,
     "question": "An object moves $30$ m east and then $40$ m north in $10$ s. The magnitude of its average velocity is",
     "options": [
       "$7$ m/s",
@@ -137,7 +137,7 @@
     "subject": "physics",
     "topic": "mechanics",
     "subtopic": "kinematics",
-    "difficulty": 2,
+    "difficulty": 3,
     "question": "A ball is thrown horizontally at $10$ m/s from a height of $20$ m (take $g=10\\ \\text{m/s}^2$). The horizontal distance it travels before hitting the ground is",
     "options": [
       "$10$ m",
@@ -346,7 +346,7 @@
     "subject": "physics",
     "topic": "mechanics",
     "subtopic": "newtons-laws",
-    "difficulty": 2,
+    "difficulty": 3,
     "question": "A person of mass $50$ kg stands on a scale in a lift that accelerates **upward** at $2\\ \\text{m/s}^2$ (take $g=10\\ \\text{m/s}^2$). The scale reads",
     "options": [
       "$500$ N",
@@ -764,7 +764,7 @@
     "subject": "physics",
     "topic": "mechanics",
     "subtopic": "work-energy",
-    "difficulty": 1,
+    "difficulty": 2,
     "question": "A force of $10$ N pulls a box $5$ m along the floor. The force makes an angle of $60^\\circ$ with the displacement. The work done by the force is",
     "options": [
       "$50$ J",
@@ -878,7 +878,7 @@
     "subject": "physics",
     "topic": "mechanics",
     "subtopic": "work-energy",
-    "difficulty": 2,
+    "difficulty": 3,
     "question": "A $2$ kg block sliding at $6$ m/s on a rough horizontal floor stops after $9$ m. The friction force is",
     "options": [
       "$2$ N",
@@ -1030,7 +1030,7 @@
     "subject": "physics",
     "topic": "mechanics",
     "subtopic": "circular-gravitation",
-    "difficulty": 1,
+    "difficulty": 2,
     "question": "An object moves in a circle of radius $2$ m at a constant speed of $4$ m/s. Its centripetal acceleration is",
     "options": [
       "$2\\ \\text{m/s}^2$",
@@ -1087,7 +1087,7 @@
     "subject": "physics",
     "topic": "mechanics",
     "subtopic": "circular-gravitation",
-    "difficulty": 2,
+    "difficulty": 3,
     "question": "A car of mass $1000$ kg drives over the top of a hump of radius $40$ m at $10$ m/s (take $g=10\\ \\text{m/s}^2$). The normal force from the road at the top is",
     "options": [
       "$7500$ N",

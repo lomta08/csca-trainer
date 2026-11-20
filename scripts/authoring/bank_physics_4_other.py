@@ -9,7 +9,7 @@ e = 1.6e-19
 R_gas = 8.31
 
 # ------------------------------------------------------------ thermodynamics
-T_.q("p-thm-01", "thermodynamics", 1,
+T_.q("p-thm-01", "thermodynamics", 2,
     r"A gas absorbs $500$ J of heat and does $200$ J of work on its surroundings. The change in its internal energy is",
     [r"$+300$ J", r"$+700$ J", r"$-300$ J", r"$-700$ J"],
     r"First law: $\Delta U=Q+W$, where $W$ is work done **on** the gas. Here $Q=+500$ J and $W=-200$ J, so $\Delta U=+300$ J.",
@@ -83,7 +83,7 @@ O.q("p-opt-01", "reflection-refraction", 1,
     r"Angle of reflection $=$ angle of incidence $=30^\circ$ (both measured from the normal), so the rays are $30^\circ+30^\circ=60^\circ$ apart.",
     R(2 * 30))
 
-O.q("p-opt-02", "reflection-refraction", 1,
+O.q("p-opt-02", "reflection-refraction", 2,
     r"Light travels from air into glass of refractive index $1.5$ ($c=3\times10^8$ m/s). Its speed in the glass is",
     [r"$2\times10^{8}$ m/s", r"$4.5\times10^{8}$ m/s", r"$3\times10^{8}$ m/s", r"$1.5\times10^{8}$ m/s"],
     r"$v=\dfrac cn=\dfrac{3\times10^8}{1.5}=2\times10^8$ m/s.",
@@ -182,7 +182,7 @@ O.q("p-int-09", "interference-diffraction", 2,
     r"Only coherent sources (same frequency, fixed phase relationship) give a stable pattern. That is why Young split one source into two slits.")
 
 # ------------------------------------------------------------ modern physics
-M.q("p-pe-01", "photoelectric", 1,
+M.q("p-pe-01", "photoelectric", 2,
     r"The energy of a photon of frequency $5\times10^{14}$ Hz is ($h=6.63\times10^{-34}\ \text{J}\cdot\text{s}$)",
     [r"$3.3\times10^{-19}$ J", r"$1.3\times10^{-48}$ J", r"$7.5\times10^{47}$ J", r"$3.3\times10^{-20}$ J"],
     r"$E=h\nu=6.63\times10^{-34}\times5\times10^{14}\approx3.3\times10^{-19}$ J.",
@@ -199,7 +199,7 @@ M.q("p-pe-03", "photoelectric", 2,
     [r"the number of photoelectrons emitted per second", r"the maximum kinetic energy of the photoelectrons", r"the threshold frequency", r"the work function"],
     r"More intense light means more photons per second, hence more electrons. Each photon's energy $h\nu$ is unchanged, so the maximum kinetic energy is unchanged.")
 
-M.q("p-pe-04", "photoelectric", 2,
+M.q("p-pe-04", "photoelectric", 3,
     r"The threshold frequency of a metal is $6\times10^{14}$ Hz. Its work function is about ($h=6.63\times10^{-34}\ \text{J}\cdot\text{s}$)",
     [r"$4.0\times10^{-19}$ J", r"$1.1\times10^{-48}$ J", r"$4.0\times10^{-20}$ J", r"$9.0\times10^{47}$ J"],
     r"At the threshold the photon energy just equals the work function: $W_0=h\nu_0=6.63\times10^{-34}\times6\times10^{14}\approx4.0\times10^{-19}$ J.",

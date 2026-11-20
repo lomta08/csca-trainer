@@ -1,0 +1,610 @@
+[
+  {
+    "id": "c-lab-01",
+    "subject": "chemistry",
+    "topic": "experiments",
+    "subtopic": "lab-safety",
+    "difficulty": 1,
+    "question": "When diluting concentrated sulfuric acid, you should",
+    "options": [
+      "slowly pour water into the acid",
+      "pour both quickly into a beaker at the same time",
+      "slowly pour the acid into water while stirring",
+      "dilute it in a measuring cylinder"
+    ],
+    "answer": 2,
+    "explanation": "Dilution releases a lot of heat. Adding acid to water (never water to acid) lets the larger volume of water absorb the heat and prevents violent boiling and splashing.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "c-lab-02",
+    "subject": "chemistry",
+    "topic": "experiments",
+    "subtopic": "lab-safety",
+    "difficulty": 1,
+    "question": "A small alcohol fire on the laboratory bench should be put out by",
+    "options": [
+      "pouring water on it",
+      "covering it with a damp cloth",
+      "blowing it out",
+      "fanning it"
+    ],
+    "answer": 1,
+    "explanation": "A damp cloth cuts off the oxygen. Water would spread the burning alcohol (which floats and mixes) and blowing can spread the flames.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "c-lab-03",
+    "subject": "chemistry",
+    "topic": "experiments",
+    "subtopic": "lab-safety",
+    "difficulty": 2,
+    "question": "Which apparatus can be heated **directly** over a flame?",
+    "options": [
+      "Beaker",
+      "Measuring cylinder",
+      "Volumetric flask",
+      "Test tube"
+    ],
+    "answer": 3,
+    "explanation": "Test tubes, evaporating dishes and crucibles may be heated directly. Beakers and flasks need a gauze. Measuring cylinders and volumetric flasks must never be heated, because their volumes would change.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "c-lab-04",
+    "subject": "chemistry",
+    "topic": "experiments",
+    "subtopic": "lab-safety",
+    "difficulty": 2,
+    "question": "To make exactly $250$ mL of a solution of known concentration, the essential apparatus is a",
+    "options": [
+      "$250$ mL volumetric flask",
+      "$250$ mL beaker",
+      "$250$ mL measuring cylinder",
+      "$250$ mL conical flask"
+    ],
+    "answer": 0,
+    "explanation": "A volumetric flask is calibrated to contain one exact volume at its mark. Beakers and conical flasks are only roughly graduated, and a cylinder is not accurate enough for standard solutions.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "c-lab-05",
+    "subject": "chemistry",
+    "topic": "experiments",
+    "subtopic": "lab-safety",
+    "difficulty": 1,
+    "question": "If concentrated sodium hydroxide solution splashes onto your skin, you should first",
+    "options": [
+      "apply concentrated sulfuric acid to neutralise it",
+      "rinse with plenty of water, then apply dilute boric acid solution",
+      "wipe it with a dry cloth and do nothing else",
+      "cover it with a bandage"
+    ],
+    "answer": 1,
+    "explanation": "Wash with lots of water first, then apply a weak acid (boric acid). Never use a strong acid to neutralise on skin — the reaction releases heat and the acid itself burns.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "c-lab-06",
+    "subject": "chemistry",
+    "topic": "experiments",
+    "subtopic": "lab-safety",
+    "difficulty": 2,
+    "question": "Before igniting hydrogen, you must",
+    "options": [
+      "dry it with concentrated sulfuric acid",
+      "mix it with air",
+      "test its purity",
+      "cool it"
+    ],
+    "answer": 2,
+    "explanation": "A mixture of hydrogen and air explodes when ignited. Collecting a small tube and testing it (a quiet “pop” means pure) prevents explosions.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "c-lab-07",
+    "subject": "chemistry",
+    "topic": "experiments",
+    "subtopic": "lab-safety",
+    "difficulty": 3,
+    "question": "A student reads a measuring cylinder by looking **down** on the meniscus from above. The reading recorded is",
+    "options": [
+      "smaller than the true volume",
+      "equal to the true volume",
+      "larger than the true volume",
+      "always zero"
+    ],
+    "answer": 2,
+    "explanation": "Viewed from above, the line of sight meets the scale above the bottom of the meniscus, so the reading is too high. The eye must be level with the bottom of the meniscus.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "c-lab-08",
+    "subject": "chemistry",
+    "topic": "experiments",
+    "subtopic": "lab-safety",
+    "difficulty": 1,
+    "question": "The correct way to smell a gas in the laboratory is to",
+    "options": [
+      "put your nose directly over the container",
+      "gently waft the gas towards your nose with your hand",
+      "breathe in deeply from the tube",
+      "taste it"
+    ],
+    "answer": 1,
+    "explanation": "Wafting a small amount towards the nose avoids inhaling a large dose of a possibly toxic gas.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "c-gasp-01",
+    "subject": "chemistry",
+    "topic": "experiments",
+    "subtopic": "gas-preparation",
+    "difficulty": 1,
+    "question": "$\\mathrm{CO_2}$ is usually prepared in the laboratory from",
+    "options": [
+      "marble (or limestone) and dilute hydrochloric acid",
+      "marble and dilute sulfuric acid",
+      "burning charcoal",
+      "sodium carbonate and concentrated sulfuric acid"
+    ],
+    "answer": 0,
+    "explanation": "$\\mathrm{CaCO_3+2HCl\\rightarrow CaCl_2+H_2O+CO_2\\uparrow}$ gives a steady stream. With dilute $\\mathrm{H_2SO_4}$, insoluble $\\mathrm{CaSO_4}$ coats the marble and stops the reaction.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "c-gasp-02",
+    "subject": "chemistry",
+    "topic": "experiments",
+    "subtopic": "gas-preparation",
+    "difficulty": 1,
+    "question": "A gas turns limewater milky. The gas is",
+    "options": [
+      "$\\mathrm{O_2}$",
+      "$\\mathrm{CO_2}$",
+      "$\\mathrm{H_2}$",
+      "$\\mathrm{N_2}$"
+    ],
+    "answer": 1,
+    "explanation": "$\\mathrm{CO_2+Ca(OH)_2\\rightarrow CaCO_3\\downarrow+H_2O}$: the white precipitate makes limewater milky.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "c-gasp-03",
+    "subject": "chemistry",
+    "topic": "experiments",
+    "subtopic": "gas-preparation",
+    "difficulty": 2,
+    "question": "Ammonia is collected by",
+    "options": [
+      "displacement of water",
+      "upward displacement of air",
+      "collecting over concentrated sulfuric acid",
+      "downward displacement of air (mouth of the tube pointing down)"
+    ],
+    "answer": 3,
+    "explanation": "$\\mathrm{NH_3}$ is very soluble in water and less dense than air ($M=17<29$), so it is collected in an inverted container by downward displacement of air.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "c-gasp-04",
+    "subject": "chemistry",
+    "topic": "experiments",
+    "subtopic": "gas-preparation",
+    "difficulty": 2,
+    "question": "Which drying agent is suitable for ammonia?",
+    "options": [
+      "Soda lime (CaO + NaOH)",
+      "Concentrated sulfuric acid",
+      "Anhydrous $\\mathrm{CaCl_2}$",
+      "Phosphorus pentoxide"
+    ],
+    "answer": 0,
+    "explanation": "Ammonia is basic, so it reacts with acidic drying agents ($\\mathrm{H_2SO_4}$, $\\mathrm{P_2O_5}$) and forms a complex with $\\mathrm{CaCl_2}$. A basic drying agent such as soda lime is used.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "c-gasp-05",
+    "subject": "chemistry",
+    "topic": "experiments",
+    "subtopic": "gas-preparation",
+    "difficulty": 1,
+    "question": "A glowing splint relights in a gas. The gas is",
+    "options": [
+      "carbon dioxide",
+      "oxygen",
+      "hydrogen",
+      "nitrogen"
+    ],
+    "answer": 1,
+    "explanation": "Oxygen supports combustion strongly, so it relights a glowing splint. Hydrogen gives a squeaky pop with a lit splint.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "c-gasp-06",
+    "subject": "chemistry",
+    "topic": "experiments",
+    "subtopic": "gas-preparation",
+    "difficulty": 3,
+    "question": "Chlorine prepared from $\\mathrm{MnO_2}$ and concentrated HCl contains HCl and water vapour. The correct order of purification is to pass it through",
+    "options": [
+      "concentrated $\\mathrm{H_2SO_4}$, then saturated NaCl solution",
+      "saturated NaCl solution, then concentrated $\\mathrm{H_2SO_4}$",
+      "NaOH solution, then concentrated $\\mathrm{H_2SO_4}$",
+      "water, then soda lime"
+    ],
+    "answer": 1,
+    "explanation": "Saturated brine absorbs HCl but very little $\\mathrm{Cl_2}$. Drying comes **last**, otherwise water vapour would be picked up again. NaOH and soda lime would absorb the chlorine itself.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "c-gasp-07",
+    "subject": "chemistry",
+    "topic": "experiments",
+    "subtopic": "gas-preparation",
+    "difficulty": 2,
+    "question": "Which gas can be collected by displacement of water?",
+    "options": [
+      "$\\mathrm{O_2}$",
+      "$\\mathrm{NH_3}$",
+      "$\\mathrm{HCl}$",
+      "$\\mathrm{NO_2}$"
+    ],
+    "answer": 0,
+    "explanation": "Oxygen is only slightly soluble and does not react with water. $\\mathrm{NH_3}$ and HCl are extremely soluble, and $\\mathrm{NO_2}$ reacts with water.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "c-gasp-08",
+    "subject": "chemistry",
+    "topic": "experiments",
+    "subtopic": "gas-preparation",
+    "difficulty": 2,
+    "question": "In the laboratory, oxygen can be prepared by heating potassium permanganate. Which statement is correct?",
+    "options": [
+      "It needs $\\mathrm{MnO_2}$ as a catalyst",
+      "The products are KCl and $\\mathrm{O_2}$",
+      "It must be done in aqueous solution",
+      "$\\mathrm{2KMnO_4\\xrightarrow{\\Delta}K_2MnO_4+MnO_2+O_2\\uparrow}$"
+    ],
+    "answer": 3,
+    "explanation": "Potassium permanganate decomposes on heating, without a catalyst, into potassium manganate, manganese dioxide and oxygen. KCl comes from $\\mathrm{KClO_3}$.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "c-sep-01",
+    "subject": "chemistry",
+    "topic": "experiments",
+    "subtopic": "separation",
+    "difficulty": 1,
+    "question": "To separate sand from salt water, the best method is",
+    "options": [
+      "distillation",
+      "filtration",
+      "crystallisation",
+      "chromatography"
+    ],
+    "answer": 1,
+    "explanation": "Sand is an insoluble solid; filtration traps it on the filter paper while the solution passes through. (Evaporating the filtrate would then recover the salt.)",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "c-sep-02",
+    "subject": "chemistry",
+    "topic": "experiments",
+    "subtopic": "separation",
+    "difficulty": 1,
+    "question": "To obtain pure water from sea water, use",
+    "options": [
+      "filtration",
+      "distillation",
+      "evaporation",
+      "decanting"
+    ],
+    "answer": 1,
+    "explanation": "Distillation boils off the water and condenses it, leaving the dissolved salts behind. Filtration cannot remove dissolved substances.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "c-sep-03",
+    "subject": "chemistry",
+    "topic": "experiments",
+    "subtopic": "separation",
+    "difficulty": 2,
+    "question": "To extract iodine from iodine water, a suitable solvent is",
+    "options": [
+      "$\\mathrm{CCl_4}$",
+      "ethanol",
+      "acetic acid",
+      "sodium chloride solution"
+    ],
+    "answer": 0,
+    "explanation": "An extraction solvent must be immiscible with water and dissolve iodine much better than water. $\\mathrm{CCl_4}$ fits; ethanol and acetic acid mix with water.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "c-sep-04",
+    "subject": "chemistry",
+    "topic": "experiments",
+    "subtopic": "separation",
+    "difficulty": 2,
+    "question": "In a distillation, the bulb of the thermometer should be placed",
+    "options": [
+      "in the liquid",
+      "at the end of the condenser",
+      "at the top of the condenser",
+      "at the side arm (outlet) of the distillation flask"
+    ],
+    "answer": 3,
+    "explanation": "The thermometer measures the temperature of the vapour leaving the flask, so the bulb sits level with the side arm.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "c-sep-05",
+    "subject": "chemistry",
+    "topic": "experiments",
+    "subtopic": "separation",
+    "difficulty": 3,
+    "question": "$\\mathrm{KNO_3}$ contains a small amount of NaCl. The best way to purify $\\mathrm{KNO_3}$ is",
+    "options": [
+      "dissolve and evaporate to dryness",
+      "dissolve and filter",
+      "distil the solution",
+      "dissolve in hot water, cool to crystallise, then filter"
+    ],
+    "answer": 3,
+    "explanation": "$\\mathrm{KNO_3}$ is much more soluble hot than cold, while NaCl's solubility barely changes. On cooling, $\\mathrm{KNO_3}$ crystallises out and NaCl stays in solution.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "c-sep-06",
+    "subject": "chemistry",
+    "topic": "experiments",
+    "subtopic": "separation",
+    "difficulty": 2,
+    "question": "To remove a small amount of $\\mathrm{CO_2}$ from CO gas, pass the mixture through",
+    "options": [
+      "NaOH solution",
+      "concentrated sulfuric acid",
+      "water",
+      "hot copper(II) oxide"
+    ],
+    "answer": 0,
+    "explanation": "$\\mathrm{CO_2+2NaOH\\rightarrow Na_2CO_3+H_2O}$ while CO does not react. Hot CuO would destroy the CO itself ($\\mathrm{CO+CuO\\rightarrow Cu+CO_2}$).",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "c-sep-07",
+    "subject": "chemistry",
+    "topic": "experiments",
+    "subtopic": "separation",
+    "difficulty": 3,
+    "question": "To remove $\\mathrm{Na_2SO_4}$ from NaCl solution, add",
+    "options": [
+      "a suitable amount of $\\mathrm{BaCl_2}$ solution, then filter",
+      "$\\mathrm{Ba(NO_3)_2}$ solution, then filter",
+      "$\\mathrm{AgNO_3}$ solution, then filter",
+      "NaOH solution"
+    ],
+    "answer": 0,
+    "explanation": "$\\mathrm{Ba^{2+}+SO_4^{2-}\\rightarrow BaSO_4\\downarrow}$. Using $\\mathrm{BaCl_2}$ leaves only NaCl behind; $\\mathrm{Ba(NO_3)_2}$ would introduce $\\mathrm{NO_3^-}$ as a new impurity, and $\\mathrm{AgNO_3}$ would remove the chloride.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "c-sep-08",
+    "subject": "chemistry",
+    "topic": "experiments",
+    "subtopic": "separation",
+    "difficulty": 1,
+    "question": "Two immiscible liquids such as oil and water are separated with a",
+    "options": [
+      "filter funnel",
+      "condenser",
+      "separating funnel",
+      "burette"
+    ],
+    "answer": 2,
+    "explanation": "In a separating funnel the denser layer is run off through the tap at the bottom and the upper layer is poured out from the top.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "c-ind-01",
+    "subject": "chemistry",
+    "topic": "experiments",
+    "subtopic": "industrial",
+    "difficulty": 1,
+    "question": "In the industrial synthesis of ammonia, $\\mathrm{N_2+3H_2\\rightleftharpoons2NH_3}$, the catalyst used is",
+    "options": [
+      "platinum",
+      "iron",
+      "vanadium(V) oxide",
+      "nickel"
+    ],
+    "answer": 1,
+    "explanation": "The Haber process uses an iron-based catalyst at about $400$–$500^\\circ$C and $10$–$30$ MPa. $\\mathrm{V_2O_5}$ is the catalyst for the contact process (sulfuric acid).",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "c-ind-02",
+    "subject": "chemistry",
+    "topic": "experiments",
+    "subtopic": "industrial",
+    "difficulty": 2,
+    "question": "The synthesis of ammonia is exothermic, yet industry operates at about $400$–$500^\\circ$C because",
+    "options": [
+      "high temperature increases the equilibrium yield",
+      "ammonia decomposes below $400^\\circ$C",
+      "nitrogen does not exist below $400^\\circ$C",
+      "the rate would be too slow at low temperature and the catalyst works best there"
+    ],
+    "answer": 3,
+    "explanation": "Lower temperature would give a higher equilibrium yield but far too slow a rate. $400$–$500^\\circ$C is a compromise between rate and yield, and it is the iron catalyst's working temperature.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "c-ind-03",
+    "subject": "chemistry",
+    "topic": "experiments",
+    "subtopic": "industrial",
+    "difficulty": 2,
+    "question": "In the ammonia plant, unreacted $\\mathrm{N_2}$ and $\\mathrm{H_2}$ are",
+    "options": [
+      "recycled back into the reactor",
+      "released into the air",
+      "burned as fuel",
+      "dissolved in water"
+    ],
+    "answer": 0,
+    "explanation": "The conversion per pass is only about $15$–$25\\%$, so after ammonia is condensed out, the unreacted gases are recycled. This raises the overall yield.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "c-ind-04",
+    "subject": "chemistry",
+    "topic": "experiments",
+    "subtopic": "industrial",
+    "difficulty": 2,
+    "question": "In the contact process for sulfuric acid, $\\mathrm{SO_3}$ is absorbed in",
+    "options": [
+      "water",
+      "$98\\%$ concentrated sulfuric acid",
+      "dilute sulfuric acid",
+      "NaOH solution"
+    ],
+    "answer": 1,
+    "explanation": "Absorbing $\\mathrm{SO_3}$ directly in water produces an acid mist that is hard to collect. It is absorbed in $98\\%$ sulfuric acid instead, and then diluted.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "c-ind-05",
+    "subject": "chemistry",
+    "topic": "experiments",
+    "subtopic": "industrial",
+    "difficulty": 1,
+    "question": "The chlor-alkali industry electrolyses",
+    "options": [
+      "molten sodium chloride",
+      "saturated sodium chloride solution",
+      "sea water without purification",
+      "sodium hydroxide solution"
+    ],
+    "answer": 1,
+    "explanation": "$\\mathrm{2NaCl+2H_2O\\xrightarrow{electrolysis}2NaOH+H_2\\uparrow+Cl_2\\uparrow}$. Electrolysing molten NaCl instead gives sodium metal and chlorine.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "c-ind-06",
+    "subject": "chemistry",
+    "topic": "experiments",
+    "subtopic": "industrial",
+    "difficulty": 2,
+    "question": "Aluminium is produced industrially by",
+    "options": [
+      "reducing $\\mathrm{Al_2O_3}$ with carbon",
+      "electrolysis of $\\mathrm{AlCl_3}$ solution",
+      "electrolysis of molten aluminium oxide (with cryolite)",
+      "heating bauxite in air"
+    ],
+    "answer": 2,
+    "explanation": "Aluminium is too reactive to be reduced by carbon, and from aqueous solution water would be reduced instead. Molten $\\mathrm{Al_2O_3}$ dissolved in cryolite (which lowers the melting point) is electrolysed.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "c-ind-07",
+    "subject": "chemistry",
+    "topic": "experiments",
+    "subtopic": "industrial",
+    "difficulty": 1,
+    "question": "In the blast furnace, the main reducing agent that converts iron ore into iron is",
+    "options": [
+      "carbon dioxide",
+      "oxygen",
+      "limestone",
+      "carbon monoxide"
+    ],
+    "answer": 3,
+    "explanation": "Coke burns to $\\mathrm{CO_2}$, which reacts with more coke to form CO. Then $\\mathrm{Fe_2O_3+3CO\\rightarrow2Fe+3CO_2}$. Limestone removes impurities as slag.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "c-ind-08",
+    "subject": "chemistry",
+    "topic": "experiments",
+    "subtopic": "industrial",
+    "difficulty": 3,
+    "question": "An ammonia plant produces $34$ t of $\\mathrm{NH_3}$. The minimum mass of $\\mathrm{N_2}$ needed is (Relative atomic masses: N $14$, H $1$)",
+    "options": [
+      "$14$ t",
+      "$56$ t",
+      "$34$ t",
+      "$28$ t"
+    ],
+    "answer": 3,
+    "explanation": "$\\mathrm{N_2+3H_2\\rightarrow2NH_3}$: $28$ t of $\\mathrm{N_2}$ gives $2\\times17=34$ t of $\\mathrm{NH_3}$ (all the nitrogen ends up in the ammonia: $34\\times\\tfrac{14}{17}=28$ t).",
+    "tags": [
+      "numeric"
+    ]
+  }
+]

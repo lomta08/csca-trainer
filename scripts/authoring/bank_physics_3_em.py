@@ -10,7 +10,7 @@ def par(*rs):
 
 
 # ------------------------------------------------------------ electrostatics
-B.q("p-es-01", "electrostatics", 1,
+B.q("p-es-01", "electrostatics", 2,
     r"Two point charges of $2\times10^{-6}$ C and $3\times10^{-6}$ C are $0.3$ m apart. Using $k=9\times10^9\ \text{N}\cdot\text{m}^2/\text{C}^2$, the force between them is",
     [r"$0.6$ N", r"$0.2$ N", r"$1.8$ N", r"$6$ N"],
     r"$F=k\dfrac{q_1q_2}{r^2}=9\times10^9\times\dfrac{6\times10^{-12}}{0.09}=0.6$ N (repulsive, since both are positive).",
@@ -21,7 +21,7 @@ B.q("p-es-02", "electrostatics", 1,
     [r"$4$ times as large", r"$2$ times as large", r"half as large", r"unchanged"],
     r"$F\propto\dfrac1{r^2}$: halving $r$ multiplies $F$ by $2^2=4$.")
 
-B.q("p-es-03", "electrostatics", 1,
+B.q("p-es-03", "electrostatics", 2,
     r"A charge of $2\times10^{-8}$ C placed at a point in an electric field experiences a force of $4\times10^{-4}$ N. The field strength there is",
     [r"$2\times10^{4}$ N/C", r"$8\times10^{-12}$ N/C", r"$5\times10^{-5}$ N/C", r"$2\times10^{-4}$ N/C"],
     r"$E=\dfrac Fq=\dfrac{4\times10^{-4}}{2\times10^{-8}}=2\times10^4$ N/C. The field strength does not depend on the test charge.",
@@ -56,7 +56,7 @@ B.q("p-es-08", "electrostatics", 2,
     r"$E_k=eU=1.6\times10^{-19}\times100=1.6\times10^{-17}$ J (that is, $100$ eV).",
     R(e * 100))
 
-B.q("p-es-09", "electrostatics", 1,
+B.q("p-es-09", "electrostatics", 2,
     r"A capacitor of capacitance $10\ \mu\text{F}$ is connected to a $6$ V supply. The charge stored is",
     [r"$6\times10^{-5}$ C", r"$60$ C", r"$1.67\times10^{-6}$ C", r"$6\times10^{-6}$ C"],
     r"$Q=CU=10\times10^{-6}\times6=6\times10^{-5}$ C. Remember $1\ \mu\text{F}=10^{-6}$ F.",
@@ -97,7 +97,7 @@ B.q("p-dc-03", "dc-circuits", 1,
     r"$\dfrac1R=\dfrac14+\dfrac16=\dfrac5{12}\Rightarrow R=2.4\ \Omega$ (or $\dfrac{R_1R_2}{R_1+R_2}=\dfrac{24}{10}$). A parallel combination is always smaller than the smallest branch.",
     R(par(4, 6)))
 
-B.q("p-dc-04", "dc-circuits", 1,
+B.q("p-dc-04", "dc-circuits", 2,
     r"A $1000$ W kettle runs for $3$ minutes. The electrical energy it uses is",
     [r"$1.8\times10^{5}$ J", r"$3000$ J", r"$333$ J", r"$1.8\times10^{4}$ J"],
     r"$W=Pt=1000\times180=1.8\times10^5$ J. Convert minutes to seconds first.",
@@ -121,7 +121,7 @@ B.q("p-dc-07", "dc-circuits", 2,
     r"$P=\dfrac{U^2}{R}\Rightarrow R=\dfrac{36}{3}=12\ \Omega$. (Its rated current is $\dfrac PU=0.5$ A.)",
     R(6 ** 2 / 3))
 
-B.q("p-dc-08", "dc-circuits", 2,
+B.q("p-dc-08", "dc-circuits", 3,
     r"A $3\ \Omega$ resistor is connected in series with a parallel pair of $6\ \Omega$ resistors, across a $12$ V supply with negligible internal resistance. The current from the supply is",
     [r"$2$ A", r"$0.8$ A", r"$4$ A", r"$1.33$ A"],
     r"Parallel pair: $\dfrac{6\times6}{12}=3\ \Omega$. Total $3+3=6\ \Omega$, so $I=\dfrac{12}{6}=2$ A.",
@@ -215,7 +215,7 @@ B.q("p-mag-12", "magnetic-fields", 3,
     R(0.05 * 10 / (0.5 * 0.2)))
 
 # ---------------------------------------------------- electromagnetic induction
-B.q("p-ind-01", "em-induction", 1,
+B.q("p-ind-01", "em-induction", 2,
     r"The flux through a $100$-turn coil changes uniformly from $0.02$ Wb to $0.06$ Wb in $0.4$ s. The induced EMF is",
     [r"$10$ V", r"$0.1$ V", r"$1$ V", r"$40$ V"],
     r"Faraday's law: $E=n\dfrac{\Delta\Phi}{\Delta t}=100\times\dfrac{0.04}{0.4}=10$ V.",

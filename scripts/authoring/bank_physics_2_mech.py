@@ -79,7 +79,7 @@ B.q("p-mom-12", "momentum", 3,
     R(1 * 8 / (3 - 1)))
 
 # ------------------------------------------------------------ work & energy
-B.q("p-ene-01", "work-energy", 1,
+B.q("p-ene-01", "work-energy", 2,
     r"A force of $10$ N pulls a box $5$ m along the floor. The force makes an angle of $60^\circ$ with the displacement. The work done by the force is",
     [r"$25$ J", r"$50$ J", r"$43.3$ J", r"$2$ J"],
     r"$W=Fs\cos\theta=10\times5\times\cos60^\circ=25$ J.",
@@ -115,7 +115,7 @@ B.q("p-ene-06", "work-energy", 2,
     r"$P=Fv\Rightarrow F=\dfrac{60000}{20}=3000$ N.",
     R(60000 / 20))
 
-B.q("p-ene-07", "work-energy", 2,
+B.q("p-ene-07", "work-energy", 3,
     r"A $2$ kg block sliding at $6$ m/s on a rough horizontal floor stops after $9$ m. The friction force is",
     [r"$4$ N", r"$2$ N", r"$36$ N", r"$8$ N"],
     r"Work–energy theorem: $-f\cdot9=0-\tfrac12\times2\times36=-36$ J, so $f=4$ N.",
@@ -162,7 +162,7 @@ B.q("p-ene-14", "work-energy", 3,
     R(sp.Rational(1, 2) * 2 * 64 - 2 * g * 5))
 
 # --------------------------------------------- circular motion & gravitation
-B.q("p-cir-01", "circular-gravitation", 1,
+B.q("p-cir-01", "circular-gravitation", 2,
     r"An object moves in a circle of radius $2$ m at a constant speed of $4$ m/s. Its centripetal acceleration is",
     [r"$8\ \text{m/s}^2$", r"$2\ \text{m/s}^2$", r"$16\ \text{m/s}^2$", r"$0$"],
     r"$a=\dfrac{v^2}{r}=\dfrac{16}{2}=8\ \text{m/s}^2$, directed toward the centre. The speed is constant but the velocity's direction changes, so $a\ne0$.",
@@ -180,7 +180,7 @@ B.q("p-cir-03", "circular-gravitation", 2,
     r"The tension provides the centripetal force: $T=\dfrac{mv^2}{r}=\dfrac{0.5\times4}{0.4}=5$ N.",
     R(0.5 * 4 / 0.4))
 
-B.q("p-cir-04", "circular-gravitation", 2,
+B.q("p-cir-04", "circular-gravitation", 3,
     r"A car of mass $1000$ kg drives over the top of a hump of radius $40$ m at $10$ m/s " + G10 + r". The normal force from the road at the top is",
     [r"$7500$ N", r"$10000$ N", r"$12500$ N", r"$2500$ N"],
     r"At the top the net force points down to the centre: $mg-N=\dfrac{mv^2}{r}$, so $N=1000\left(10-\dfrac{100}{40}\right)=7500$ N. The car feels lighter.",
