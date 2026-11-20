@@ -160,6 +160,35 @@ export function saveMockResult(r: MockResult) {
   setState((s) => ({ ...s, mocks: [...s.mocks, r], activeMock: null }));
 }
 
+/**
+ * Save a finished mock in one write: the result, an attempt record per answered question,
+ * mistakes for wrong or unanswered questions, and the study time.
+ */
+export function submitMockResult(r: MockResult, questions: Question[]) {
+  setState((s) => {
+    let mistakes = s.mistakes;
+    const attempts = [...s.attempts];
+    questions.forEach((q, i) => {
+      const choice = r.answers[i];
+      const correct = choice !== null && choice === q.answer;
+      if (choice !== null) {
+        attempts.push({ qid: q.id, subject: q.subject, topic: q.topic, subtopic: q.subtopic, correct, ts: r.finishedTs, timeMs: Math.min(r.timePerQ[i] ?? 0, 5 * 60 * 1000), mode: 'mock' });
+      }
+      mistakes = applyAnswer(mistakes, q, correct, r.finishedTs);
+    });
+    if (attempts.length > MAX_ATTEMPTS) attempts.splice(0, attempts.length - MAX_ATTEMPTS);
+    const day = toDateKey(r.finishedTs);
+    return {
+      ...s,
+      attempts,
+      mistakes,
+      mocks: [...s.mocks, r],
+      activeMock: null,
+      studyLog: { ...s.studyLog, [day]: (s.studyLog[day] ?? 0) + Math.min(r.durationMs, 2 * 60 * 60 * 1000) },
+    };
+  });
+}
+
 export function setPlan(plan: StudyPlan | null) {
   setState((s) => ({ ...s, plan }));
 }
