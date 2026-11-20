@@ -1,5 +1,5 @@
 import type { GeneratorDef } from './core';
-import { m, polyTex, polyEval, polyDeriv } from './format';
+import { m, polyTex, polyEval, polyDeriv, xMinus } from './format';
 
 /** y = mx + c as LaTeX */
 export function lineTex(slope: number, c: number): string {
@@ -54,7 +54,7 @@ const tangentLine: GeneratorDef = {
       question: `The equation of the tangent line to the curve ${m(`y=${polyTex(coeffs)}`)} at the point ${m(`(${x0},${y0})`)} is`,
       correct,
       distractors: [m(lineTex(k, y0 + k * x0)), m(lineTex(y0 === k ? k + 1 : y0, c)), m(lineTex(k, y0)), m(lineTex(-k, y0 + k * x0)), m(lineTex(k, c + 1))],
-      explanation: `Slope = ${m(`y'|_{x=${x0}}`)}: ${m(`y'=${polyTex(polyDeriv(coeffs))}`)}, so ${m(`k=${k}`)}. Point-slope form: ${m(`y-(${y0})=${k}(x-(${x0}))`)}, which simplifies to ${correct}.`,
+      explanation: `Slope = ${m(`y'|_{x=${x0}}`)}: ${m(`y'=${polyTex(polyDeriv(coeffs))}`)}, so ${m(`k=${k}`)}. Point-slope form: ${m(`${xMinus(y0, 'y')}=${k}${x0 === 0 ? 'x' : `(${xMinus(x0)})`}`)}, which simplifies to ${correct}.`,
       difficulty: cubic ? 2 : 1,
       meta: { coeffs, x0, y0, slope: k, intercept: c },
     };

@@ -15,7 +15,17 @@ export const Md = memo(function Md({ children, inline = false, className = '' }:
       <ReactMarkdown
         remarkPlugins={remarkPlugins}
         rehypePlugins={rehypePlugins}
-        components={inline ? { p: ({ children }) => <span>{children}</span> } : undefined}
+        components={
+          inline
+            ? { p: ({ children }) => <span>{children}</span> }
+            : {
+                table: ({ children }) => (
+                  <div className="table-wrap">
+                    <table>{children}</table>
+                  </div>
+                ),
+              }
+        }
       >
         {children}
       </ReactMarkdown>

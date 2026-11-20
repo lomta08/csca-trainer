@@ -2,7 +2,7 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { QuestionCard } from '../components/QuestionCard';
 import { getQuestion } from '../lib/questions';
-import { getState, setActiveMock, submitMockResult, useAppState } from '../lib/store';
+import { getState, setActiveMock, setLastLocation, submitMockResult, useAppState } from '../lib/store';
 import { scoreMock } from '../lib/scoring';
 import { formatClock } from '../lib/dates';
 import type { ActiveMock, MockResult, Question } from '../lib/types';
@@ -56,6 +56,7 @@ export function MockRun() {
         autoSubmitted: auto,
       };
       submitMockResult(result, qs);
+      setLastLocation({ path: `/mock/result/${fin.id}`, label: `Review your mock: ${fin.title} (${score}/100)` });
       nav(`/mock/result/${fin.id}`, { replace: true });
     },
     [nav, withTime],
@@ -162,6 +163,7 @@ export function MockRun() {
               mode="exam"
               onSelect={select}
               onNext={() => goTo(m.current + 1)}
+              showNextButton={false}
               flagged={m.flagged[m.current]}
               onToggleFlag={toggleFlag}
               keyboard

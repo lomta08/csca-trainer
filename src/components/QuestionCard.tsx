@@ -19,6 +19,8 @@ export interface QuestionCardProps {
   nextLabel?: string;
   flagged?: boolean;
   onToggleFlag?: () => void;
+  /** show the Next button inside the card (Enter still works when false) */
+  showNextButton?: boolean;
   /** register keyboard shortcuts (only one card on the page should) */
   keyboard?: boolean;
 }
@@ -142,7 +144,7 @@ export function QuestionCard(p: QuestionCardProps) {
           <span className="kbd-hint">
             Keys: <kbd>1</kbd>–<kbd>4</kbd> or <kbd>A</kbd>–<kbd>D</kbd> to answer, <kbd>Enter</kbd> for next{p.onToggleFlag ? <>, <kbd>F</kbd> to flag</> : null}
           </span>
-          {p.onNext && (
+          {p.onNext && p.showNextButton !== false && (
             <button type="button" className="btn primary" onClick={p.onNext} disabled={mode === 'practice' && selected === null}>
               {p.nextLabel ?? 'Next →'}
             </button>
