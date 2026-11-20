@@ -1,0 +1,705 @@
+[
+  {
+    "id": "m-prob-01",
+    "subject": "math",
+    "topic": "probability-statistics",
+    "subtopic": "classical-probability",
+    "difficulty": 1,
+    "question": "A fair die is rolled once. The probability that the number shown is greater than $4$ is",
+    "options": [
+      "$\\dfrac13$",
+      "$\\dfrac12$",
+      "$\\dfrac23$",
+      "$\\dfrac16$"
+    ],
+    "answer": 0,
+    "explanation": "Favourable outcomes: $5,6$ — two of the six equally likely outcomes. $P=\\dfrac26=\\dfrac13$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-prob-02",
+    "subject": "math",
+    "topic": "probability-statistics",
+    "subtopic": "classical-probability",
+    "difficulty": 1,
+    "question": "A fair coin is tossed twice. The probability of getting at least one head is",
+    "options": [
+      "$\\dfrac12$",
+      "$\\dfrac14$",
+      "$\\dfrac34$",
+      "$\\dfrac23$"
+    ],
+    "answer": 2,
+    "explanation": "Outcomes: HH, HT, TH, TT (equally likely). Only TT has no head, so $P=1-\\dfrac14=\\dfrac34$. (Listing only \\\"0, 1 or 2 heads\\\" as three outcomes is wrong: they are not equally likely.)",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-prob-03",
+    "subject": "math",
+    "topic": "probability-statistics",
+    "subtopic": "classical-probability",
+    "difficulty": 2,
+    "question": "Two different numbers are chosen at random from $\\{1,2,3,4\\}$. The probability that their sum is even is",
+    "options": [
+      "$\\dfrac13$",
+      "$\\dfrac12$",
+      "$\\dfrac23$",
+      "$\\dfrac14$"
+    ],
+    "answer": 0,
+    "explanation": "There are $C_4^2=6$ pairs. An even sum needs two odds or two evens: $\\{1,3\\}$ and $\\{2,4\\}$. $P=\\dfrac26=\\dfrac13$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-prob-04",
+    "subject": "math",
+    "topic": "probability-statistics",
+    "subtopic": "classical-probability",
+    "difficulty": 2,
+    "question": "From $3$ boys and $2$ girls, $2$ people are chosen at random. The probability that exactly one girl is chosen is",
+    "options": [
+      "$\\dfrac25$",
+      "$\\dfrac35$",
+      "$\\dfrac{3}{10}$",
+      "$\\dfrac{1}{10}$"
+    ],
+    "answer": 1,
+    "explanation": "Total: $C_5^2=10$. Exactly one girl: $C_2^1C_3^1=6$. $P=\\dfrac6{10}=\\dfrac35$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-prob-05",
+    "subject": "math",
+    "topic": "probability-statistics",
+    "subtopic": "classical-probability",
+    "difficulty": 1,
+    "question": "Two fair dice are rolled. The probability that the sum of the numbers is $7$ is",
+    "options": [
+      "$\\dfrac{7}{36}$",
+      "$\\dfrac{1}{12}$",
+      "$\\dfrac{1}{11}$",
+      "$\\dfrac16$"
+    ],
+    "answer": 3,
+    "explanation": "$36$ ordered outcomes. Sum $7$: $(1,6),(2,5),(3,4),(4,3),(5,2),(6,1)$ — six of them. $P=\\dfrac6{36}=\\dfrac16$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-prob-06",
+    "subject": "math",
+    "topic": "probability-statistics",
+    "subtopic": "classical-probability",
+    "difficulty": 2,
+    "question": "Events $A$ and $B$ are independent with $P(A)=0.5$ and $P(B)=0.4$. Then $P(A\\cup B)=$",
+    "options": [
+      "$0.9$",
+      "$0.7$",
+      "$0.2$",
+      "$0.8$"
+    ],
+    "answer": 1,
+    "explanation": "Independent: $P(AB)=0.5\\times0.4=0.2$. Then $P(A\\cup B)=P(A)+P(B)-P(AB)=0.9-0.2=0.7$. (Adding to get $0.9$ only works for mutually exclusive events.)",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-prob-07",
+    "subject": "math",
+    "topic": "probability-statistics",
+    "subtopic": "classical-probability",
+    "difficulty": 2,
+    "question": "A fair coin is tossed $3$ times. The probability of exactly $2$ heads is",
+    "options": [
+      "$\\dfrac38$",
+      "$\\dfrac14$",
+      "$\\dfrac12$",
+      "$\\dfrac23$"
+    ],
+    "answer": 0,
+    "explanation": "$2^3=8$ equally likely sequences. Exactly two heads: HHT, HTH, THH. $P=\\dfrac38$ (or $C_3^2\\left(\\tfrac12\\right)^3$).",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-prob-08",
+    "subject": "math",
+    "topic": "probability-statistics",
+    "subtopic": "classical-probability",
+    "difficulty": 3,
+    "question": "$A$, $B$, $C$, $D$ stand in a row in random order. The probability that $A$ and $B$ are next to each other is",
+    "options": [
+      "$\\dfrac12$",
+      "$\\dfrac13$",
+      "$\\dfrac14$",
+      "$\\dfrac16$"
+    ],
+    "answer": 0,
+    "explanation": "Total $4!=24$. Treat $AB$ as one block: $3!$ arrangements, times $2$ for the order inside the block: $12$. $P=\\dfrac{12}{24}=\\dfrac12$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-prob-09",
+    "subject": "math",
+    "topic": "probability-statistics",
+    "subtopic": "classical-probability",
+    "difficulty": 3,
+    "question": "Three different numbers are chosen at random from $1,2,3,4,5$. The probability that they can be the side lengths of a triangle is",
+    "options": [
+      "$\\dfrac{2}{5}$",
+      "$\\dfrac{1}{5}$",
+      "$\\dfrac{3}{10}$",
+      "$\\dfrac{1}{2}$"
+    ],
+    "answer": 2,
+    "explanation": "$C_5^3=10$ choices. A triangle needs the two shorter sides to sum to more than the longest:\n$\\{2,3,4\\}$, $\\{2,4,5\\}$, $\\{3,4,5\\}$ work ($\\{1,\\cdot,\\cdot\\}$ never works, and $\\{2,3,5\\}$ fails since $2+3=5$).\n\n$P=\\dfrac3{10}$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-prob-10",
+    "subject": "math",
+    "topic": "probability-statistics",
+    "subtopic": "classical-probability",
+    "difficulty": 2,
+    "question": "A shooter hits the target with probability $0.8$ on each shot, independently. In two shots, the probability of hitting at least once is",
+    "options": [
+      "$0.64$",
+      "$0.96$",
+      "$0.8$",
+      "$0.16$"
+    ],
+    "answer": 1,
+    "explanation": "Complement: missing both times has probability $0.2\\times0.2=0.04$. So $P(\\text{at least one hit})=1-0.04=0.96$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-prob-11",
+    "subject": "math",
+    "topic": "probability-statistics",
+    "subtopic": "classical-probability",
+    "difficulty": 2,
+    "question": "One card is drawn from a standard $52$-card deck. The probability that it is a heart or a king is",
+    "options": [
+      "$\\dfrac{17}{52}$",
+      "$\\dfrac14$",
+      "$\\dfrac{1}{52}$",
+      "$\\dfrac{4}{13}$"
+    ],
+    "answer": 3,
+    "explanation": "$13$ hearts $+\\ 4$ kings $-\\ 1$ (the king of hearts is counted twice) $=16$. $P=\\dfrac{16}{52}=\\dfrac4{13}$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-prob-12",
+    "subject": "math",
+    "topic": "probability-statistics",
+    "subtopic": "classical-probability",
+    "difficulty": 2,
+    "question": "A bag has $2$ red and $2$ white balls. Balls are drawn one at a time without replacement. The probability that the **second** ball is red is",
+    "options": [
+      "$\\dfrac13$",
+      "$\\dfrac12$",
+      "$\\dfrac23$",
+      "$\\dfrac14$"
+    ],
+    "answer": 1,
+    "explanation": "By symmetry every position is equally likely to hold any particular ball, so $P=\\dfrac24=\\dfrac12$. (Directly: $\\tfrac24\\cdot\\tfrac13+\\tfrac24\\cdot\\tfrac23=\\tfrac16+\\tfrac13=\\tfrac12$.)",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-prob-13",
+    "subject": "math",
+    "topic": "probability-statistics",
+    "subtopic": "classical-probability",
+    "difficulty": 2,
+    "question": "Two people are chosen at random from $A,B,C,D,E$. The probability that $A$ is chosen is",
+    "options": [
+      "$\\dfrac25$",
+      "$\\dfrac15$",
+      "$\\dfrac12$",
+      "$\\dfrac{1}{10}$"
+    ],
+    "answer": 0,
+    "explanation": "$C_5^2=10$ pairs; pairs containing $A$: $4$. $P=\\dfrac4{10}=\\dfrac25$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-prob-14",
+    "subject": "math",
+    "topic": "probability-statistics",
+    "subtopic": "classical-probability",
+    "difficulty": 3,
+    "question": "A four-digit number is formed from the digits $1,2,3,4$, each used exactly once. The probability that it is even **and** greater than $2000$ is",
+    "options": [
+      "$\\dfrac12$",
+      "$\\dfrac13$",
+      "$\\dfrac14$",
+      "$\\dfrac38$"
+    ],
+    "answer": 1,
+    "explanation": "$4!=24$ numbers. The last digit must be $2$ or $4$, and the first digit at least $2$.\n\n- Last digit $2$: first digit $3$ or $4$ (2 ways), middle two digits $2!$ ways: $4$ numbers.\n- Last digit $4$: first digit $2$ or $3$: $4$ numbers.\n\n$P=\\dfrac8{24}=\\dfrac13$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-stat-01",
+    "subject": "math",
+    "topic": "probability-statistics",
+    "subtopic": "mean-variance",
+    "difficulty": 1,
+    "question": "The mean of the data $2,4,6,8,10$ is",
+    "options": [
+      "$6$",
+      "$5$",
+      "$30$",
+      "$8$"
+    ],
+    "answer": 0,
+    "explanation": "$\\bar x=\\dfrac{2+4+6+8+10}{5}=\\dfrac{30}5=6$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-stat-02",
+    "subject": "math",
+    "topic": "probability-statistics",
+    "subtopic": "mean-variance",
+    "difficulty": 1,
+    "question": "The variance of the data $1,2,3,4,5$ is",
+    "options": [
+      "$\\dfrac52$",
+      "$2$",
+      "$\\sqrt2$",
+      "$10$"
+    ],
+    "answer": 1,
+    "explanation": "Mean $3$; squared deviations $4,1,0,1,4$, total $10$. $s^2=\\dfrac{10}5=2$. ($\\tfrac52$ divides by $n-1$; CSCA uses $n$.)",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-stat-03",
+    "subject": "math",
+    "topic": "probability-statistics",
+    "subtopic": "mean-variance",
+    "difficulty": 2,
+    "question": "The median of $3,7,1,9,5,8$ is",
+    "options": [
+      "$5$",
+      "$7$",
+      "$5.5$",
+      "$6$"
+    ],
+    "answer": 3,
+    "explanation": "Sort first: $1,3,5,7,8,9$. With an even number of values, the median is the mean of the two middle ones: $\\dfrac{5+7}2=6$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-stat-04",
+    "subject": "math",
+    "topic": "probability-statistics",
+    "subtopic": "mean-variance",
+    "difficulty": 2,
+    "question": "A data set $x_1,\\dots,x_n$ has mean $5$ and variance $2$. The data $3x_1+1,\\dots,3x_n+1$ have",
+    "options": [
+      "mean $16$, variance $18$",
+      "mean $16$, variance $6$",
+      "mean $15$, variance $18$",
+      "mean $16$, variance $19$"
+    ],
+    "answer": 0,
+    "explanation": "Mean: $3\\cdot5+1=16$. Variance: adding $1$ does not change spread, multiplying by $3$ multiplies the variance by $3^2$: $9\\cdot2=18$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-stat-05",
+    "subject": "math",
+    "topic": "probability-statistics",
+    "subtopic": "mean-variance",
+    "difficulty": 3,
+    "question": "The data $4,6,x,8$ have mean $6$. Their variance is",
+    "options": [
+      "$\\dfrac83$",
+      "$4$",
+      "$8$",
+      "$2$"
+    ],
+    "answer": 3,
+    "explanation": "$\\dfrac{4+6+x+8}4=6\\Rightarrow x=6$. Deviations: $-2,0,0,2$. $s^2=\\dfrac{4+0+0+4}4=2$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-stat-06",
+    "subject": "math",
+    "topic": "probability-statistics",
+    "subtopic": "mean-variance",
+    "difficulty": 2,
+    "question": "The standard deviation of $2,4,4,4,5,5,7,9$ is",
+    "options": [
+      "$2$",
+      "$4$",
+      "$5$",
+      "$\\sqrt2$"
+    ],
+    "answer": 0,
+    "explanation": "Mean $=\\dfrac{40}8=5$. Squared deviations: $9,1,1,1,0,0,4,16$, total $32$. Variance $=\\dfrac{32}8=4$, standard deviation $=\\sqrt4=2$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-stat-07",
+    "subject": "math",
+    "topic": "probability-statistics",
+    "subtopic": "mean-variance",
+    "difficulty": 1,
+    "question": "The mode of $2,3,3,5,7,7,7,9$ is",
+    "options": [
+      "$3$",
+      "$5$",
+      "$6$",
+      "$7$"
+    ],
+    "answer": 3,
+    "explanation": "The mode is the most frequent value: $7$ appears three times.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-stat-08",
+    "subject": "math",
+    "topic": "probability-statistics",
+    "subtopic": "mean-variance",
+    "difficulty": 1,
+    "question": "Two machines fill bags with the same mean mass. The variance for machine A is $0.4$ and for machine B is $1.2$. Which conclusion is correct?",
+    "options": [
+      "Machine B is more consistent",
+      "Both are equally consistent",
+      "It cannot be decided without the means",
+      "Machine A is more consistent"
+    ],
+    "answer": 3,
+    "explanation": "Variance measures spread. A smaller variance means the data cluster more tightly around the mean, so machine A is more consistent (stable).",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "m-stat-09",
+    "subject": "math",
+    "topic": "probability-statistics",
+    "subtopic": "mean-variance",
+    "difficulty": 3,
+    "question": "Ten numbers have mean $3$ and variance $2$. The number $3$ is added to the data. The variance of the $11$ numbers is",
+    "options": [
+      "$\\dfrac{20}{11}$",
+      "$2$",
+      "$\\dfrac{22}{10}$",
+      "$\\dfrac{20}{9}$"
+    ],
+    "answer": 0,
+    "explanation": "The sum of squared deviations is $10\\times2=20$. Adding the value $3$ keeps the mean at $3$ and adds a deviation of $0$. New variance: $\\dfrac{20+0}{11}=\\dfrac{20}{11}$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-stat-10",
+    "subject": "math",
+    "topic": "probability-statistics",
+    "subtopic": "mean-variance",
+    "difficulty": 2,
+    "question": "A survey records the number of books read: $1$ book ($2$ people), $2$ books ($5$ people), $3$ books ($3$ people). The mean number of books is",
+    "options": [
+      "$2.1$",
+      "$2$",
+      "$3.3$",
+      "$6.3$"
+    ],
+    "answer": 0,
+    "explanation": "Weighted mean: $\\dfrac{1\\cdot2+2\\cdot5+3\\cdot3}{2+5+3}=\\dfrac{21}{10}=2.1$. (The plain mean of $1,2,3$ ignores the frequencies.)",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-stat-11",
+    "subject": "math",
+    "topic": "probability-statistics",
+    "subtopic": "mean-variance",
+    "difficulty": 1,
+    "question": "The range of the data $12,15,9,20,17$ is",
+    "options": [
+      "$8$",
+      "$5$",
+      "$11$",
+      "$29$"
+    ],
+    "answer": 2,
+    "explanation": "Range $=$ largest $-$ smallest $=20-9=11$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-stat-12",
+    "subject": "math",
+    "topic": "probability-statistics",
+    "subtopic": "mean-variance",
+    "difficulty": 3,
+    "question": "A random variable $X$ takes the values $0,1,2$ with probabilities $0.3,\\ 0.5,\\ 0.2$. Its variance $D(X)$ is",
+    "options": [
+      "$0.9$",
+      "$1.3$",
+      "$0.7$",
+      "$0.49$"
+    ],
+    "answer": 3,
+    "explanation": "$E(X)=0\\cdot0.3+1\\cdot0.5+2\\cdot0.2=0.9$, $E(X^2)=0+0.5+4\\cdot0.2=1.3$.\n\n$D(X)=E(X^2)-[E(X)]^2=1.3-0.81=0.49$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-norm-01",
+    "subject": "math",
+    "topic": "probability-statistics",
+    "subtopic": "normal-distribution",
+    "difficulty": 1,
+    "question": "$X\\sim N(2,\\sigma^2)$. Then $P(X<2)=$",
+    "options": [
+      "$0.5$",
+      "$0.25$",
+      "$1$",
+      "It depends on $\\sigma$"
+    ],
+    "answer": 0,
+    "explanation": "The normal curve is symmetric about $x=\\mu=2$, so exactly half of the probability lies below the mean: $P(X<2)=0.5$, whatever $\\sigma$ is.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-norm-02",
+    "subject": "math",
+    "topic": "probability-statistics",
+    "subtopic": "normal-distribution",
+    "difficulty": 1,
+    "question": "$X\\sim N(1,\\sigma^2)$ and $P(X>3)=0.2$. Then $P(X<-1)=$",
+    "options": [
+      "$0.8$",
+      "$0.3$",
+      "$0.4$",
+      "$0.2$"
+    ],
+    "answer": 3,
+    "explanation": "$-1$ and $3$ are symmetric about $\\mu=1$ (both are $2$ away). By symmetry $P(X<-1)=P(X>3)=0.2$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-norm-03",
+    "subject": "math",
+    "topic": "probability-statistics",
+    "subtopic": "normal-distribution",
+    "difficulty": 3,
+    "question": "$X\\sim N(3,\\sigma^2)$ and $P(X<5)=0.8$. Then $P(1<X<3)=$",
+    "options": [
+      "$0.2$",
+      "$0.6$",
+      "$0.3$",
+      "$0.4$"
+    ],
+    "answer": 2,
+    "explanation": "$P(3<X<5)=0.8-0.5=0.3$. The interval $(1,3)$ is the mirror image of $(3,5)$ in $\\mu=3$, so $P(1<X<3)=0.3$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-norm-04",
+    "subject": "math",
+    "topic": "probability-statistics",
+    "subtopic": "normal-distribution",
+    "difficulty": 2,
+    "question": "$X\\sim N(\\mu,\\sigma^2)$ and $P(\\mu-\\sigma<X<\\mu+\\sigma)\\approx0.6827$. Then $P(X>\\mu+\\sigma)\\approx$",
+    "options": [
+      "$0.3173$",
+      "$0.6827$",
+      "$0.3413$",
+      "$0.1587$"
+    ],
+    "answer": 3,
+    "explanation": "The two tails outside $(\\mu-\\sigma,\\mu+\\sigma)$ have total probability $1-0.6827=0.3173$ and are equal by symmetry, so each is $\\dfrac{0.3173}2\\approx0.1587$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-norm-05",
+    "subject": "math",
+    "topic": "probability-statistics",
+    "subtopic": "normal-distribution",
+    "difficulty": 1,
+    "question": "Which statement about the normal density curve of $N(\\mu,\\sigma^2)$ is correct?",
+    "options": [
+      "It is symmetric about the line $x=\\mu$",
+      "It is symmetric about the $y$-axis",
+      "Its maximum value does not depend on $\\sigma$",
+      "The total area under it depends on $\\mu$"
+    ],
+    "answer": 0,
+    "explanation": "The bell curve is symmetric about $x=\\mu$ (the $y$-axis only when $\\mu=0$). Its peak height is $\\dfrac1{\\sigma\\sqrt{2\\pi}}$, which depends on $\\sigma$, and the total area is always $1$.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "m-norm-06",
+    "subject": "math",
+    "topic": "probability-statistics",
+    "subtopic": "normal-distribution",
+    "difficulty": 2,
+    "question": "$X_1\\sim N(0,1)$ and $X_2\\sim N(0,4)$. Compared with the curve of $X_1$, the curve of $X_2$ is",
+    "options": [
+      "higher and narrower",
+      "shifted to the right",
+      "identical",
+      "lower and more spread out"
+    ],
+    "answer": 3,
+    "explanation": "Both have mean $0$, so neither is shifted. $X_2$ has the larger standard deviation ($\\sigma=2$), so its curve is flatter (lower peak) and more spread out.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "m-norm-07",
+    "subject": "math",
+    "topic": "probability-statistics",
+    "subtopic": "normal-distribution",
+    "difficulty": 2,
+    "question": "Exam scores follow $N(100,10^2)$. Using $P(\\mu-2\\sigma<X<\\mu+2\\sigma)\\approx0.9545$, the proportion of students scoring above $120$ is about",
+    "options": [
+      "$2.3\\%$",
+      "$4.6\\%$",
+      "$95.4\\%$",
+      "$15.9\\%$"
+    ],
+    "answer": 0,
+    "explanation": "$120=\\mu+2\\sigma$. The two tails beyond $\\mu\\pm2\\sigma$ total $1-0.9545=0.0455$, so the upper tail is about $0.0228\\approx2.3\\%$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-norm-08",
+    "subject": "math",
+    "topic": "probability-statistics",
+    "subtopic": "normal-distribution",
+    "difficulty": 2,
+    "question": "$X\\sim N(0,1)$ and $P(X>1)=p$. Then $P(-1<X<0)=$",
+    "options": [
+      "$1-p$",
+      "$\\dfrac12-p$",
+      "$1-2p$",
+      "$2p$"
+    ],
+    "answer": 1,
+    "explanation": "$P(0<X<1)=0.5-p$, and by symmetry about $0$, $P(-1<X<0)=P(0<X<1)=\\dfrac12-p$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-norm-09",
+    "subject": "math",
+    "topic": "probability-statistics",
+    "subtopic": "normal-distribution",
+    "difficulty": 3,
+    "question": "$X\\sim N(2,\\sigma^2)$ and $P(0<X<4)=0.6$. Then $P(X<0)=$",
+    "options": [
+      "$0.4$",
+      "$0.3$",
+      "$0.6$",
+      "$0.2$"
+    ],
+    "answer": 3,
+    "explanation": "$(0,4)$ is symmetric about $\\mu=2$, so the remaining probability $1-0.6=0.4$ is split equally between the two tails: $P(X<0)=0.2$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-norm-10",
+    "subject": "math",
+    "topic": "probability-statistics",
+    "subtopic": "normal-distribution",
+    "difficulty": 2,
+    "question": "$X\\sim N(\\mu,\\sigma^2)$ and $P(X<1)=P(X>5)$. Then $\\mu=$",
+    "options": [
+      "$2$",
+      "$3$",
+      "$4$",
+      "$6$"
+    ],
+    "answer": 1,
+    "explanation": "Equal tail probabilities mean $1$ and $5$ are symmetric about the mean: $\\mu=\\dfrac{1+5}2=3$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-norm-11",
+    "subject": "math",
+    "topic": "probability-statistics",
+    "subtopic": "normal-distribution",
+    "difficulty": 1,
+    "question": "$X\\sim N(50,4^2)$. The standardised value $z=\\dfrac{X-\\mu}{\\sigma}$ of $X=58$ is",
+    "options": [
+      "$8$",
+      "$2$",
+      "$0.5$",
+      "$\\dfrac{29}{25}$"
+    ],
+    "answer": 1,
+    "explanation": "$z=\\dfrac{58-50}{4}=2$: the value $58$ lies two standard deviations above the mean.",
+    "tags": [
+      "numeric"
+    ]
+  }
+]

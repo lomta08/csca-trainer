@@ -1,0 +1,1978 @@
+[
+  {
+    "id": "m-fun-01",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "function-properties",
+    "difficulty": 2,
+    "question": "The domain of $f(x)=\\dfrac{\\sqrt{x+1}}{x-2}$ is",
+    "options": [
+      "$[-1,+\\infty)$",
+      "$(-1,2)\\cup(2,+\\infty)$",
+      "$[-1,2)\\cup(2,+\\infty)$",
+      "$(2,+\\infty)$"
+    ],
+    "answer": 2,
+    "explanation": "Two conditions: the square root needs $x+1\\ge0$, i.e. $x\\ge-1$; the denominator needs $x\\ne2$.\n\nDomain: $[-1,2)\\cup(2,+\\infty)$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-fun-02",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "function-properties",
+    "difficulty": 2,
+    "question": "The domain of $f(x)=\\lg(3-x)+\\dfrac{1}{\\sqrt{x+2}}$ is",
+    "options": [
+      "$[-2,3)$",
+      "$(-2,3]$",
+      "$(-2,3)$",
+      "$(-\\infty,3)$"
+    ],
+    "answer": 2,
+    "explanation": "- $\\lg(3-x)$ needs $3-x>0$, so $x<3$.\n- $\\dfrac1{\\sqrt{x+2}}$ needs $x+2>0$ (a square root in a denominator must be **strictly** positive), so $x>-2$.\n\nDomain: $(-2,3)$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-fun-03",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "function-properties",
+    "difficulty": 2,
+    "question": "Let $f(x)=\\begin{cases}x^2+1,&x\\le0\\\\2x,&x>0\\end{cases}$. Then $f(f(-1))=$",
+    "options": [
+      "$2$",
+      "$5$",
+      "$3$",
+      "$4$"
+    ],
+    "answer": 3,
+    "explanation": "Work from the inside: $-1\\le0$, so $f(-1)=(-1)^2+1=2$. Then $2>0$, so $f(2)=2\\cdot2=4$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-fun-04",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "function-properties",
+    "difficulty": 1,
+    "question": "Which of the following functions is odd?",
+    "options": [
+      "$f(x)=x^2+1$",
+      "$f(x)=x+1$",
+      "$f(x)=x^3+x$",
+      "$f(x)=x^4-x^2$"
+    ],
+    "answer": 2,
+    "explanation": "A function is odd if $f(-x)=-f(x)$ for all $x$ in a symmetric domain.\n\n$(-x)^3+(-x)=-(x^3+x)$ ✔. The functions $x^2+1$ and $x^4-x^2$ are even, and $x+1$ is neither ($f(-1)=0$ but $-f(1)=-2$).",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-fun-05",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "function-properties",
+    "difficulty": 2,
+    "question": "Which function is **even** and **increasing** on $(0,+\\infty)$?",
+    "options": [
+      "$y=x^3$",
+      "$y=-x^2$",
+      "$y=x^2+1$",
+      "$y=2^x$"
+    ],
+    "answer": 2,
+    "explanation": "- $y=x^2+1$: even, and increasing for $x>0$ ✔\n- $y=x^3$: odd.\n- $y=-x^2$: even but **decreasing** on $(0,+\\infty)$.\n- $y=2^x$: neither even nor odd.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "m-fun-06",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "function-properties",
+    "difficulty": 2,
+    "question": "$f(x)$ is an odd function on $\\mathbb{R}$, and $f(x)=x^2+2x$ for $x>0$. Then $f(-1)=$",
+    "options": [
+      "$3$",
+      "$-1$",
+      "$1$",
+      "$-3$"
+    ],
+    "answer": 3,
+    "explanation": "For an odd function $f(-1)=-f(1)$. Since $1>0$, $f(1)=1+2=3$. Therefore $f(-1)=-3$. (Substituting $-1$ into $x^2+2x$ gives $-1$, which is wrong: that formula only holds for $x>0$.)",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-fun-07",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "function-properties",
+    "difficulty": 2,
+    "question": "$f(x)$ is an even function on $\\mathbb{R}$, and $f(x)=2^x-1$ for $x\\ge0$. Then $f(-2)=$",
+    "options": [
+      "$3$",
+      "$-\\dfrac34$",
+      "$-3$",
+      "$\\dfrac34$"
+    ],
+    "answer": 0,
+    "explanation": "Even means $f(-x)=f(x)$, so $f(-2)=f(2)=2^2-1=3$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-fun-08",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "function-properties",
+    "difficulty": 2,
+    "question": "The range of $y=x^2-2x+3$ ($x\\in\\mathbb{R}$) is",
+    "options": [
+      "$[3,+\\infty)$",
+      "$(2,+\\infty)$",
+      "$[2,+\\infty)$",
+      "$\\mathbb{R}$"
+    ],
+    "answer": 2,
+    "explanation": "Complete the square: $y=(x-1)^2+2\\ge2$, with equality at $x=1$. So the range is $[2,+\\infty)$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-fun-09",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "function-properties",
+    "difficulty": 3,
+    "question": "The range of $f(x)=x^2-4x+1$ on the interval $[0,3]$ is",
+    "options": [
+      "$[-2,1]$",
+      "$[-3,-2]$",
+      "$[1,3]$",
+      "$[-3,1]$"
+    ],
+    "answer": 3,
+    "explanation": "$f(x)=(x-2)^2-3$. The vertex $x=2$ lies inside $[0,3]$, so the minimum is $f(2)=-3$.\n\nThe maximum is at the endpoint farther from $2$: $f(0)=1$ (while $f(3)=-2$). Range: $[-3,1]$.\n\nTrap: using only the endpoints gives $[-2,1]$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-fun-10",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "function-properties",
+    "difficulty": 3,
+    "question": "$f(x)=x^2+2(a-1)x+2$ is decreasing on $(-\\infty,4]$. The range of $a$ is",
+    "options": [
+      "$[-3,+\\infty)$",
+      "$(-\\infty,-3]$",
+      "$(-\\infty,3]$",
+      "$[5,+\\infty)$"
+    ],
+    "answer": 1,
+    "explanation": "The parabola opens upward with axis $x=1-a$ and is decreasing on $(-\\infty,1-a]$.\n\nFor it to be decreasing on all of $(-\\infty,4]$ we need $4\\le1-a$, i.e. $a\\le-3$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-fun-11",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "function-properties",
+    "difficulty": 2,
+    "question": "If $f(x+1)=x^2+2x$, then $f(x)=$",
+    "options": [
+      "$x^2-1$",
+      "$x^2+1$",
+      "$x^2-2x$",
+      "$x^2+4x+3$"
+    ],
+    "answer": 0,
+    "explanation": "Let $t=x+1$, so $x=t-1$:\n$$f(t)=(t-1)^2+2(t-1)=t^2-2t+1+2t-2=t^2-1.$$\nRename the variable: $f(x)=x^2-1$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-fun-12",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "function-properties",
+    "difficulty": 2,
+    "question": "For all real $x$, $f(x+2)=-f(x)$. The smallest positive period of $f(x)$ (if $f$ is not constant) is",
+    "options": [
+      "$2$",
+      "$4$",
+      "$1$",
+      "$8$"
+    ],
+    "answer": 1,
+    "explanation": "Apply the rule twice: $f(x+4)=f((x+2)+2)=-f(x+2)=-(-f(x))=f(x)$. So $4$ is a period. (Shifting by $2$ changes the sign, so $2$ is not a period unless $f\\equiv0$.)",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "m-fun-13",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "function-properties",
+    "difficulty": 2,
+    "question": "$f(x)$ is an odd function on $\\mathbb{R}$ with period $4$, and $f(1)=2$. Then $f(7)=$",
+    "options": [
+      "$2$",
+      "$0$",
+      "$7$",
+      "$-2$"
+    ],
+    "answer": 3,
+    "explanation": "Use the period to move close to $0$: $f(7)=f(7-8)=f(-1)$. Then oddness gives $f(-1)=-f(1)=-2$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-fun-14",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "function-properties",
+    "difficulty": 1,
+    "question": "Which statement about $f(x)=\\dfrac1x$ is correct?",
+    "options": [
+      "$f(x)$ is decreasing on its whole domain",
+      "$f(x)$ is decreasing on $(0,+\\infty)$",
+      "$f(x)$ is increasing on $(-\\infty,0)$",
+      "$f(x)$ is an even function"
+    ],
+    "answer": 1,
+    "explanation": "$f$ decreases on $(-\\infty,0)$ and on $(0,+\\infty)$ **separately**, but not on the whole domain: for example $f(-1)=-1<f(1)=1$ although $-1<1$.\n\nIt is odd, not even, since $f(-x)=-f(x)$.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "m-fun-15",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "function-properties",
+    "difficulty": 3,
+    "question": "If $f(x)=\\dfrac{a\\cdot2^x-1}{2^x+1}$ is an odd function on $\\mathbb{R}$, then $a=$",
+    "options": [
+      "$-1$",
+      "$2$",
+      "$1$",
+      "$0$"
+    ],
+    "answer": 2,
+    "explanation": "An odd function defined at $0$ has $f(0)=0$: $\\dfrac{a-1}{2}=0$, so $a=1$.\n\nCheck: $f(x)=\\dfrac{2^x-1}{2^x+1}$; multiplying top and bottom of $f(-x)$ by $2^x$ gives $\\dfrac{1-2^x}{1+2^x}=-f(x)$ ✔.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-fun-16",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "function-properties",
+    "difficulty": 2,
+    "question": "For $f(x)=\\ln(x^2+1)$, which statement is correct?",
+    "options": [
+      "$f$ is odd and increasing on $(0,+\\infty)$",
+      "$f$ is even and increasing on $(0,+\\infty)$",
+      "$f$ is even and decreasing on $(0,+\\infty)$",
+      "$f$ is neither even nor odd"
+    ],
+    "answer": 1,
+    "explanation": "$f(-x)=\\ln((-x)^2+1)=f(x)$, so $f$ is even.\n\nOn $(0,+\\infty)$, $x^2+1$ increases and $\\ln$ is increasing, so $f$ increases there.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "m-fun-17",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "function-properties",
+    "difficulty": 3,
+    "question": "$f(x)$ is even on $\\mathbb{R}$, increasing on $[0,+\\infty)$, and $f(2)=0$. The solution set of $f(x-1)<0$ is",
+    "options": [
+      "$(-2,2)$",
+      "$(-1,3)$",
+      "$(1,3)$",
+      "$(-\\infty,-1)\\cup(3,+\\infty)$"
+    ],
+    "answer": 1,
+    "explanation": "Because $f$ is even and increasing on $[0,\\infty)$, $f(t)<0=f(2)\\iff |t|<2$.\n\nSo $f(x-1)<0\\iff|x-1|<2\\iff-1<x<3$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-fun-18",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "function-properties",
+    "difficulty": 2,
+    "question": "The domain of $f(x)=\\sqrt{4-x^2}$ is",
+    "options": [
+      "$(-2,2)$",
+      "$[-2,2]$",
+      "$[0,2]$",
+      "$(-\\infty,-2]\\cup[2,+\\infty)$"
+    ],
+    "answer": 1,
+    "explanation": "We need $4-x^2\\ge0$, i.e. $x^2\\le4$, so $-2\\le x\\le2$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-fun-19",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "function-properties",
+    "difficulty": 3,
+    "question": "For $x>0$, the maximum value of $f(x)=\\dfrac{x}{x^2+1}$ is",
+    "options": [
+      "$1$",
+      "$\\dfrac12$",
+      "$2$",
+      "$\\dfrac14$"
+    ],
+    "answer": 1,
+    "explanation": "Divide top and bottom by $x>0$: $f(x)=\\dfrac{1}{x+\\frac1x}$. By AM–GM $x+\\dfrac1x\\ge2$, so $f(x)\\le\\dfrac12$, with equality at $x=1$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-fun-20",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "function-properties",
+    "difficulty": 2,
+    "question": "Let $f(x)=2x+1$ and $g(x)=x^2$. Then $f(g(2))-g(f(2))=$",
+    "options": [
+      "$16$",
+      "$0$",
+      "$-4$",
+      "$-16$"
+    ],
+    "answer": 3,
+    "explanation": "$f(g(2))=f(4)=9$ and $g(f(2))=g(5)=25$, so the difference is $9-25=-16$. Composition is not commutative.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-exp-01",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "elementary-functions",
+    "difficulty": 1,
+    "question": "$\\log_2 32=$",
+    "options": [
+      "$16$",
+      "$5$",
+      "$4$",
+      "$6$"
+    ],
+    "answer": 1,
+    "explanation": "$32=2^5$, so $\\log_2 32=5$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-exp-02",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "elementary-functions",
+    "difficulty": 1,
+    "question": "$27^{\\frac23}=$",
+    "options": [
+      "$18$",
+      "$9$",
+      "$3$",
+      "$\\dfrac19$"
+    ],
+    "answer": 1,
+    "explanation": "$27^{\\frac23}=\\left(27^{\\frac13}\\right)^2=3^2=9$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-exp-03",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "elementary-functions",
+    "difficulty": 1,
+    "question": "$\\lg 25+\\lg 4=$",
+    "options": [
+      "$2$",
+      "$\\lg 29$",
+      "$100$",
+      "$1$"
+    ],
+    "answer": 0,
+    "explanation": "$\\lg25+\\lg4=\\lg(25\\times4)=\\lg100=2$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-exp-04",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "elementary-functions",
+    "difficulty": 1,
+    "question": "$\\log_3 18-\\log_3 2=$",
+    "options": [
+      "$\\log_3 16$",
+      "$9$",
+      "$2$",
+      "$3$"
+    ],
+    "answer": 2,
+    "explanation": "$\\log_3 18-\\log_3 2=\\log_3\\dfrac{18}{2}=\\log_3 9=2$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-exp-05",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "elementary-functions",
+    "difficulty": 2,
+    "question": "$2^{\\log_2 5}+\\ln e^{2}=$",
+    "options": [
+      "$7$",
+      "$5$",
+      "$10$",
+      "$3$"
+    ],
+    "answer": 0,
+    "explanation": "By definition $a^{\\log_a N}=N$, so $2^{\\log_2 5}=5$; and $\\ln e^2=2$. Total: $7$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-exp-06",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "elementary-functions",
+    "difficulty": 2,
+    "question": "Let $a=2^{0.3}$, $b=0.3^{2}$, $c=\\log_2 0.3$. Then",
+    "options": [
+      "$c<b<a$",
+      "$a<b<c$",
+      "$b<c<a$",
+      "$c<a<b$"
+    ],
+    "answer": 0,
+    "explanation": "Compare with $0$ and $1$:\n- $a=2^{0.3}>2^0=1$;\n- $b=0.3^2=0.09\\in(0,1)$;\n- $c=\\log_2 0.3<\\log_2 1=0$.\n\nSo $c<b<a$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-exp-07",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "elementary-functions",
+    "difficulty": 2,
+    "question": "For any $a>0$, $a\\ne1$, the graph of $y=a^{x-1}+2$ always passes through the point",
+    "options": [
+      "$(1,3)$",
+      "$(0,3)$",
+      "$(1,2)$",
+      "$(0,1)$"
+    ],
+    "answer": 0,
+    "explanation": "$a^0=1$ for every valid $a$. Make the exponent $0$: $x=1$, then $y=1+2=3$. Fixed point $(1,3)$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-exp-08",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "elementary-functions",
+    "difficulty": 2,
+    "question": "For any $a>0$, $a\\ne1$, the graph of $y=\\log_a(x+3)-1$ always passes through the point",
+    "options": [
+      "$(-3,-1)$",
+      "$(-2,0)$",
+      "$(-2,-1)$",
+      "$(1,-1)$"
+    ],
+    "answer": 2,
+    "explanation": "$\\log_a1=0$ for every base. Make the argument $1$: $x+3=1\\Rightarrow x=-2$, then $y=0-1=-1$. Fixed point $(-2,-1)$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-exp-09",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "elementary-functions",
+    "difficulty": 3,
+    "question": "The solution set of $\\log_2(x-1)<1$ is",
+    "options": [
+      "$(-\\infty,3)$",
+      "$(0,3)$",
+      "$(1,3)$",
+      "$(3,+\\infty)$"
+    ],
+    "answer": 2,
+    "explanation": "Remember the domain: $x-1>0$. Since $\\log_2$ is increasing, $\\log_2(x-1)<1=\\log_2 2\\iff x-1<2$.\n\nSo $0<x-1<2$, i.e. $1<x<3$. (Forgetting the domain gives $(-\\infty,3)$.)",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-exp-10",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "elementary-functions",
+    "difficulty": 2,
+    "question": "The real solution of $4^x-3\\cdot2^x-4=0$ is",
+    "options": [
+      "$x=-1$",
+      "$x=2$",
+      "$x=2$ or $x=-1$",
+      "$x=4$"
+    ],
+    "answer": 1,
+    "explanation": "Let $t=2^x>0$. Then $4^x=t^2$ and $t^2-3t-4=0$, so $(t-4)(t+1)=0$.\n\n$t=-1$ is impossible because $2^x>0$. So $2^x=4$ and $x=2$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-exp-11",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "elementary-functions",
+    "difficulty": 2,
+    "question": "The graph of the power function $f(x)=x^{\\alpha}$ passes through $(4,2)$. Then $f(9)=$",
+    "options": [
+      "$3$",
+      "$81$",
+      "$\\dfrac92$",
+      "$18$"
+    ],
+    "answer": 0,
+    "explanation": "$4^\\alpha=2\\Rightarrow \\alpha=\\dfrac12$, so $f(x)=\\sqrt x$ and $f(9)=3$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-exp-12",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "elementary-functions",
+    "difficulty": 3,
+    "question": "The increasing interval of $y=\\log_{\\frac12}(x^2-2x-3)$ is",
+    "options": [
+      "$(3,+\\infty)$",
+      "$(-\\infty,-1)$",
+      "$(-\\infty,1)$",
+      "$(1,+\\infty)$"
+    ],
+    "answer": 1,
+    "explanation": "Domain first: $x^2-2x-3>0\\Rightarrow x<-1$ or $x>3$.\n\nThe outer function $\\log_{\\frac12}u$ is **decreasing**, so $y$ increases where $u=x^2-2x-3$ decreases. Inside the domain $u$ decreases on $(-\\infty,-1)$.\n\nIncreasing interval: $(-\\infty,-1)$. (Answers like $(-\\infty,1)$ forget the domain.)",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "m-exp-13",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "elementary-functions",
+    "difficulty": 2,
+    "question": "Which function is decreasing on $(0,+\\infty)$?",
+    "options": [
+      "$y=2^x$",
+      "$y=\\log_2 x$",
+      "$y=x^{\\frac12}$",
+      "$y=\\left(\\dfrac12\\right)^x$"
+    ],
+    "answer": 3,
+    "explanation": "An exponential $a^x$ is decreasing when $0<a<1$, so $y=\\left(\\tfrac12\\right)^x$ decreases. The other three are all increasing on $(0,+\\infty)$.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "m-exp-14",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "elementary-functions",
+    "difficulty": 3,
+    "question": "If $2^a=3^b=6$, then $\\dfrac1a+\\dfrac1b=$",
+    "options": [
+      "$6$",
+      "$\\dfrac16$",
+      "$5$",
+      "$1$"
+    ],
+    "answer": 3,
+    "explanation": "$a=\\log_2 6$ and $b=\\log_3 6$, so $\\dfrac1a=\\log_6 2$ and $\\dfrac1b=\\log_6 3$ (change of base: $\\dfrac1{\\log_a b}=\\log_b a$).\n\n$\\dfrac1a+\\dfrac1b=\\log_62+\\log_63=\\log_66=1$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-exp-15",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "elementary-functions",
+    "difficulty": 1,
+    "question": "$\\log_2 3\\cdot\\log_3 4=$",
+    "options": [
+      "$\\log_2 7$",
+      "$2$",
+      "$12$",
+      "$1$"
+    ],
+    "answer": 1,
+    "explanation": "Change of base: $\\log_23\\cdot\\log_34=\\dfrac{\\lg3}{\\lg2}\\cdot\\dfrac{\\lg4}{\\lg3}=\\dfrac{\\lg4}{\\lg2}=\\log_24=2$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-exp-16",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "elementary-functions",
+    "difficulty": 3,
+    "question": "For $a>0$, $a\\ne1$, the difference between the maximum and minimum of $f(x)=\\log_a x$ on $[2,4]$ is $1$. The sum of all possible values of $a$ is",
+    "options": [
+      "$2$",
+      "$\\dfrac12$",
+      "$4$",
+      "$\\dfrac52$"
+    ],
+    "answer": 3,
+    "explanation": "$\\log_a x$ is monotonic, so max − min $=|\\log_a4-\\log_a2|=|\\log_a2|=1$.\n\n$\\log_a2=1\\Rightarrow a=2$; $\\log_a2=-1\\Rightarrow a=\\dfrac12$. Both are valid, sum $=\\dfrac52$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-exp-17",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "elementary-functions",
+    "difficulty": 2,
+    "question": "$e^{\\ln 3}+\\lg 0.01=$",
+    "options": [
+      "$5$",
+      "$3$",
+      "$1$",
+      "$-1$"
+    ],
+    "answer": 2,
+    "explanation": "$e^{\\ln3}=3$ and $\\lg0.01=\\lg10^{-2}=-2$, so the sum is $1$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-exp-18",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "elementary-functions",
+    "difficulty": 2,
+    "question": "Let $a=\\log_{0.5}3$, $b=0.5^{3}$, $c=3^{0.5}$. Then",
+    "options": [
+      "$b<a<c$",
+      "$c<b<a$",
+      "$a<b<c$",
+      "$a<c<b$"
+    ],
+    "answer": 2,
+    "explanation": "- $a=\\log_{0.5}3<0$ (base below 1, argument above 1);\n- $b=0.5^3=0.125\\in(0,1)$;\n- $c=\\sqrt3>1$.\n\nSo $a<b<c$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-exp-19",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "elementary-functions",
+    "difficulty": 1,
+    "question": "The domain of $y=\\log_2(x-3)$ is",
+    "options": [
+      "$[3,+\\infty)$",
+      "$(0,+\\infty)$",
+      "$(3,+\\infty)$",
+      "$(-\\infty,3)$"
+    ],
+    "answer": 2,
+    "explanation": "The argument of a logarithm must be **positive**: $x-3>0$, so $x>3$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-exp-20",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "elementary-functions",
+    "difficulty": 2,
+    "question": "If $\\lg 2=a$ and $\\lg 3=b$, then $\\lg 12=$",
+    "options": [
+      "$a+2b$",
+      "$2ab$",
+      "$a^2b$",
+      "$2a+b$"
+    ],
+    "answer": 3,
+    "explanation": "$\\lg12=\\lg(2^2\\cdot3)=2\\lg2+\\lg3=2a+b$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-trig-01",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "trigonometry",
+    "difficulty": 1,
+    "question": "$\\sin 210^\\circ=$",
+    "options": [
+      "$\\dfrac12$",
+      "$-\\dfrac{\\sqrt3}{2}$",
+      "$-\\dfrac12$",
+      "$\\dfrac{\\sqrt3}{2}$"
+    ],
+    "answer": 2,
+    "explanation": "$210^\\circ=180^\\circ+30^\\circ$ lies in the third quadrant, where sine is negative: $\\sin210^\\circ=-\\sin30^\\circ=-\\dfrac12$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-trig-02",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "trigonometry",
+    "difficulty": 1,
+    "question": "$\\cos\\dfrac{2\\pi}{3}=$",
+    "options": [
+      "$\\dfrac12$",
+      "$-\\dfrac12$",
+      "$-\\dfrac{\\sqrt3}{2}$",
+      "$\\dfrac{\\sqrt3}{2}$"
+    ],
+    "answer": 1,
+    "explanation": "$\\dfrac{2\\pi}3=\\pi-\\dfrac\\pi3$ is in the second quadrant (cosine negative): $\\cos\\dfrac{2\\pi}3=-\\cos\\dfrac\\pi3=-\\dfrac12$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-trig-03",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "trigonometry",
+    "difficulty": 1,
+    "question": "$\\tan\\left(-\\dfrac{\\pi}{4}\\right)=$",
+    "options": [
+      "$1$",
+      "$-\\dfrac{\\sqrt2}{2}$",
+      "$-1$",
+      "$\\sqrt3$"
+    ],
+    "answer": 2,
+    "explanation": "Tangent is odd: $\\tan(-\\theta)=-\\tan\\theta$, so $\\tan\\left(-\\dfrac\\pi4\\right)=-1$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-trig-04",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "trigonometry",
+    "difficulty": 1,
+    "question": "$150^\\circ$ expressed in radians is",
+    "options": [
+      "$\\dfrac{5\\pi}{6}$",
+      "$\\dfrac{3\\pi}{4}$",
+      "$\\dfrac{2\\pi}{3}$",
+      "$\\dfrac{5\\pi}{3}$"
+    ],
+    "answer": 0,
+    "explanation": "Multiply by $\\dfrac{\\pi}{180^\\circ}$: $150\\times\\dfrac{\\pi}{180}=\\dfrac{5\\pi}6$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-trig-05",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "trigonometry",
+    "difficulty": 2,
+    "question": "If $\\sin\\alpha=\\dfrac35$ and $\\alpha\\in\\left(\\dfrac\\pi2,\\pi\\right)$, then $\\cos\\alpha=$",
+    "options": [
+      "$-\\dfrac45$",
+      "$\\dfrac45$",
+      "$-\\dfrac34$",
+      "$\\dfrac34$"
+    ],
+    "answer": 0,
+    "explanation": "$\\cos^2\\alpha=1-\\sin^2\\alpha=\\dfrac{16}{25}$, so $\\cos\\alpha=\\pm\\dfrac45$. In the second quadrant cosine is negative: $\\cos\\alpha=-\\dfrac45$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-trig-06",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "trigonometry",
+    "difficulty": 2,
+    "question": "If $\\tan\\alpha=2$, then $\\dfrac{\\sin\\alpha+\\cos\\alpha}{\\sin\\alpha-\\cos\\alpha}=$",
+    "options": [
+      "$-3$",
+      "$\\dfrac13$",
+      "$3$",
+      "$1$"
+    ],
+    "answer": 2,
+    "explanation": "Divide numerator and denominator by $\\cos\\alpha$: $\\dfrac{\\tan\\alpha+1}{\\tan\\alpha-1}=\\dfrac{2+1}{2-1}=3$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-trig-07",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "trigonometry",
+    "difficulty": 3,
+    "question": "If $\\tan\\alpha=3$, then $\\sin\\alpha\\cos\\alpha=$",
+    "options": [
+      "$\\dfrac{3}{5}$",
+      "$\\dfrac{1}{3}$",
+      "$\\dfrac{3}{4}$",
+      "$\\dfrac{3}{10}$"
+    ],
+    "answer": 3,
+    "explanation": "Divide by $1=\\sin^2\\alpha+\\cos^2\\alpha$:\n$$\\sin\\alpha\\cos\\alpha=\\frac{\\sin\\alpha\\cos\\alpha}{\\sin^2\\alpha+\\cos^2\\alpha}=\\frac{\\tan\\alpha}{\\tan^2\\alpha+1}=\\frac{3}{10}.$$",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-trig-08",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "trigonometry",
+    "difficulty": 1,
+    "question": "The smallest positive period of $y=\\sin\\left(2x+\\dfrac\\pi3\\right)$ is",
+    "options": [
+      "$2\\pi$",
+      "$\\dfrac\\pi2$",
+      "$\\pi$",
+      "$\\dfrac{\\pi}{3}$"
+    ],
+    "answer": 2,
+    "explanation": "For $y=A\\sin(\\omega x+\\varphi)$ the period is $T=\\dfrac{2\\pi}{|\\omega|}=\\dfrac{2\\pi}{2}=\\pi$. The phase $\\dfrac\\pi3$ does not affect the period.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-trig-09",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "trigonometry",
+    "difficulty": 2,
+    "question": "The smallest positive period of $y=|\\sin x|$ is",
+    "options": [
+      "$2\\pi$",
+      "$\\dfrac\\pi2$",
+      "$\\pi$",
+      "It is not periodic"
+    ],
+    "answer": 2,
+    "explanation": "Taking the absolute value flips the negative half-waves up, so the graph repeats every $\\pi$: $|\\sin(x+\\pi)|=|-\\sin x|=|\\sin x|$, and no smaller positive shift works.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "m-trig-10",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "trigonometry",
+    "difficulty": 2,
+    "question": "The maximum value of $y=\\sin x+\\sqrt3\\cos x$ is",
+    "options": [
+      "$1+\\sqrt3$",
+      "$\\sqrt3$",
+      "$4$",
+      "$2$"
+    ],
+    "answer": 3,
+    "explanation": "$\\sin x+\\sqrt3\\cos x=2\\left(\\tfrac12\\sin x+\\tfrac{\\sqrt3}2\\cos x\\right)=2\\sin\\left(x+\\dfrac\\pi3\\right)$, whose maximum is $2$. In general the maximum of $a\\sin x+b\\cos x$ is $\\sqrt{a^2+b^2}$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-trig-11",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "trigonometry",
+    "difficulty": 2,
+    "question": "The maximum value of $y=3\\sin x+4\\cos x$ is",
+    "options": [
+      "$7$",
+      "$5$",
+      "$4$",
+      "$1$"
+    ],
+    "answer": 1,
+    "explanation": "$a\\sin x+b\\cos x=\\sqrt{a^2+b^2}\\,\\sin(x+\\varphi)$, so the maximum is $\\sqrt{9+16}=5$. (Adding $3+4$ is wrong: $\\sin x$ and $\\cos x$ cannot both equal $1$.)",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-trig-12",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "trigonometry",
+    "difficulty": 2,
+    "question": "$\\sin15^\\circ\\cos15^\\circ=$",
+    "options": [
+      "$\\dfrac12$",
+      "$\\dfrac{\\sqrt3}{4}$",
+      "$\\dfrac14$",
+      "$\\dfrac{\\sqrt3}{2}$"
+    ],
+    "answer": 2,
+    "explanation": "Double-angle formula: $\\sin15^\\circ\\cos15^\\circ=\\dfrac12\\sin30^\\circ=\\dfrac12\\cdot\\dfrac12=\\dfrac14$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-trig-13",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "trigonometry",
+    "difficulty": 2,
+    "question": "$\\cos^2\\dfrac\\pi8-\\sin^2\\dfrac\\pi8=$",
+    "options": [
+      "$1$",
+      "$\\dfrac12$",
+      "$\\dfrac{\\sqrt3}{2}$",
+      "$\\dfrac{\\sqrt2}{2}$"
+    ],
+    "answer": 3,
+    "explanation": "$\\cos^2\\theta-\\sin^2\\theta=\\cos2\\theta$, so the value is $\\cos\\dfrac\\pi4=\\dfrac{\\sqrt2}2$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-trig-14",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "trigonometry",
+    "difficulty": 2,
+    "question": "$\\sin75^\\circ=$",
+    "options": [
+      "$\\dfrac{\\sqrt6+\\sqrt2}{4}$",
+      "$\\dfrac{\\sqrt6-\\sqrt2}{4}$",
+      "$\\dfrac{\\sqrt3+1}{2}$",
+      "$\\dfrac{\\sqrt2}{2}$"
+    ],
+    "answer": 0,
+    "explanation": "$\\sin75^\\circ=\\sin(45^\\circ+30^\\circ)=\\sin45^\\circ\\cos30^\\circ+\\cos45^\\circ\\sin30^\\circ$\n$$=\\frac{\\sqrt2}2\\cdot\\frac{\\sqrt3}2+\\frac{\\sqrt2}2\\cdot\\frac12=\\frac{\\sqrt6+\\sqrt2}{4}.$$",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-trig-15",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "trigonometry",
+    "difficulty": 2,
+    "question": "If $\\cos\\alpha=\\dfrac13$, then $\\cos2\\alpha=$",
+    "options": [
+      "$-\\dfrac79$",
+      "$\\dfrac79$",
+      "$\\dfrac23$",
+      "$-\\dfrac{2}{9}$"
+    ],
+    "answer": 0,
+    "explanation": "$\\cos2\\alpha=2\\cos^2\\alpha-1=2\\cdot\\dfrac19-1=-\\dfrac79$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-trig-16",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "trigonometry",
+    "difficulty": 3,
+    "question": "$\\alpha$ and $\\beta$ are acute angles with $\\cos\\alpha=\\dfrac45$ and $\\cos(\\alpha+\\beta)=\\dfrac5{13}$. Then $\\sin\\beta=$",
+    "options": [
+      "$\\dfrac{33}{65}$",
+      "$\\dfrac{63}{65}$",
+      "$\\dfrac{16}{65}$",
+      "$\\dfrac{56}{65}$"
+    ],
+    "answer": 0,
+    "explanation": "Write $\\beta=(\\alpha+\\beta)-\\alpha$. Both $\\alpha$ and $\\alpha+\\beta$ lie in $(0,\\pi)$, so their sines are positive: $\\sin\\alpha=\\dfrac35$, $\\sin(\\alpha+\\beta)=\\dfrac{12}{13}$.\n$$\\sin\\beta=\\sin(\\alpha+\\beta)\\cos\\alpha-\\cos(\\alpha+\\beta)\\sin\\alpha=\\frac{12}{13}\\cdot\\frac45-\\frac5{13}\\cdot\\frac35=\\frac{48-15}{65}=\\frac{33}{65}.$$",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-trig-17",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "trigonometry",
+    "difficulty": 3,
+    "question": "To obtain the graph of $y=\\sin\\left(2x-\\dfrac\\pi3\\right)$ from the graph of $y=\\sin2x$, shift it",
+    "options": [
+      "right by $\\dfrac\\pi3$",
+      "left by $\\dfrac\\pi6$",
+      "left by $\\dfrac\\pi3$",
+      "right by $\\dfrac\\pi6$"
+    ],
+    "answer": 3,
+    "explanation": "Factor out the coefficient of $x$: $\\sin\\left(2x-\\dfrac\\pi3\\right)=\\sin\\left[2\\left(x-\\dfrac\\pi6\\right)\\right]$.\n\nReplacing $x$ by $x-\\dfrac\\pi6$ shifts the graph **right** by $\\dfrac\\pi6$. (Shifting by $\\dfrac\\pi3$ forgets to divide by $\\omega=2$.)",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "m-trig-18",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "trigonometry",
+    "difficulty": 2,
+    "question": "In $\\triangle ABC$, $a=3$, $b=4$ and $C=60^\\circ$. Then $c=$",
+    "options": [
+      "$5$",
+      "$\\sqrt{37}$",
+      "$\\sqrt{7}$",
+      "$\\sqrt{13}$"
+    ],
+    "answer": 3,
+    "explanation": "Law of cosines: $c^2=a^2+b^2-2ab\\cos C=9+16-2\\cdot3\\cdot4\\cdot\\dfrac12=13$, so $c=\\sqrt{13}$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-trig-19",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "trigonometry",
+    "difficulty": 3,
+    "question": "In $\\triangle ABC$, $A=30^\\circ$, $a=2$ and $b=2\\sqrt3$. Then $B=$",
+    "options": [
+      "$60^\\circ$ or $120^\\circ$",
+      "$60^\\circ$",
+      "$120^\\circ$",
+      "$30^\\circ$"
+    ],
+    "answer": 0,
+    "explanation": "Law of sines: $\\sin B=\\dfrac{b\\sin A}{a}=\\dfrac{2\\sqrt3\\cdot\\frac12}{2}=\\dfrac{\\sqrt3}2$, so $B=60^\\circ$ or $120^\\circ$.\n\nBoth are possible because $b>a$ means $B>A$, and both $60^\\circ$ and $120^\\circ$ exceed $30^\\circ$ while leaving room for $C$ ($A+B<180^\\circ$).",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "m-trig-20",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "trigonometry",
+    "difficulty": 2,
+    "question": "In $\\triangle ABC$, $a=2$, $b=3$ and $C=30^\\circ$. The area of the triangle is",
+    "options": [
+      "$3$",
+      "$\\dfrac{3\\sqrt3}{2}$",
+      "$6$",
+      "$\\dfrac32$"
+    ],
+    "answer": 3,
+    "explanation": "$S=\\dfrac12ab\\sin C=\\dfrac12\\cdot2\\cdot3\\cdot\\dfrac12=\\dfrac32$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-trig-21",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "trigonometry",
+    "difficulty": 3,
+    "question": "The maximum value of $f(x)=\\sin^2x+\\sqrt3\\sin x\\cos x$ is",
+    "options": [
+      "$1+\\sqrt3$",
+      "$2$",
+      "$\\dfrac32$",
+      "$\\dfrac{1+\\sqrt3}{2}$"
+    ],
+    "answer": 2,
+    "explanation": "Use $\\sin^2x=\\dfrac{1-\\cos2x}2$ and $\\sin x\\cos x=\\dfrac{\\sin2x}2$:\n$$f(x)=\\frac{\\sqrt3}2\\sin2x-\\frac12\\cos2x+\\frac12=\\sin\\left(2x-\\frac\\pi6\\right)+\\frac12.$$\nMaximum: $1+\\dfrac12=\\dfrac32$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-trig-22",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "trigonometry",
+    "difficulty": 2,
+    "question": "If $\\sin\\alpha+\\cos\\alpha=\\dfrac12$, then $\\sin\\alpha\\cos\\alpha=$",
+    "options": [
+      "$\\dfrac38$",
+      "$-\\dfrac34$",
+      "$-\\dfrac38$",
+      "$\\dfrac14$"
+    ],
+    "answer": 2,
+    "explanation": "Square both sides: $1+2\\sin\\alpha\\cos\\alpha=\\dfrac14$, so $\\sin\\alpha\\cos\\alpha=\\dfrac{\\frac14-1}{2}=-\\dfrac38$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-seq-01",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "sequences",
+    "difficulty": 1,
+    "question": "An arithmetic sequence has $a_1=2$ and common difference $d=3$. Then $a_{10}=$",
+    "options": [
+      "$32$",
+      "$30$",
+      "$29$",
+      "$27$"
+    ],
+    "answer": 2,
+    "explanation": "$a_n=a_1+(n-1)d$, so $a_{10}=2+9\\cdot3=29$. (Using $10d$ instead of $9d$ gives $32$.)",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-seq-02",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "sequences",
+    "difficulty": 1,
+    "question": "A geometric sequence has $a_1=3$ and common ratio $q=2$. Then $a_5=$",
+    "options": [
+      "$96$",
+      "$30$",
+      "$24$",
+      "$48$"
+    ],
+    "answer": 3,
+    "explanation": "$a_n=a_1q^{n-1}$, so $a_5=3\\cdot2^4=48$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-seq-03",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "sequences",
+    "difficulty": 2,
+    "question": "In an arithmetic sequence, $a_3=5$ and $a_7=13$. The sum of the first $10$ terms, $S_{10}$, is",
+    "options": [
+      "$100$",
+      "$120$",
+      "$90$",
+      "$110$"
+    ],
+    "answer": 0,
+    "explanation": "$d=\\dfrac{a_7-a_3}{7-3}=\\dfrac84=2$, $a_1=a_3-2d=1$.\n\n$S_{10}=10a_1+\\dfrac{10\\cdot9}{2}d=10+90=100$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-seq-04",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "sequences",
+    "difficulty": 2,
+    "question": "In an arithmetic sequence, $a_2+a_8=10$. Then $S_9=$",
+    "options": [
+      "$90$",
+      "$50$",
+      "$40$",
+      "$45$"
+    ],
+    "answer": 3,
+    "explanation": "Since $2+8=1+9$, $a_1+a_9=a_2+a_8=10$. So $S_9=\\dfrac{9(a_1+a_9)}{2}=\\dfrac{9\\cdot10}{2}=45$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-seq-05",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "sequences",
+    "difficulty": 2,
+    "question": "In a geometric sequence with positive ratio, $a_2=6$ and $a_4=24$. The sum of the first $5$ terms is",
+    "options": [
+      "$96$",
+      "$186$",
+      "$45$",
+      "$93$"
+    ],
+    "answer": 3,
+    "explanation": "$q^2=\\dfrac{a_4}{a_2}=4$ and $q>0$, so $q=2$ and $a_1=3$. $S_5=\\dfrac{3(2^5-1)}{2-1}=93$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-seq-06",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "sequences",
+    "difficulty": 1,
+    "question": "If $a_n=2n-1$, then the sum of the first $n$ terms is $S_n=$",
+    "options": [
+      "$n^2$",
+      "$n^2+1$",
+      "$2n^2-n$",
+      "$n(n+1)$"
+    ],
+    "answer": 0,
+    "explanation": "This is arithmetic with $a_1=1$, $d=2$: $S_n=\\dfrac{n(a_1+a_n)}{2}=\\dfrac{n(1+2n-1)}2=n^2$. (The sum of the first $n$ odd numbers is $n^2$.)",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-seq-07",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "sequences",
+    "difficulty": 3,
+    "question": "The sum of the first $n$ terms of a sequence is $S_n=n^2+2n$. Then $a_n=$",
+    "options": [
+      "$2n-1$",
+      "$2n+1$",
+      "$2n+3$",
+      "$n^2+2n$"
+    ],
+    "answer": 1,
+    "explanation": "For $n\\ge2$: $a_n=S_n-S_{n-1}=n^2+2n-[(n-1)^2+2(n-1)]=2n+1$.\n\nCheck $n=1$: $a_1=S_1=3=2\\cdot1+1$ ✔, so $a_n=2n+1$ for all $n$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-seq-08",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "sequences",
+    "difficulty": 2,
+    "question": "The sum of the first $n$ terms of a sequence is $S_n=2^n-1$. Then $a_n=$",
+    "options": [
+      "$2^n$",
+      "$2^n-1$",
+      "$2^{n-1}$",
+      "$2^{n+1}-1$"
+    ],
+    "answer": 2,
+    "explanation": "For $n\\ge2$: $a_n=S_n-S_{n-1}=2^n-2^{n-1}=2^{n-1}$. For $n=1$: $a_1=S_1=1=2^0$ ✔. So $a_n=2^{n-1}$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-seq-09",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "sequences",
+    "difficulty": 3,
+    "question": "The sum of the first $n$ terms of a sequence is $S_n=n^2+n+1$. Then $a_n=$",
+    "options": [
+      "$a_n=2n$",
+      "$a_n=2n+1$",
+      "$a_n=\\begin{cases}3,&n=1\\\\2n,&n\\ge2\\end{cases}$",
+      "$a_n=n^2+n+1$"
+    ],
+    "answer": 2,
+    "explanation": "For $n\\ge2$: $a_n=S_n-S_{n-1}=(n^2+n+1)-[(n-1)^2+(n-1)+1]=2n$.\n\nBut $a_1=S_1=3\\ne2\\cdot1$. So the formula must be written in two pieces. **Always check $n=1$ separately.**",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "m-seq-10",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "sequences",
+    "difficulty": 2,
+    "question": "A sequence has $a_1=1$ and $a_{n+1}=a_n+2n$. Then $a_5=$",
+    "options": [
+      "$31$",
+      "$21$",
+      "$11$",
+      "$25$"
+    ],
+    "answer": 1,
+    "explanation": "$a_2=1+2=3$, $a_3=3+4=7$, $a_4=7+6=13$, $a_5=13+8=21$. (In general $a_n=1+2[1+2+\\dots+(n-1)]=n^2-n+1$.)",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-seq-11",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "sequences",
+    "difficulty": 2,
+    "question": "A sequence has $a_1=1$ and $a_{n+1}=2a_n+1$. Then $a_6=$",
+    "options": [
+      "$31$",
+      "$64$",
+      "$63$",
+      "$127$"
+    ],
+    "answer": 2,
+    "explanation": "$a_{n+1}+1=2(a_n+1)$, so $\\{a_n+1\\}$ is geometric with first term $2$ and ratio $2$: $a_n+1=2^n$, $a_n=2^n-1$.\n\n$a_6=2^6-1=63$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-seq-12",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "sequences",
+    "difficulty": 2,
+    "question": "In a geometric sequence of positive terms, $a_3a_7=16$. Then $a_5=$",
+    "options": [
+      "$8$",
+      "$\\pm4$",
+      "$4$",
+      "$2$"
+    ],
+    "answer": 2,
+    "explanation": "Since $3+7=5+5$, $a_3a_7=a_5^2=16$. The terms are positive, so $a_5=4$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-seq-13",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "sequences",
+    "difficulty": 2,
+    "question": "In the arithmetic sequence $5,8,11,\\dots$, the number $101$ is which term?",
+    "options": [
+      "$32$",
+      "$34$",
+      "$33$",
+      "$31$"
+    ],
+    "answer": 2,
+    "explanation": "$a_n=5+3(n-1)=3n+2$. Solve $3n+2=101$: $n=33$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-seq-14",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "sequences",
+    "difficulty": 3,
+    "question": "An arithmetic sequence has $a_1=20$ and $d=-3$. The maximum value of $S_n$ is",
+    "options": [
+      "$70$",
+      "$74$",
+      "$81$",
+      "$77$"
+    ],
+    "answer": 3,
+    "explanation": "$S_n$ is largest when we add all the positive terms and stop before the negative ones.\n\n$a_n=23-3n>0\\iff n<\\tfrac{23}3$, so $a_7=2>0$ and $a_8=-1<0$. Maximum: $S_7=\\dfrac{7(20+2)}{2}=77$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-seq-15",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "sequences",
+    "difficulty": 3,
+    "question": "$\\dfrac1{1\\times2}+\\dfrac1{2\\times3}+\\dfrac1{3\\times4}+\\dots+\\dfrac1{99\\times100}=$",
+    "options": [
+      "$\\dfrac{99}{100}$",
+      "$\\dfrac{100}{101}$",
+      "$1$",
+      "$\\dfrac{1}{100}$"
+    ],
+    "answer": 0,
+    "explanation": "Split each term (telescoping): $\\dfrac1{k(k+1)}=\\dfrac1k-\\dfrac1{k+1}$. The sum becomes\n$$\\left(1-\\tfrac12\\right)+\\left(\\tfrac12-\\tfrac13\\right)+\\dots+\\left(\\tfrac1{99}-\\tfrac1{100}\\right)=1-\\frac1{100}=\\frac{99}{100}.$$",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-seq-16",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "sequences",
+    "difficulty": 2,
+    "question": "$1+3+3^2+3^3+3^4+3^5=$",
+    "options": [
+      "$1093$",
+      "$364$",
+      "$243$",
+      "$121$"
+    ],
+    "answer": 1,
+    "explanation": "Geometric with $a_1=1$, $q=3$, $6$ terms: $S_6=\\dfrac{3^6-1}{3-1}=\\dfrac{728}2=364$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-seq-17",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "sequences",
+    "difficulty": 2,
+    "question": "If $2,\\ x,\\ 8$ form a geometric sequence and $x>0$, then $x=$",
+    "options": [
+      "$5$",
+      "$16$",
+      "$4$",
+      "$6$"
+    ],
+    "answer": 2,
+    "explanation": "In a geometric sequence the middle term satisfies $x^2=2\\cdot8=16$; with $x>0$, $x=4$. ($5$ would make it arithmetic.)",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-seq-18",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "sequences",
+    "difficulty": 1,
+    "question": "Let $A$ be the arithmetic mean of $3$ and $7$, and $G$ the positive geometric mean of $4$ and $9$. Then $A+G=$",
+    "options": [
+      "$11$",
+      "$10$",
+      "$12$",
+      "$13$"
+    ],
+    "answer": 0,
+    "explanation": "$A=\\dfrac{3+7}2=5$ and $G=\\sqrt{4\\cdot9}=6$, so $A+G=11$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-seq-19",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "sequences",
+    "difficulty": 3,
+    "question": "Let $S_n=1\\cdot2+2\\cdot2^2+3\\cdot2^3+\\dots+n\\cdot2^n$. Then $S_5=$",
+    "options": [
+      "$258$",
+      "$256$",
+      "$98$",
+      "$290$"
+    ],
+    "answer": 0,
+    "explanation": "Method (subtract a shifted copy): $S_n=(n-1)2^{n+1}+2$. Then $S_5=4\\cdot64+2=258$.\n\nDirect check: $2+8+24+64+160=258$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-seq-20",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "sequences",
+    "difficulty": 1,
+    "question": "The 6th term of the geometric sequence $1,-2,4,\\dots$ is",
+    "options": [
+      "$-32$",
+      "$32$",
+      "$-64$",
+      "$64$"
+    ],
+    "answer": 0,
+    "explanation": "$q=-2$, so $a_6=1\\cdot(-2)^5=-32$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-der-01",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "derivatives",
+    "difficulty": 1,
+    "question": "If $f(x)=x^3$, then $f'(2)=$",
+    "options": [
+      "$8$",
+      "$6$",
+      "$4$",
+      "$12$"
+    ],
+    "answer": 3,
+    "explanation": "$f'(x)=3x^2$, so $f'(2)=3\\cdot4=12$. ($8=f(2)$ is the function value, not the derivative.)",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-der-02",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "derivatives",
+    "difficulty": 1,
+    "question": "The derivative of $y=x^2+\\sin x$ is",
+    "options": [
+      "$y'=2x+\\cos x$",
+      "$y'=2x-\\cos x$",
+      "$y'=x+\\cos x$",
+      "$y'=2x+\\sin x$"
+    ],
+    "answer": 0,
+    "explanation": "$(x^2)'=2x$ and $(\\sin x)'=\\cos x$, so $y'=2x+\\cos x$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-der-03",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "derivatives",
+    "difficulty": 2,
+    "question": "If $f(x)=xe^x$, then $f'(0)=$",
+    "options": [
+      "$0$",
+      "$e$",
+      "$2$",
+      "$1$"
+    ],
+    "answer": 3,
+    "explanation": "Product rule: $f'(x)=e^x+xe^x=(x+1)e^x$, so $f'(0)=1$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-der-04",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "derivatives",
+    "difficulty": 1,
+    "question": "If $y=\\ln x$, then the value of $y'$ at $x=2$ is",
+    "options": [
+      "$\\ln2$",
+      "$2$",
+      "$-\\dfrac12$",
+      "$\\dfrac12$"
+    ],
+    "answer": 3,
+    "explanation": "$(\\ln x)'=\\dfrac1x$, so at $x=2$ the derivative is $\\dfrac12$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-der-05",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "derivatives",
+    "difficulty": 2,
+    "question": "The tangent line to $y=x^2$ at the point $(1,1)$ is",
+    "options": [
+      "$y=2x+1$",
+      "$y=x$",
+      "$y=2x-1$",
+      "$y=2x$"
+    ],
+    "answer": 2,
+    "explanation": "Slope $k=y'(1)=2\\cdot1=2$. Point-slope: $y-1=2(x-1)$, i.e. $y=2x-1$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-der-06",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "derivatives",
+    "difficulty": 2,
+    "question": "The tangent line to $y=e^x$ at $x=0$ is",
+    "options": [
+      "$y=x$",
+      "$y=ex$",
+      "$y=x+1$",
+      "$y=x-1$"
+    ],
+    "answer": 2,
+    "explanation": "At $x=0$: $y=e^0=1$ and slope $y'=e^0=1$. So $y-1=1\\cdot(x-0)$, i.e. $y=x+1$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-der-07",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "derivatives",
+    "difficulty": 2,
+    "question": "The increasing intervals of $f(x)=x^3-3x$ are",
+    "options": [
+      "$(-1,1)$",
+      "$(-\\infty,-1)$ only",
+      "$(1,+\\infty)$ only",
+      "$(-\\infty,-1)$ and $(1,+\\infty)$"
+    ],
+    "answer": 3,
+    "explanation": "$f'(x)=3x^2-3=3(x+1)(x-1)>0\\iff x<-1$ or $x>1$. So $f$ increases on $(-\\infty,-1)$ and on $(1,+\\infty)$ (and decreases on $(-1,1)$).",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-der-08",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "derivatives",
+    "difficulty": 2,
+    "question": "The local maximum value of $f(x)=x^3-3x$ is",
+    "options": [
+      "$2$",
+      "$-2$",
+      "$-1$",
+      "$0$"
+    ],
+    "answer": 0,
+    "explanation": "$f'(x)=3(x+1)(x-1)$: $f'$ changes from $+$ to $-$ at $x=-1$, so there is a local maximum there, with value $f(-1)=-1+3=2$. ($x=-1$ is where it happens, not the value.)",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-der-09",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "derivatives",
+    "difficulty": 3,
+    "question": "The maximum value of $f(x)=x^3-3x$ on $[0,2]$ is",
+    "options": [
+      "$2$",
+      "$0$",
+      "$-2$",
+      "$14$"
+    ],
+    "answer": 0,
+    "explanation": "Critical point in $[0,2]$: $x=1$, with $f(1)=-2$ (a minimum). Endpoints: $f(0)=0$, $f(2)=8-6=2$. The largest is $2$. On a closed interval always compare critical values **and** endpoints.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-der-10",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "derivatives",
+    "difficulty": 2,
+    "question": "For $f(x)=x^2+x$, $\\displaystyle\\lim_{\\Delta x\\to0}\\frac{f(1+\\Delta x)-f(1)}{\\Delta x}=$",
+    "options": [
+      "$2$",
+      "$1$",
+      "$3$",
+      "$0$"
+    ],
+    "answer": 2,
+    "explanation": "By definition this limit is $f'(1)$. $f'(x)=2x+1$, so $f'(1)=3$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-der-11",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "derivatives",
+    "difficulty": 3,
+    "question": "If $f'(2)=3$, then $\\displaystyle\\lim_{h\\to0}\\frac{f(2+2h)-f(2)}{h}=$",
+    "options": [
+      "$3$",
+      "$\\dfrac32$",
+      "$6$",
+      "$12$"
+    ],
+    "answer": 2,
+    "explanation": "$$\\lim_{h\\to0}\\frac{f(2+2h)-f(2)}{h}=2\\lim_{h\\to0}\\frac{f(2+2h)-f(2)}{2h}=2f'(2)=6.$$ The increment in $x$ is $2h$, so we must divide by $2h$ to get the derivative.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-der-12",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "derivatives",
+    "difficulty": 2,
+    "question": "The derivative of $y=x\\ln x$ is",
+    "options": [
+      "$y'=\\ln x$",
+      "$y'=\\ln x+1$",
+      "$y'=\\dfrac1x$",
+      "$y'=x+\\ln x$"
+    ],
+    "answer": 1,
+    "explanation": "Product rule: $(x)'\\ln x+x(\\ln x)'=\\ln x+x\\cdot\\dfrac1x=\\ln x+1$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-der-13",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "derivatives",
+    "difficulty": 2,
+    "question": "The derivative of $y=\\sin2x$ is",
+    "options": [
+      "$y'=\\cos(2x)$",
+      "$y'=-2\\cos(2x)$",
+      "$y'=2\\sin(2x)$",
+      "$y'=2\\cos(2x)$"
+    ],
+    "answer": 3,
+    "explanation": "Chain rule: $(\\sin u)'=\\cos u\\cdot u'$ with $u=2x$, $u'=2$. So $y'=2\\cos2x$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-der-14",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "derivatives",
+    "difficulty": 3,
+    "question": "$f(x)=x^3+ax^2+3x-9$ has an extremum at $x=-3$. Then $a=$",
+    "options": [
+      "$-5$",
+      "$3$",
+      "$5$",
+      "$4$"
+    ],
+    "answer": 2,
+    "explanation": "An extremum of a differentiable function requires $f'(-3)=0$: $f'(x)=3x^2+2ax+3$, so $27-6a+3=0$, $a=5$.\n\nCheck: $f'(x)=3x^2+10x+3=(3x+1)(x+3)$ really changes sign at $x=-3$ ✔.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-der-15",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "derivatives",
+    "difficulty": 3,
+    "question": "The number of zeros of $f(x)=x^3-3x+1$ is",
+    "options": [
+      "$3$",
+      "$1$",
+      "$2$",
+      "$0$"
+    ],
+    "answer": 0,
+    "explanation": "$f'(x)=3(x^2-1)$. Local maximum $f(-1)=3>0$, local minimum $f(1)=-1<0$. With $f\\to-\\infty$ on the left and $+\\infty$ on the right, the graph crosses the $x$-axis once in each of $(-\\infty,-1)$, $(-1,1)$ and $(1,+\\infty)$: $3$ zeros.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-der-16",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "derivatives",
+    "difficulty": 2,
+    "question": "The minimum value of $f(x)=x-\\ln x$ is",
+    "options": [
+      "$0$",
+      "$e-1$",
+      "$1$",
+      "$-1$"
+    ],
+    "answer": 2,
+    "explanation": "Domain $x>0$. $f'(x)=1-\\dfrac1x$: negative on $(0,1)$, positive on $(1,+\\infty)$. So the minimum is $f(1)=1-0=1$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-der-17",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "derivatives",
+    "difficulty": 1,
+    "question": "$\\displaystyle\\int_0^1x^2\\,dx=$",
+    "options": [
+      "$\\dfrac12$",
+      "$\\dfrac13$",
+      "$1$",
+      "$2$"
+    ],
+    "answer": 1,
+    "explanation": "An antiderivative of $x^2$ is $\\dfrac{x^3}3$, so the integral is $\\dfrac13-0=\\dfrac13$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-der-18",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "derivatives",
+    "difficulty": 2,
+    "question": "$\\displaystyle\\int_0^{\\pi}\\sin x\\,dx=$",
+    "options": [
+      "$0$",
+      "$2$",
+      "$1$",
+      "$-2$"
+    ],
+    "answer": 1,
+    "explanation": "$\\displaystyle\\int_0^\\pi\\sin x\\,dx=[-\\cos x]_0^\\pi=-\\cos\\pi+\\cos0=1+1=2$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-der-19",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "derivatives",
+    "difficulty": 2,
+    "question": "The area of the region enclosed by $y=x^2$ and $y=x$ is",
+    "options": [
+      "$\\dfrac13$",
+      "$\\dfrac12$",
+      "$\\dfrac16$",
+      "$\\dfrac56$"
+    ],
+    "answer": 2,
+    "explanation": "The curves meet at $x=0$ and $x=1$; on $(0,1)$ the line is above the parabola. Area $=\\displaystyle\\int_0^1(x-x^2)\\,dx=\\frac12-\\frac13=\\frac16$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-der-20",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "derivatives",
+    "difficulty": 3,
+    "question": "$f(x)=e^x-ax$ is increasing on $\\mathbb{R}$. The range of $a$ is",
+    "options": [
+      "$(-\\infty,1]$",
+      "$(-\\infty,0]$",
+      "$(0,+\\infty)$",
+      "$(-\\infty,0)$"
+    ],
+    "answer": 1,
+    "explanation": "We need $f'(x)=e^x-a\\ge0$ for all $x$, i.e. $a\\le e^x$ for every $x$.\n\n$e^x$ takes every positive value but never $0$ (its infimum is $0$), so $a\\le0$. For $a=0$, $f'=e^x>0$ ✔. Answer: $(-\\infty,0]$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-der-21",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "derivatives",
+    "difficulty": 2,
+    "question": "An object moves so that its displacement is $s(t)=t^3-2t$ (metres, $t$ in seconds). Its instantaneous velocity at $t=2$ s is",
+    "options": [
+      "$4$ m/s",
+      "$10$ m/s",
+      "$12$ m/s",
+      "$8$ m/s"
+    ],
+    "answer": 1,
+    "explanation": "Velocity is the derivative of displacement: $v(t)=s'(t)=3t^2-2$, so $v(2)=12-2=10$ m/s.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-der-22",
+    "subject": "math",
+    "topic": "functions",
+    "subtopic": "derivatives",
+    "difficulty": 1,
+    "question": "The slope of the tangent to $y=\\dfrac1x$ at $x=2$ is",
+    "options": [
+      "$-\\dfrac14$",
+      "$\\dfrac14$",
+      "$-\\dfrac12$",
+      "$\\dfrac12$"
+    ],
+    "answer": 0,
+    "explanation": "$y'=-\\dfrac1{x^2}$, so the slope at $x=2$ is $-\\dfrac14$.",
+    "tags": [
+      "numeric"
+    ]
+  }
+]

@@ -1,0 +1,1484 @@
+[
+  {
+    "id": "m-line-01",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "lines-circles",
+    "difficulty": 1,
+    "question": "The slope of the line through $(1,2)$ and $(3,6)$ is",
+    "options": [
+      "$\\dfrac12$",
+      "$4$",
+      "$-2$",
+      "$2$"
+    ],
+    "answer": 3,
+    "explanation": "$k=\\dfrac{y_2-y_1}{x_2-x_1}=\\dfrac{6-2}{3-1}=2$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-line-02",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "lines-circles",
+    "difficulty": 2,
+    "question": "The line through $(1,2)$ parallel to $2x-y+1=0$ is",
+    "options": [
+      "$x+2y-5=0$",
+      "$2x-y+3=0$",
+      "$2x-y=0$",
+      "$2x+y-4=0$"
+    ],
+    "answer": 2,
+    "explanation": "A parallel line has the same left side: $2x-y+c=0$. Substitute $(1,2)$: $2-2+c=0$, $c=0$. So $2x-y=0$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-line-03",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "lines-circles",
+    "difficulty": 2,
+    "question": "The line through $(0,1)$ perpendicular to $x+2y-3=0$ is",
+    "options": [
+      "$x+2y-2=0$",
+      "$2x-y+1=0$",
+      "$2x+y-1=0$",
+      "$x-2y+2=0$"
+    ],
+    "answer": 1,
+    "explanation": "The given line has slope $-\\dfrac12$, so a perpendicular line has slope $2$ (product $-1$). Through $(0,1)$: $y=2x+1$, i.e. $2x-y+1=0$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-line-04",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "lines-circles",
+    "difficulty": 1,
+    "question": "The distance between the parallel lines $3x+4y-5=0$ and $3x+4y+5=0$ is",
+    "options": [
+      "$10$",
+      "$2$",
+      "$1$",
+      "$0$"
+    ],
+    "answer": 1,
+    "explanation": "For $Ax+By+C_1=0$ and $Ax+By+C_2=0$: $d=\\dfrac{|C_1-C_2|}{\\sqrt{A^2+B^2}}=\\dfrac{10}{5}=2$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-line-05",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "lines-circles",
+    "difficulty": 1,
+    "question": "The distance from the point $(1,1)$ to the line $3x+4y+3=0$ is",
+    "options": [
+      "$10$",
+      "$\\dfrac{7}{5}$",
+      "$2$",
+      "$\\dfrac45$"
+    ],
+    "answer": 2,
+    "explanation": "$d=\\dfrac{|3\\cdot1+4\\cdot1+3|}{\\sqrt{3^2+4^2}}=\\dfrac{10}5=2$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-line-06",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "lines-circles",
+    "difficulty": 1,
+    "question": "The circle $x^2+y^2-4x+6y=0$ has",
+    "options": [
+      "centre $(-2,3)$, radius $\\sqrt{13}$",
+      "centre $(2,-3)$, radius $13$",
+      "centre $(-2,3)$, radius $13$",
+      "centre $(2,-3)$, radius $\\sqrt{13}$"
+    ],
+    "answer": 3,
+    "explanation": "Complete the squares: $(x-2)^2+(y+3)^2=4+9=13$. Centre $(2,-3)$, radius $\\sqrt{13}$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-line-07",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "lines-circles",
+    "difficulty": 2,
+    "question": "The line $x-y+1=0$ and the circle $(x-1)^2+y^2=2$ are",
+    "options": [
+      "Intersecting at two points",
+      "Separate (no common point)",
+      "Tangent",
+      "Intersecting, and the line passes through the centre"
+    ],
+    "answer": 2,
+    "explanation": "Distance from the centre $(1,0)$ to the line: $d=\\dfrac{|1-0+1|}{\\sqrt2}=\\sqrt2$, which equals the radius $\\sqrt2$. So the line is tangent to the circle.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-line-08",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "lines-circles",
+    "difficulty": 2,
+    "question": "The line $x+y-2=0$ cuts the circle $x^2+y^2=4$. The length of the chord is",
+    "options": [
+      "$\\sqrt2$",
+      "$2\\sqrt2$",
+      "$4$",
+      "$2$"
+    ],
+    "answer": 1,
+    "explanation": "Distance from the centre to the line: $d=\\dfrac{|-2|}{\\sqrt2}=\\sqrt2$. Half-chord $=\\sqrt{r^2-d^2}=\\sqrt{4-2}=\\sqrt2$, so the chord is $2\\sqrt2$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-line-09",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "lines-circles",
+    "difficulty": 2,
+    "question": "The circle with centre $(1,2)$ that is tangent to the $x$-axis is",
+    "options": [
+      "$(x-1)^2+(y-2)^2=4$",
+      "$(x-1)^2+(y-2)^2=1$",
+      "$(x+1)^2+(y+2)^2=4$",
+      "$(x-1)^2+(y-2)^2=2$"
+    ],
+    "answer": 0,
+    "explanation": "Tangent to the $x$-axis means the radius equals the distance from the centre to the $x$-axis, $|2|=2$. So $(x-1)^2+(y-2)^2=4$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-line-10",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "lines-circles",
+    "difficulty": 2,
+    "question": "The circle with diameter $AB$, where $A(-1,2)$ and $B(3,4)$, is",
+    "options": [
+      "$(x-1)^2+(y-3)^2=5$",
+      "$(x-1)^2+(y-3)^2=20$",
+      "$(x+1)^2+(y+3)^2=5$",
+      "$(x-2)^2+(y-1)^2=5$"
+    ],
+    "answer": 0,
+    "explanation": "Centre = midpoint $(1,3)$; radius $=\\dfrac12|AB|=\\dfrac12\\sqrt{16+4}=\\sqrt5$. Equation: $(x-1)^2+(y-3)^2=5$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-line-11",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "lines-circles",
+    "difficulty": 2,
+    "question": "The line with $x$-intercept $2$ and $y$-intercept $-3$ is",
+    "options": [
+      "$2x-3y-6=0$",
+      "$3x-2y-6=0$",
+      "$3x+2y-6=0$",
+      "$2x+3y+6=0$"
+    ],
+    "answer": 1,
+    "explanation": "Intercept form: $\\dfrac x2+\\dfrac y{-3}=1$. Multiply by $6$: $3x-2y=6$, i.e. $3x-2y-6=0$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-line-12",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "lines-circles",
+    "difficulty": 2,
+    "question": "The lines $ax+2y+1=0$ and $x+(a-1)y-1=0$ are perpendicular. Then $a=$",
+    "options": [
+      "$2$",
+      "$-1$",
+      "$\\dfrac32$",
+      "$\\dfrac23$"
+    ],
+    "answer": 3,
+    "explanation": "$A_1x+B_1y+C_1=0\\perp A_2x+B_2y+C_2=0\\iff A_1A_2+B_1B_2=0$: $a\\cdot1+2(a-1)=0$, so $a=\\dfrac23$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-line-13",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "lines-circles",
+    "difficulty": 3,
+    "question": "The lines $ax+2y+1=0$ and $x+(a-1)y-1=0$ are parallel (and distinct). Then $a=$",
+    "options": [
+      "$-1$",
+      "$2$ or $-1$",
+      "$1$",
+      "$2$"
+    ],
+    "answer": 3,
+    "explanation": "Parallel requires $A_1B_2-A_2B_1=0$: $a(a-1)-2=0$, so $a=2$ or $a=-1$.\n\nNow exclude coincident lines. $a=-1$: the lines are $-x+2y+1=0$ and $x-2y-1=0$, which are the **same** line. $a=2$: $2x+2y+1=0$ and $x+y-1=0$ are distinct ✔. So $a=2$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-line-14",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "lines-circles",
+    "difficulty": 3,
+    "question": "$P$ is a point on the circle $x^2+y^2=1$. The maximum distance from $P$ to the line $3x+4y-10=0$ is",
+    "options": [
+      "$2$",
+      "$3$",
+      "$1$",
+      "$\\dfrac{11}{5}$"
+    ],
+    "answer": 1,
+    "explanation": "Distance from the centre to the line: $\\dfrac{|-10|}5=2>1$, so the line misses the circle. The farthest point is on the far side: $2+r=3$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-line-15",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "lines-circles",
+    "difficulty": 3,
+    "question": "For every real $k$, the line $y=kx+1$ and the circle $x^2+y^2=4$",
+    "options": [
+      "are tangent",
+      "intersect at two points",
+      "are separate",
+      "may be tangent or separate depending on $k$"
+    ],
+    "answer": 1,
+    "explanation": "Every line $y=kx+1$ passes through $(0,1)$, and $0^2+1^2=1<4$, so this point is **inside** the circle. A line through an interior point always meets the circle at two points.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "m-line-16",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "lines-circles",
+    "difficulty": 1,
+    "question": "The midpoint of $A(2,-1)$ and $B(-4,5)$ is",
+    "options": [
+      "$(-2,4)$",
+      "$(3,-3)$",
+      "$(-1,2)$",
+      "$(-1,3)$"
+    ],
+    "answer": 2,
+    "explanation": "Midpoint $=\\left(\\dfrac{2+(-4)}2,\\dfrac{-1+5}2\\right)=(-1,2)$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-con-01",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "conics",
+    "difficulty": 1,
+    "question": "The foci of the ellipse $\\dfrac{x^2}{25}+\\dfrac{y^2}{9}=1$ are",
+    "options": [
+      "$(0,\\pm4)$",
+      "$(\\pm4,0)$",
+      "$(\\pm5,0)$",
+      "$(\\pm\\sqrt{34},0)$"
+    ],
+    "answer": 1,
+    "explanation": "$a^2=25$ (under $x^2$, so the major axis is horizontal), $b^2=9$, $c^2=a^2-b^2=16$, $c=4$. Foci $(\\pm4,0)$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-con-02",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "conics",
+    "difficulty": 2,
+    "question": "The eccentricity of the ellipse $\\dfrac{x^2}{4}+\\dfrac{y^2}{3}=1$ is",
+    "options": [
+      "$\\dfrac{\\sqrt3}{2}$",
+      "$\\dfrac{\\sqrt7}{2}$",
+      "$\\dfrac14$",
+      "$\\dfrac12$"
+    ],
+    "answer": 3,
+    "explanation": "$a=2$, $c=\\sqrt{4-3}=1$, so $e=\\dfrac ca=\\dfrac12$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-con-03",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "conics",
+    "difficulty": 2,
+    "question": "The asymptotes of the hyperbola $\\dfrac{x^2}{9}-\\dfrac{y^2}{16}=1$ are",
+    "options": [
+      "$y=\\pm\\dfrac34x$",
+      "$y=\\pm\\dfrac43x$",
+      "$y=\\pm\\dfrac{16}9x$",
+      "$y=\\pm\\dfrac53x$"
+    ],
+    "answer": 1,
+    "explanation": "For $\\dfrac{x^2}{a^2}-\\dfrac{y^2}{b^2}=1$ the asymptotes are $y=\\pm\\dfrac bax$. Here $a=3$, $b=4$: $y=\\pm\\dfrac43x$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-con-04",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "conics",
+    "difficulty": 1,
+    "question": "The focus of the parabola $y^2=8x$ is",
+    "options": [
+      "$(4,0)$",
+      "$(2,0)$",
+      "$(0,2)$",
+      "$(-2,0)$"
+    ],
+    "answer": 1,
+    "explanation": "Compare with $y^2=2px$: $2p=8$, $p=4$, focus $\\left(\\dfrac p2,0\\right)=(2,0)$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-con-05",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "conics",
+    "difficulty": 1,
+    "question": "The directrix of the parabola $x^2=4y$ is",
+    "options": [
+      "$y=-1$",
+      "$y=1$",
+      "$x=-1$",
+      "$y=-2$"
+    ],
+    "answer": 0,
+    "explanation": "$x^2=2py$ with $2p=4$, so $\\dfrac p2=1$. Focus $(0,1)$, directrix $y=-1$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-con-06",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "conics",
+    "difficulty": 2,
+    "question": "An ellipse has foci $(\\pm3,0)$ and major axis of length $10$. Its equation is",
+    "options": [
+      "$\\dfrac{x^2}{25}+\\dfrac{y^2}{9}=1$",
+      "$\\dfrac{x^2}{16}+\\dfrac{y^2}{25}=1$",
+      "$\\dfrac{x^2}{25}+\\dfrac{y^2}{16}=1$",
+      "$\\dfrac{x^2}{100}+\\dfrac{y^2}{91}=1$"
+    ],
+    "answer": 2,
+    "explanation": "$2a=10\\Rightarrow a=5$; $c=3$; $b^2=a^2-c^2=16$. Foci on the $x$-axis: $\\dfrac{x^2}{25}+\\dfrac{y^2}{16}=1$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-con-07",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "conics",
+    "difficulty": 2,
+    "question": "$P$ is a point on the ellipse $\\dfrac{x^2}{16}+\\dfrac{y^2}{9}=1$ with foci $F_1$, $F_2$. Then $|PF_1|+|PF_2|=$",
+    "options": [
+      "$6$",
+      "$4$",
+      "$8$",
+      "$2\\sqrt7$"
+    ],
+    "answer": 2,
+    "explanation": "By the definition of an ellipse, $|PF_1|+|PF_2|=2a=2\\cdot4=8$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-con-08",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "conics",
+    "difficulty": 2,
+    "question": "$F_1$, $F_2$ are the foci of the ellipse $\\dfrac{x^2}{25}+\\dfrac{y^2}{16}=1$ and $P$ is on the ellipse. The perimeter of $\\triangle PF_1F_2$ is",
+    "options": [
+      "$10$",
+      "$18$",
+      "$13$",
+      "$16$"
+    ],
+    "answer": 3,
+    "explanation": "$|PF_1|+|PF_2|=2a=10$ and $|F_1F_2|=2c=2\\sqrt{25-16}=6$. Perimeter $=16$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-con-09",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "conics",
+    "difficulty": 2,
+    "question": "One asymptote of the hyperbola $\\dfrac{x^2}{a^2}-\\dfrac{y^2}{b^2}=1$ $(a,b>0)$ is $y=2x$. Its eccentricity is",
+    "options": [
+      "$\\dfrac{\\sqrt5}{2}$",
+      "$\\sqrt5$",
+      "$\\sqrt3$",
+      "$2$"
+    ],
+    "answer": 1,
+    "explanation": "$\\dfrac ba=2$, so $e=\\dfrac ca=\\sqrt{\\dfrac{a^2+b^2}{a^2}}=\\sqrt{1+\\left(\\dfrac ba\\right)^2}=\\sqrt5$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-con-10",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "conics",
+    "difficulty": 2,
+    "question": "A point $P$ on the parabola $y^2=4x$ has $x$-coordinate $3$. The distance from $P$ to the focus is",
+    "options": [
+      "$3$",
+      "$4$",
+      "$2\\sqrt3$",
+      "$5$"
+    ],
+    "answer": 1,
+    "explanation": "Distance to the focus = distance to the directrix $x=-1$ (definition of a parabola): $3-(-1)=4$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-con-11",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "conics",
+    "difficulty": 3,
+    "question": "The ellipse $\\dfrac{x^2}{m}+\\dfrac{y^2}{4}=1$ has its foci on the $y$-axis and eccentricity $\\dfrac12$. Then $m=$",
+    "options": [
+      "$\\dfrac{16}3$",
+      "$3$",
+      "$2$",
+      "$5$"
+    ],
+    "answer": 1,
+    "explanation": "Foci on the $y$-axis means $a^2=4$, $b^2=m$ (with $m<4$). $e^2=\\dfrac{c^2}{a^2}=\\dfrac{4-m}4=\\dfrac14$, so $m=3$. ($\\tfrac{16}3$ would put the foci on the $x$-axis.)",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-con-12",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "conics",
+    "difficulty": 3,
+    "question": "The equation $\\dfrac{x^2}{k-2}+\\dfrac{y^2}{5-k}=1$ represents an ellipse with foci on the $x$-axis. The range of $k$ is",
+    "options": [
+      "$(2,5)$",
+      "$\\left(2,\\dfrac72\\right)$",
+      "$(5,+\\infty)$",
+      "$\\left(\\dfrac72,5\\right)$"
+    ],
+    "answer": 3,
+    "explanation": "Need both denominators positive and the $x^2$ denominator larger: $k-2>5-k>0$. So $k>\\dfrac72$ and $k<5$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-con-13",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "conics",
+    "difficulty": 3,
+    "question": "$F_1$, $F_2$ are the left and right foci of $\\dfrac{x^2}{4}-\\dfrac{y^2}{5}=1$. $P$ is on the right branch with $|PF_1|=6$. Then $|PF_2|=$",
+    "options": [
+      "$10$",
+      "$4$",
+      "$2$",
+      "$8$"
+    ],
+    "answer": 2,
+    "explanation": "On the right branch $|PF_1|-|PF_2|=2a=4$, so $|PF_2|=2$. This is possible because the minimum of $|PF_2|$ on the right branch is $c-a=3-2=1\\le2$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-con-14",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "conics",
+    "difficulty": 2,
+    "question": "The length of the major axis of the ellipse $4x^2+y^2=16$ is",
+    "options": [
+      "$4$",
+      "$8$",
+      "$16$",
+      "$2$"
+    ],
+    "answer": 1,
+    "explanation": "Divide by $16$: $\\dfrac{x^2}4+\\dfrac{y^2}{16}=1$. Then $a^2=16$, $a=4$, major axis $2a=8$ (along the $y$-axis).",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-con-15",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "conics",
+    "difficulty": 2,
+    "question": "The focus of the parabola $y=2x^2$ is",
+    "options": [
+      "$\\left(\\dfrac12,0\\right)$",
+      "$\\left(0,\\dfrac12\\right)$",
+      "$\\left(0,\\dfrac18\\right)$",
+      "$\\left(0,1\\right)$"
+    ],
+    "answer": 2,
+    "explanation": "First rewrite in standard form: $x^2=\\dfrac12y$, so $2p=\\dfrac12$, $\\dfrac p2=\\dfrac18$. Focus $\\left(0,\\dfrac18\\right)$. (Reading $y=2x^2$ as if it were $y^2=2x$ is a common slip.)",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-con-16",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "conics",
+    "difficulty": 2,
+    "question": "The parabola with vertex at the origin and focus $(0,-2)$ is",
+    "options": [
+      "$x^2=8y$",
+      "$y^2=-8x$",
+      "$x^2=-8y$",
+      "$x^2=-4y$"
+    ],
+    "answer": 2,
+    "explanation": "Focus on the negative $y$-axis: $x^2=-2py$ with $\\dfrac p2=2$, $p=4$. So $x^2=-8y$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-con-17",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "conics",
+    "difficulty": 3,
+    "question": "A hyperbola has the same foci as the ellipse $\\dfrac{x^2}{25}+\\dfrac{y^2}{9}=1$ and eccentricity $2$. Its equation is",
+    "options": [
+      "$\\dfrac{x^2}{12}-\\dfrac{y^2}{4}=1$",
+      "$\\dfrac{x^2}{4}-\\dfrac{y^2}{20}=1$",
+      "$\\dfrac{x^2}{4}-\\dfrac{y^2}{12}=1$",
+      "$\\dfrac{y^2}{4}-\\dfrac{x^2}{12}=1$"
+    ],
+    "answer": 2,
+    "explanation": "Ellipse: $c^2=25-9=16$, foci $(\\pm4,0)$. Hyperbola: $c=4$, $e=\\dfrac ca=2\\Rightarrow a=2$, $b^2=c^2-a^2=12$. Equation $\\dfrac{x^2}4-\\dfrac{y^2}{12}=1$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-con-18",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "conics",
+    "difficulty": 3,
+    "question": "The line $y=x-1$ passes through the focus of the parabola $y^2=4x$ and meets it at $A$ and $B$. Then $|AB|=$",
+    "options": [
+      "$6$",
+      "$4$",
+      "$8$",
+      "$4\\sqrt2$"
+    ],
+    "answer": 2,
+    "explanation": "Substitute: $(x-1)^2=4x\\Rightarrow x^2-6x+1=0$, so $x_1+x_2=6$.\n\nFor a focal chord, $|AB|=|AF|+|BF|=(x_1+1)+(x_2+1)=x_1+x_2+2=8$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-con-19",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "conics",
+    "difficulty": 3,
+    "question": "A chord of the ellipse $\\dfrac{x^2}{4}+\\dfrac{y^2}{2}=1$ has midpoint $\\left(1,\\dfrac12\\right)$. The slope of the chord is",
+    "options": [
+      "$1$",
+      "$-\\dfrac12$",
+      "$-1$",
+      "$-2$"
+    ],
+    "answer": 2,
+    "explanation": "Point-difference method: subtract $\\dfrac{x_1^2}4+\\dfrac{y_1^2}2=1$ and $\\dfrac{x_2^2}4+\\dfrac{y_2^2}2=1$:\n$$\\frac{(x_1+x_2)(x_1-x_2)}4+\\frac{(y_1+y_2)(y_1-y_2)}2=0.$$\nWith $x_1+x_2=2$ and $y_1+y_2=1$: $\\dfrac{2}{4}+\\dfrac12k=0$, so $k=-1$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-con-20",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "conics",
+    "difficulty": 2,
+    "question": "The eccentricity of the hyperbola $x^2-y^2=1$ is",
+    "options": [
+      "$\\sqrt2$",
+      "$1$",
+      "$2$",
+      "$\\dfrac{\\sqrt2}{2}$"
+    ],
+    "answer": 0,
+    "explanation": "$a^2=b^2=1$, $c^2=a^2+b^2=2$, so $e=\\dfrac ca=\\sqrt2$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-con-21",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "conics",
+    "difficulty": 3,
+    "question": "The distance from a focus of the hyperbola $\\dfrac{x^2}{4}-\\dfrac{y^2}{12}=1$ to an asymptote is",
+    "options": [
+      "$2\\sqrt3$",
+      "$2$",
+      "$4$",
+      "$\\sqrt3$"
+    ],
+    "answer": 0,
+    "explanation": "Focus $(4,0)$, asymptote $\\sqrt3x-y=0$. $d=\\dfrac{|4\\sqrt3|}{\\sqrt{3+1}}=2\\sqrt3$. In general this distance always equals $b$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-con-22",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "conics",
+    "difficulty": 1,
+    "question": "Which equation represents a hyperbola whose foci lie on the $y$-axis?",
+    "options": [
+      "$\\dfrac{x^2}{4}-\\dfrac{y^2}{9}=1$",
+      "$\\dfrac{x^2}{9}+\\dfrac{y^2}{4}=1$",
+      "$\\dfrac{y^2}{4}-\\dfrac{x^2}{9}=1$",
+      "$\\dfrac{y^2}{9}+\\dfrac{x^2}{4}=1$"
+    ],
+    "answer": 2,
+    "explanation": "A hyperbola has a minus sign; its foci are on the axis of the **positive** squared term. In $\\dfrac{y^2}4-\\dfrac{x^2}9=1$ the $y^2$ term is positive. The last two equations are ellipses.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "m-vec-01",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "vectors",
+    "difficulty": 2,
+    "question": "Given $\\vec a=(1,2)$ and $\\vec b=(3,-1)$, $\\vec a+2\\vec b=$",
+    "options": [
+      "$(4,1)$",
+      "$(5,3)$",
+      "$(7,4)$",
+      "$(7,0)$"
+    ],
+    "answer": 3,
+    "explanation": "$2\\vec b=(6,-2)$, so $\\vec a+2\\vec b=(1+6,\\,2-2)=(7,0)$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-vec-02",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "vectors",
+    "difficulty": 1,
+    "question": "Given $\\vec a=(2,3)$ and $\\vec b=(-1,4)$, $\\vec a\\cdot\\vec b=$",
+    "options": [
+      "$14$",
+      "$10$",
+      "$5$",
+      "$(-2,12)$"
+    ],
+    "answer": 1,
+    "explanation": "$\\vec a\\cdot\\vec b=2\\cdot(-1)+3\\cdot4=10$. The dot product is a number, not a vector.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-vec-03",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "vectors",
+    "difficulty": 1,
+    "question": "If $\\vec a=(3,-4)$, then $|\\vec a|=$",
+    "options": [
+      "$5$",
+      "$1$",
+      "$7$",
+      "$25$"
+    ],
+    "answer": 0,
+    "explanation": "$|\\vec a|=\\sqrt{3^2+(-4)^2}=\\sqrt{25}=5$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-vec-04",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "vectors",
+    "difficulty": 1,
+    "question": "Given $\\vec a=(1,2)$ and $\\vec b=(x,4)$ with $\\vec a\\parallel\\vec b$, then $x=$",
+    "options": [
+      "$2$",
+      "$-8$",
+      "$8$",
+      "$-2$"
+    ],
+    "answer": 0,
+    "explanation": "Parallel: $x_1y_2-x_2y_1=0$, i.e. $1\\cdot4-2x=0$, $x=2$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-vec-05",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "vectors",
+    "difficulty": 1,
+    "question": "Given $\\vec a=(1,2)$ and $\\vec b=(x,1)$ with $\\vec a\\perp\\vec b$, then $x=$",
+    "options": [
+      "$2$",
+      "$\\dfrac12$",
+      "$-\\dfrac12$",
+      "$-2$"
+    ],
+    "answer": 3,
+    "explanation": "Perpendicular: $\\vec a\\cdot\\vec b=x+2=0$, so $x=-2$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-vec-06",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "vectors",
+    "difficulty": 2,
+    "question": "$|\\vec a|=2$, $|\\vec b|=3$ and the angle between them is $60^\\circ$. Then $\\vec a\\cdot\\vec b=$",
+    "options": [
+      "$6$",
+      "$3\\sqrt3$",
+      "$\\dfrac32$",
+      "$3$"
+    ],
+    "answer": 3,
+    "explanation": "$\\vec a\\cdot\\vec b=|\\vec a||\\vec b|\\cos60^\\circ=2\\cdot3\\cdot\\dfrac12=3$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-vec-07",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "vectors",
+    "difficulty": 3,
+    "question": "$|\\vec a|=1$, $|\\vec b|=2$ and the angle between them is $120^\\circ$. Then $|\\vec a+\\vec b|=$",
+    "options": [
+      "$\\sqrt7$",
+      "$\\sqrt3$",
+      "$3$",
+      "$1$"
+    ],
+    "answer": 1,
+    "explanation": "$|\\vec a+\\vec b|^2=|\\vec a|^2+2\\vec a\\cdot\\vec b+|\\vec b|^2=1+2\\cdot(1\\cdot2\\cdot(-\\tfrac12))+4=3$, so $|\\vec a+\\vec b|=\\sqrt3$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-vec-08",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "vectors",
+    "difficulty": 2,
+    "question": "The angle between $\\vec a=(1,1)$ and $\\vec b=(0,2)$ is",
+    "options": [
+      "$\\dfrac\\pi3$",
+      "$\\dfrac\\pi4$",
+      "$\\dfrac\\pi2$",
+      "$\\dfrac{3\\pi}{4}$"
+    ],
+    "answer": 1,
+    "explanation": "$\\cos\\theta=\\dfrac{\\vec a\\cdot\\vec b}{|\\vec a||\\vec b|}=\\dfrac{2}{\\sqrt2\\cdot2}=\\dfrac{\\sqrt2}2$, so $\\theta=\\dfrac\\pi4$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-vec-09",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "vectors",
+    "difficulty": 3,
+    "question": "Unit vectors $\\vec a$, $\\vec b$ satisfy $|\\vec a-\\vec b|=1$. The angle between $\\vec a$ and $\\vec b$ is",
+    "options": [
+      "$\\dfrac\\pi3$",
+      "$\\dfrac\\pi6$",
+      "$\\dfrac{2\\pi}3$",
+      "$\\dfrac\\pi2$"
+    ],
+    "answer": 0,
+    "explanation": "$|\\vec a-\\vec b|^2=1-2\\vec a\\cdot\\vec b+1=1$, so $\\vec a\\cdot\\vec b=\\dfrac12=\\cos\\theta$, giving $\\theta=\\dfrac\\pi3$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-vec-10",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "vectors",
+    "difficulty": 2,
+    "question": "The projection (scalar) of $\\vec a=(2,3)$ onto the direction of $\\vec b=(1,0)$ is",
+    "options": [
+      "$2$",
+      "$3$",
+      "$\\sqrt{13}$",
+      "$1$"
+    ],
+    "answer": 0,
+    "explanation": "The scalar projection is $|\\vec a|\\cos\\theta=\\dfrac{\\vec a\\cdot\\vec b}{|\\vec b|}=\\dfrac{2}{1}=2$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-vec-11",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "vectors",
+    "difficulty": 2,
+    "question": "In $\\triangle ABC$, $\\overrightarrow{AB}=(2,1)$ and $\\overrightarrow{AC}=(1,3)$. Then $\\overrightarrow{BC}=$",
+    "options": [
+      "$(1,-2)$",
+      "$(3,4)$",
+      "$(-1,-2)$",
+      "$(-1,2)$"
+    ],
+    "answer": 3,
+    "explanation": "$\\overrightarrow{BC}=\\overrightarrow{AC}-\\overrightarrow{AB}=(1-2,\\,3-1)=(-1,2)$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-vec-12",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "vectors",
+    "difficulty": 1,
+    "question": "In parallelogram $ABCD$, $\\overrightarrow{AB}+\\overrightarrow{AD}=$",
+    "options": [
+      "$\\overrightarrow{BD}$",
+      "$\\overrightarrow{DB}$",
+      "$\\overrightarrow{CA}$",
+      "$\\overrightarrow{AC}$"
+    ],
+    "answer": 3,
+    "explanation": "Parallelogram rule: since $\\overrightarrow{AD}=\\overrightarrow{BC}$, $\\overrightarrow{AB}+\\overrightarrow{AD}=\\overrightarrow{AB}+\\overrightarrow{BC}=\\overrightarrow{AC}$.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "m-vec-13",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "vectors",
+    "difficulty": 2,
+    "question": "Given $\\vec a=(1,m)$ and $\\vec b=(2,-1)$ with $(\\vec a+\\vec b)\\perp\\vec b$, then $m=$",
+    "options": [
+      "$-7$",
+      "$3$",
+      "$7$",
+      "$-3$"
+    ],
+    "answer": 2,
+    "explanation": "$\\vec a+\\vec b=(3,m-1)$. Perpendicular: $(3,m-1)\\cdot(2,-1)=6-(m-1)=0$, so $m=7$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-vec-14",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "vectors",
+    "difficulty": 1,
+    "question": "The unit vector in the same direction as $\\vec a=(3,4)$ is",
+    "options": [
+      "$\\left(\\dfrac45,\\dfrac35\\right)$",
+      "$\\left(\\dfrac35,\\dfrac45\\right)$",
+      "$\\left(-\\dfrac35,-\\dfrac45\\right)$",
+      "$(1,1)$"
+    ],
+    "answer": 1,
+    "explanation": "Divide by the length $|\\vec a|=5$: $\\dfrac{\\vec a}{|\\vec a|}=\\left(\\dfrac35,\\dfrac45\\right)$. The opposite vector $\\left(-\\tfrac35,-\\tfrac45\\right)$ is a unit vector too, but in the opposite direction.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-cpx-01",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "complex-numbers",
+    "difficulty": 1,
+    "question": "Simplify $(1+i)(1-i)$.",
+    "options": [
+      "$0$",
+      "$2$",
+      "$1-i$",
+      "$-2$"
+    ],
+    "answer": 1,
+    "explanation": "$(1+i)(1-i)=1-i^2=1-(-1)=2$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-cpx-02",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "complex-numbers",
+    "difficulty": 1,
+    "question": "Simplify the complex number $i(1+i)$.",
+    "options": [
+      "$-1+i$",
+      "$1+i$",
+      "$1-i$",
+      "$-1-i$"
+    ],
+    "answer": 0,
+    "explanation": "$i(1+i)=i+i^2=i-1=-1+i$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-cpx-03",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "complex-numbers",
+    "difficulty": 1,
+    "question": "The modulus of the complex number $3+4i$ is",
+    "options": [
+      "$7$",
+      "$25$",
+      "$5$",
+      "$1$"
+    ],
+    "answer": 2,
+    "explanation": "$|a+bi|=\\sqrt{a^2+b^2}=\\sqrt{9+16}=5$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-cpx-04",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "complex-numbers",
+    "difficulty": 2,
+    "question": "$\\dfrac{2+i}{1-i}=$",
+    "options": [
+      "$\\dfrac12+\\dfrac32i$",
+      "$\\dfrac32+\\dfrac12i$",
+      "$\\dfrac12-\\dfrac32i$",
+      "$1+3i$"
+    ],
+    "answer": 0,
+    "explanation": "Multiply top and bottom by the conjugate $1+i$: $\\dfrac{(2+i)(1+i)}{(1-i)(1+i)}=\\dfrac{2+3i+i^2}{2}=\\dfrac{1+3i}{2}=\\dfrac12+\\dfrac32i$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-cpx-05",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "complex-numbers",
+    "difficulty": 1,
+    "question": "The conjugate of $z=2-3i$ is",
+    "options": [
+      "$-2+3i$",
+      "$2+3i$",
+      "$-2-3i$",
+      "$3-2i$"
+    ],
+    "answer": 1,
+    "explanation": "The conjugate keeps the real part and changes the sign of the imaginary part: $\\bar z=2+3i$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-cpx-06",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "complex-numbers",
+    "difficulty": 2,
+    "question": "If $z(1+i)=2$, then $|z|=$",
+    "options": [
+      "$2$",
+      "$\\sqrt2$",
+      "$1$",
+      "$2\\sqrt2$"
+    ],
+    "answer": 1,
+    "explanation": "$z=\\dfrac2{1+i}=\\dfrac{2(1-i)}{2}=1-i$, so $|z|=\\sqrt2$. (Or directly: $|z|=\\dfrac{|2|}{|1+i|}=\\dfrac2{\\sqrt2}=\\sqrt2$.)",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-cpx-07",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "complex-numbers",
+    "difficulty": 2,
+    "question": "In the complex plane, the point representing $z=\\dfrac{1+2i}{i}$ lies in the",
+    "options": [
+      "Fourth quadrant",
+      "First quadrant",
+      "Second quadrant",
+      "Third quadrant"
+    ],
+    "answer": 0,
+    "explanation": "$\\dfrac{1+2i}{i}=\\dfrac{(1+2i)(-i)}{i(-i)}=\\dfrac{-i-2i^2}{1}=2-i$. The point $(2,-1)$ is in the fourth quadrant.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-cpx-08",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "complex-numbers",
+    "difficulty": 2,
+    "question": "If $(a+i)(1+i)$ is a purely imaginary number ($a\\in\\mathbb{R}$), then $a=$",
+    "options": [
+      "$-1$",
+      "$0$",
+      "$2$",
+      "$1$"
+    ],
+    "answer": 3,
+    "explanation": "$(a+i)(1+i)=a+ai+i+i^2=(a-1)+(a+1)i$. Purely imaginary: real part $a-1=0$ and imaginary part $a+1\\ne0$. So $a=1$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-cpx-09",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "complex-numbers",
+    "difficulty": 1,
+    "question": "$i^{2026}=$",
+    "options": [
+      "$1$",
+      "$i$",
+      "$-1$",
+      "$-i$"
+    ],
+    "answer": 2,
+    "explanation": "Powers of $i$ repeat every $4$. $2026=4\\times506+2$, so $i^{2026}=i^2=-1$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-cpx-10",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "complex-numbers",
+    "difficulty": 3,
+    "question": "The complex number $z=x+yi$ satisfies $|z-1|=|z+i|$. The locus of the point $(x,y)$ is the line",
+    "options": [
+      "$y=x$",
+      "$x=1$",
+      "$y=-1$",
+      "$y=-x$"
+    ],
+    "answer": 3,
+    "explanation": "$|z-1|$ is the distance to $(1,0)$ and $|z+i|$ the distance to $(0,-1)$, so the locus is the perpendicular bisector of these two points.\n\nAlgebraically: $(x-1)^2+y^2=x^2+(y+1)^2\\Rightarrow-2x=2y$, i.e. $y=-x$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-cpx-11",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "complex-numbers",
+    "difficulty": 2,
+    "question": "The real part of $\\dfrac{(1+i)^2}{1-i}$ is",
+    "options": [
+      "$1$",
+      "$0$",
+      "$2$",
+      "$-1$"
+    ],
+    "answer": 3,
+    "explanation": "$(1+i)^2=2i$, and $\\dfrac{2i}{1-i}=\\dfrac{2i(1+i)}{2}=i+i^2=-1+i$. Real part: $-1$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-cpx-12",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "complex-numbers",
+    "difficulty": 2,
+    "question": "If $z=1+i$, then $z^2-2z=$",
+    "options": [
+      "$2$",
+      "$-2+4i$",
+      "$-2$",
+      "$4i$"
+    ],
+    "answer": 2,
+    "explanation": "$z^2=(1+i)^2=2i$ and $2z=2+2i$, so $z^2-2z=2i-2-2i=-2$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-sol-01",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "solid-geometry",
+    "difficulty": 1,
+    "question": "In a space rectangular coordinate system, the distance between $A(1,2,3)$ and $B(4,6,3)$ is",
+    "options": [
+      "$7$",
+      "$5$",
+      "$25$",
+      "$\\sqrt{7}$"
+    ],
+    "answer": 1,
+    "explanation": "$|AB|=\\sqrt{(4-1)^2+(6-2)^2+(3-3)^2}=\\sqrt{9+16}=5$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-sol-02",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "solid-geometry",
+    "difficulty": 1,
+    "question": "The midpoint of $A(2,-1,4)$ and $B(0,3,-2)$ is",
+    "options": [
+      "$(1,1,1)$",
+      "$(2,2,2)$",
+      "$(1,-2,3)$",
+      "$(-1,2,-3)$"
+    ],
+    "answer": 0,
+    "explanation": "Average each coordinate: $\\left(\\dfrac{2+0}2,\\dfrac{-1+3}2,\\dfrac{4-2}2\\right)=(1,1,1)$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-sol-03",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "solid-geometry",
+    "difficulty": 1,
+    "question": "The surface area of a sphere of radius $2$ is",
+    "options": [
+      "$\\dfrac{32\\pi}{3}$",
+      "$8\\pi$",
+      "$4\\pi$",
+      "$16\\pi$"
+    ],
+    "answer": 3,
+    "explanation": "$S=4\\pi r^2=4\\pi\\cdot4=16\\pi$. ($\\tfrac{32\\pi}3$ is the volume $\\tfrac43\\pi r^3$.)",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-sol-04",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "solid-geometry",
+    "difficulty": 2,
+    "question": "The volume of a cone with base radius $3$ and height $4$ is",
+    "options": [
+      "$36\\pi$",
+      "$12\\pi$",
+      "$15\\pi$",
+      "$24\\pi$"
+    ],
+    "answer": 1,
+    "explanation": "$V=\\dfrac13\\pi r^2h=\\dfrac13\\pi\\cdot9\\cdot4=12\\pi$. Forgetting the $\\tfrac13$ gives the cylinder's volume $36\\pi$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-sol-05",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "solid-geometry",
+    "difficulty": 2,
+    "question": "The length of a space diagonal of a cube with edge $2$ is",
+    "options": [
+      "$2\\sqrt2$",
+      "$4$",
+      "$\\sqrt3$",
+      "$2\\sqrt3$"
+    ],
+    "answer": 3,
+    "explanation": "Space diagonal $=\\sqrt{a^2+a^2+a^2}=a\\sqrt3=2\\sqrt3$. ($2\\sqrt2$ is a face diagonal.)",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-sol-06",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "solid-geometry",
+    "difficulty": 3,
+    "question": "All eight vertices of a cube with edge $2$ lie on a sphere. The surface area of the sphere is",
+    "options": [
+      "$12\\pi$",
+      "$4\\sqrt3\\pi$",
+      "$16\\pi$",
+      "$8\\pi$"
+    ],
+    "answer": 0,
+    "explanation": "The diameter of the circumscribed sphere is the space diagonal $2\\sqrt3$, so $R=\\sqrt3$ and $S=4\\pi R^2=12\\pi$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-sol-07",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "solid-geometry",
+    "difficulty": 2,
+    "question": "The total surface area of a cylinder with base radius $1$ and height $2$ is",
+    "options": [
+      "$4\\pi$",
+      "$2\\pi$",
+      "$6\\pi$",
+      "$5\\pi$"
+    ],
+    "answer": 2,
+    "explanation": "Two bases $2\\pi r^2=2\\pi$ plus the lateral surface $2\\pi rh=4\\pi$: total $6\\pi$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-sol-08",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "solid-geometry",
+    "difficulty": 3,
+    "question": "The volume of a regular tetrahedron with edge length $2$ is",
+    "options": [
+      "$\\dfrac{2\\sqrt2}{3}$",
+      "$\\dfrac{\\sqrt2}{3}$",
+      "$\\dfrac{8}{3}$",
+      "$2\\sqrt3$"
+    ],
+    "answer": 0,
+    "explanation": "Base: equilateral triangle, area $\\dfrac{\\sqrt3}4\\cdot4=\\sqrt3$. The foot of the height is the centroid, at distance $\\dfrac{2}{\\sqrt3}$ from each vertex, so $h=\\sqrt{4-\\dfrac43}=\\dfrac{2\\sqrt6}3$.\n$$V=\\frac13\\cdot\\sqrt3\\cdot\\frac{2\\sqrt6}3=\\frac{2\\sqrt{18}}9=\\frac{2\\sqrt2}3.$$",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-sol-09",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "solid-geometry",
+    "difficulty": 2,
+    "question": "A cone has slant height $5$ and base radius $3$. Its lateral surface area is",
+    "options": [
+      "$24\\pi$",
+      "$15\\pi$",
+      "$12\\pi$",
+      "$30\\pi$"
+    ],
+    "answer": 1,
+    "explanation": "Lateral area $=\\pi rl=\\pi\\cdot3\\cdot5=15\\pi$. (Adding the base, $9\\pi$, gives the total $24\\pi$.)",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-sol-10",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "solid-geometry",
+    "difficulty": 2,
+    "question": "The point symmetric to $P(1,2,3)$ with respect to the plane $xOy$ is",
+    "options": [
+      "$(-1,-2,3)$",
+      "$(-1,-2,-3)$",
+      "$(-1,2,3)$",
+      "$(1,2,-3)$"
+    ],
+    "answer": 3,
+    "explanation": "Reflection in the $xOy$ plane keeps $x$ and $y$ and changes the sign of $z$: $(1,2,-3)$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-sol-11",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "solid-geometry",
+    "difficulty": 2,
+    "question": "The distance from the point $(2,-3,1)$ to the $z$-axis is",
+    "options": [
+      "$\\sqrt{14}$",
+      "$\\sqrt{13}$",
+      "$1$",
+      "$\\sqrt{5}$"
+    ],
+    "answer": 1,
+    "explanation": "The nearest point on the $z$-axis is $(0,0,1)$, so the distance is $\\sqrt{2^2+(-3)^2}=\\sqrt{13}$. Only $x$ and $y$ matter.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-sol-12",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "solid-geometry",
+    "difficulty": 1,
+    "question": "A rectangular box measures $3\\times4\\times12$. The length of its diagonal is",
+    "options": [
+      "$13$",
+      "$19$",
+      "$5$",
+      "$\\sqrt{153}$"
+    ],
+    "answer": 0,
+    "explanation": "$d=\\sqrt{3^2+4^2+12^2}=\\sqrt{169}=13$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-sol-13",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "solid-geometry",
+    "difficulty": 1,
+    "question": "Which statement is correct ($a,b$ are lines, $\\alpha$ is a plane)?",
+    "options": [
+      "If $a\\parallel\\alpha$ and $b\\parallel\\alpha$, then $a\\parallel b$",
+      "If $a\\perp b$ and $b\\perp\\alpha$, then $a\\perp\\alpha$",
+      "If $a\\perp\\alpha$ and $b\\perp\\alpha$, then $a\\parallel b$",
+      "If $a\\parallel\\alpha$ and $b\\subset\\alpha$, then $a\\parallel b$"
+    ],
+    "answer": 2,
+    "explanation": "Two lines perpendicular to the same plane are parallel — a basic theorem.\n\nThe others fail: two lines parallel to a plane can intersect or be skew; if $a\\perp b$ and $b\\perp\\alpha$ then $a$ is parallel to (or lies in) $\\alpha$; a line parallel to a plane can be skew to a line in the plane.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "m-sol-14",
+    "subject": "math",
+    "topic": "geometry-algebra",
+    "subtopic": "solid-geometry",
+    "difficulty": 3,
+    "question": "All vertices of a rectangular box with edges $1$, $1$ and $\\sqrt2$ lie on a sphere. The volume of the sphere is",
+    "options": [
+      "$4\\pi$",
+      "$\\dfrac{4\\pi}{3}$",
+      "$\\dfrac{32\\pi}{3}$",
+      "$\\dfrac{\\sqrt2\\pi}{3}$"
+    ],
+    "answer": 1,
+    "explanation": "The sphere's diameter is the box diagonal $\\sqrt{1+1+2}=2$, so $R=1$ and $V=\\dfrac43\\pi R^3=\\dfrac{4\\pi}3$.",
+    "tags": [
+      "numeric"
+    ]
+  }
+]

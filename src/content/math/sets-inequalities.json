@@ -1,0 +1,838 @@
+[
+  {
+    "id": "m-sets-01",
+    "subject": "math",
+    "topic": "sets-inequalities",
+    "subtopic": "sets",
+    "difficulty": 1,
+    "question": "Let $A=\\{1,2,3,4\\}$ and $B=\\{2,4,6\\}$. Then $A\\cap B=$",
+    "options": [
+      "$\\{2,4\\}$",
+      "$\\{1,2,3,4,6\\}$",
+      "$\\{1,3\\}$",
+      "$\\{6\\}$"
+    ],
+    "answer": 0,
+    "explanation": "The intersection contains the elements that belong to **both** sets: $2$ and $4$. So $A\\cap B=\\{2,4\\}$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-sets-02",
+    "subject": "math",
+    "topic": "sets-inequalities",
+    "subtopic": "sets",
+    "difficulty": 1,
+    "question": "Let $A=\\{x\\mid -1<x<3\\}$ and $B=\\{x\\mid x\\ge 1\\}$. Then $A\\cup B=$",
+    "options": [
+      "$[1,3)$",
+      "$(-1,1)$",
+      "$(-1,+\\infty)$",
+      "$[1,+\\infty)$"
+    ],
+    "answer": 2,
+    "explanation": "On a number line, $A$ covers $(-1,3)$ and $B$ covers $[1,+\\infty)$. Together they cover everything to the right of $-1$:\n$$A\\cup B=(-1,+\\infty).$$\n(The overlap $[1,3)$ is $A\\cap B$, not $A\\cup B$.)",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-sets-03",
+    "subject": "math",
+    "topic": "sets-inequalities",
+    "subtopic": "sets",
+    "difficulty": 1,
+    "question": "The universal set is $U=\\{1,2,3,4,5,6\\}$ and $A=\\{1,3,5\\}$. Then $\\complement_U A=$",
+    "options": [
+      "$\\{1,3,5\\}$",
+      "$\\{1,2,3,4,5,6\\}$",
+      "$\\varnothing$",
+      "$\\{2,4,6\\}$"
+    ],
+    "answer": 3,
+    "explanation": "The complement of $A$ in $U$ is the set of elements of $U$ that are **not** in $A$: $\\complement_U A=\\{2,4,6\\}$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-sets-04",
+    "subject": "math",
+    "topic": "sets-inequalities",
+    "subtopic": "sets",
+    "difficulty": 1,
+    "question": "How many subsets does the set $\\{a,b,c\\}$ have?",
+    "options": [
+      "$6$",
+      "$7$",
+      "$8$",
+      "$9$"
+    ],
+    "answer": 2,
+    "explanation": "A set with $n$ elements has $2^n$ subsets (each element is either in or out). Here $n=3$, so there are $2^3=8$ subsets, including $\\varnothing$ and the set itself.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-sets-05",
+    "subject": "math",
+    "topic": "sets-inequalities",
+    "subtopic": "sets",
+    "difficulty": 2,
+    "question": "Let $A=\\{x\\in\\mathbb{N}\\mid x<3\\}$. The number of **proper** subsets of $A$ is",
+    "options": [
+      "$3$",
+      "$7$",
+      "$8$",
+      "$6$"
+    ],
+    "answer": 1,
+    "explanation": "$\\mathbb{N}$ (the natural numbers) includes $0$, so $A=\\{0,1,2\\}$ has $3$ elements.\n\nNumber of subsets $=2^3=8$; proper subsets exclude $A$ itself: $8-1=7$.\n\nCommon trap: forgetting $0$ gives $A=\\{1,2\\}$ and the wrong answer $3$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-sets-06",
+    "subject": "math",
+    "topic": "sets-inequalities",
+    "subtopic": "sets",
+    "difficulty": 3,
+    "question": "Let $A=\\{x\\mid x^2-3x+2=0\\}$ and $B=\\{x\\mid ax-2=0\\}$. If $B\\subseteq A$, the set of all possible values of $a$ is",
+    "options": [
+      "$\\{0,1,2\\}$",
+      "$\\{1,2\\}$",
+      "$\\{2\\}$",
+      "$\\{0,2\\}$"
+    ],
+    "answer": 0,
+    "explanation": "$A=\\{1,2\\}$. Consider the cases for $B$:\n\n- $a=0$: the equation $0\\cdot x=2$ has no solution, so $B=\\varnothing\\subseteq A$. ✔\n- $a\\neq0$: $B=\\{\\tfrac{2}{a}\\}$. We need $\\tfrac2a=1$ (so $a=2$) or $\\tfrac2a=2$ (so $a=1$).\n\nSo $a\\in\\{0,1,2\\}$. The most common mistake is forgetting the empty-set case $a=0$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-sets-07",
+    "subject": "math",
+    "topic": "sets-inequalities",
+    "subtopic": "sets",
+    "difficulty": 1,
+    "question": "Which of the following statements is correct?",
+    "options": [
+      "$0\\in\\varnothing$",
+      "$\\{0\\}=\\varnothing$",
+      "$\\{0\\}\\in\\{0,1\\}$",
+      "$\\varnothing\\subseteq\\{0\\}$"
+    ],
+    "answer": 3,
+    "explanation": "- The empty set is a subset of **every** set, so $\\varnothing\\subseteq\\{0\\}$ is true.\n- $\\varnothing$ has no elements, so $0\\in\\varnothing$ is false.\n- $\\{0\\}$ has one element, so it is not empty.\n- $\\{0\\}$ is a *subset* of $\\{0,1\\}$, not an *element* of it: use $\\subseteq$, not $\\in$.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "m-sets-08",
+    "subject": "math",
+    "topic": "sets-inequalities",
+    "subtopic": "sets",
+    "difficulty": 2,
+    "question": "Let $A=\\{x\\mid y=\\lg(x-1)\\}$ and $B=\\{y\\mid y=2^x\\}$. Then $(\\complement_{\\mathbb{R}}A)\\cap B=$",
+    "options": [
+      "$(0,1]$",
+      "$(-\\infty,1]$",
+      "$(0,1)$",
+      "$[0,1]$"
+    ],
+    "answer": 0,
+    "explanation": "Read each set carefully — the variable before the bar tells you what the set contains.\n\n- $A$ is a set of $x$-values: the **domain** of $y=\\lg(x-1)$, so $x-1>0$, $A=(1,+\\infty)$.\n- $B$ is a set of $y$-values: the **range** of $y=2^x$, so $B=(0,+\\infty)$.\n\n$\\complement_{\\mathbb{R}}A=(-\\infty,1]$, and $(-\\infty,1]\\cap(0,+\\infty)=(0,1]$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-sets-09",
+    "subject": "math",
+    "topic": "sets-inequalities",
+    "subtopic": "sets",
+    "difficulty": 2,
+    "question": "Let $M=\\{x\\mid |x-1|<2\\}$ and $N=\\{x\\mid x^2<4\\}$. Then $M\\cap N=$",
+    "options": [
+      "$(-2,3)$",
+      "$(-1,2)$",
+      "$(-1,3)$",
+      "$(-2,2)$"
+    ],
+    "answer": 1,
+    "explanation": "$|x-1|<2\\iff -2<x-1<2\\iff -1<x<3$, so $M=(-1,3)$.\n\n$x^2<4\\iff -2<x<2$, so $N=(-2,2)$.\n\nOverlap: $M\\cap N=(-1,2)$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-sets-10",
+    "subject": "math",
+    "topic": "sets-inequalities",
+    "subtopic": "sets",
+    "difficulty": 3,
+    "question": "Let $A=\\{1,2,a\\}$ and $B=\\{1,a^2\\}$. If $A\\cup B=A$, how many real values can $a$ take?",
+    "options": [
+      "$2$",
+      "$3$",
+      "$4$",
+      "$5$"
+    ],
+    "answer": 1,
+    "explanation": "$A\\cup B=A$ means $B\\subseteq A$, so $a^2\\in\\{1,2,a\\}$. Elements of a set must be **distinct**.\n\n- $a^2=1$: then $B=\\{1,1\\}$ is not a valid set. ✘\n- $a^2=2$: $a=\\pm\\sqrt2$, giving $A=\\{1,2,\\pm\\sqrt2\\}$, $B=\\{1,2\\}$. ✔ (two values)\n- $a^2=a$: $a=0$ or $a=1$. $a=1$ makes $A=\\{1,2,1\\}$ invalid; $a=0$ gives $A=\\{1,2,0\\}$, $B=\\{1,0\\}$. ✔\n\nSo $a\\in\\{\\sqrt2,-\\sqrt2,0\\}$: $3$ values.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-sets-11",
+    "subject": "math",
+    "topic": "sets-inequalities",
+    "subtopic": "sets",
+    "difficulty": 1,
+    "question": "Let $A=\\{x\\mid x>2\\}$ and $B=\\{x\\mid x<5\\}$. How many integers belong to $A\\cap B$?",
+    "options": [
+      "$3$",
+      "$4$",
+      "$1$",
+      "$2$"
+    ],
+    "answer": 3,
+    "explanation": "$A\\cap B=\\{x\\mid 2<x<5\\}$. Its integers are $3$ and $4$ (the endpoints $2$ and $5$ are excluded), so there are $2$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-sets-12",
+    "subject": "math",
+    "topic": "sets-inequalities",
+    "subtopic": "sets",
+    "difficulty": 2,
+    "question": "In a class of $40$ students, $25$ like mathematics, $20$ like physics and $8$ like neither. How many like both?",
+    "options": [
+      "$13$",
+      "$5$",
+      "$12$",
+      "$17$"
+    ],
+    "answer": 0,
+    "explanation": "Students who like at least one subject: $40-8=32$.\n\nBy inclusion–exclusion, $|M\\cup P|=|M|+|P|-|M\\cap P|$, so\n$$|M\\cap P|=25+20-32=13.$$",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-ineq-01",
+    "subject": "math",
+    "topic": "sets-inequalities",
+    "subtopic": "inequality-properties",
+    "difficulty": 1,
+    "question": "If $a>b>0$, which of the following must be true?",
+    "options": [
+      "$a^2<b^2$",
+      "$-a>-b$",
+      "$\\dfrac1a<\\dfrac1b$",
+      "$\\dfrac ab<1$"
+    ],
+    "answer": 2,
+    "explanation": "For positive numbers, a larger number has a smaller reciprocal: $a>b>0\\Rightarrow \\dfrac1a<\\dfrac1b$.\n\nThe others fail: squaring positive numbers keeps the order ($a^2>b^2$); multiplying by $-1$ reverses it ($-a<-b$); and $\\dfrac ab>1$.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "m-ineq-02",
+    "subject": "math",
+    "topic": "sets-inequalities",
+    "subtopic": "inequality-properties",
+    "difficulty": 2,
+    "question": "If $a<b<0$, which of the following is true?",
+    "options": [
+      "$\\dfrac1a<\\dfrac1b$",
+      "$a^2>b^2$",
+      "$ab<b^2$",
+      "$|a|<|b|$"
+    ],
+    "answer": 1,
+    "explanation": "Both numbers are negative and $a$ is further from $0$, so $|a|>|b|$ and therefore $a^2>b^2$.\n\nCheck with $a=-2$, $b=-1$: $a^2=4>1=b^2$ ✔; $\\tfrac1a=-\\tfrac12>-1=\\tfrac1b$, so $\\tfrac1a<\\tfrac1b$ is false; $ab=2>1=b^2$, so $ab<b^2$ is false; $|a|=2>|b|=1$.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "m-ineq-03",
+    "subject": "math",
+    "topic": "sets-inequalities",
+    "subtopic": "inequality-properties",
+    "difficulty": 1,
+    "question": "For $x>0$, the minimum value of $x+\\dfrac4x$ is",
+    "options": [
+      "$2$",
+      "$5$",
+      "$4$",
+      "$8$"
+    ],
+    "answer": 2,
+    "explanation": "By AM–GM, for $x>0$: $x+\\dfrac4x\\ge 2\\sqrt{x\\cdot\\dfrac4x}=2\\cdot2=4$.\n\nEquality holds when $x=\\dfrac4x$, i.e. $x=2$, so the minimum $4$ is attained.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-ineq-04",
+    "subject": "math",
+    "topic": "sets-inequalities",
+    "subtopic": "inequality-properties",
+    "difficulty": 2,
+    "question": "For $x>1$, the minimum value of $x+\\dfrac{1}{x-1}$ is",
+    "options": [
+      "$2$",
+      "$1$",
+      "$3$",
+      "$4$"
+    ],
+    "answer": 2,
+    "explanation": "Rewrite so the product is constant: $x+\\dfrac1{x-1}=(x-1)+\\dfrac1{x-1}+1$.\n\nSince $x-1>0$, AM–GM gives $(x-1)+\\dfrac1{x-1}\\ge2$, so the expression is $\\ge 3$, with equality at $x-1=1$, i.e. $x=2$.\n\nTrap: applying AM–GM directly to $x$ and $\\dfrac1{x-1}$ — their product is not constant.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-ineq-05",
+    "subject": "math",
+    "topic": "sets-inequalities",
+    "subtopic": "inequality-properties",
+    "difficulty": 1,
+    "question": "If $a>0$, $b>0$ and $a+b=2$, the maximum value of $ab$ is",
+    "options": [
+      "$2$",
+      "$1$",
+      "$\\dfrac12$",
+      "$4$"
+    ],
+    "answer": 1,
+    "explanation": "By AM–GM, $ab\\le\\left(\\dfrac{a+b}{2}\\right)^2=1$, with equality when $a=b=1$. So the maximum is $1$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-ineq-06",
+    "subject": "math",
+    "topic": "sets-inequalities",
+    "subtopic": "inequality-properties",
+    "difficulty": 3,
+    "question": "If $a>0$, $b>0$ and $a+b=1$, the minimum value of $\\dfrac1a+\\dfrac4b$ is",
+    "options": [
+      "$4$",
+      "$5$",
+      "$9$",
+      "$8$"
+    ],
+    "answer": 2,
+    "explanation": "Multiply by $a+b=1$:\n$$\\left(\\frac1a+\\frac4b\\right)(a+b)=1+4+\\frac ba+\\frac{4a}{b}\\ge5+2\\sqrt{\\frac ba\\cdot\\frac{4a}b}=5+4=9.$$\nEquality when $\\dfrac ba=\\dfrac{4a}b$, i.e. $b=2a$, so $a=\\tfrac13$, $b=\\tfrac23$. Minimum: $9$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-ineq-07",
+    "subject": "math",
+    "topic": "sets-inequalities",
+    "subtopic": "inequality-properties",
+    "difficulty": 1,
+    "question": "Let $M=x^2+3$ and $N=2x+1$ for real $x$. Then",
+    "options": [
+      "$M>N$",
+      "$M<N$",
+      "$M=N$",
+      "It depends on $x$"
+    ],
+    "answer": 0,
+    "explanation": "Compare by subtracting: $M-N=x^2-2x+2=(x-1)^2+1\\ge1>0$ for every real $x$. Hence $M>N$ always.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "m-ineq-08",
+    "subject": "math",
+    "topic": "sets-inequalities",
+    "subtopic": "inequality-properties",
+    "difficulty": 2,
+    "question": "If $-1<a<2$ and $1<b<3$, the range of $a-b$ is",
+    "options": [
+      "$(-4,1)$",
+      "$(-2,-1)$",
+      "$(0,5)$",
+      "$(-4,-1)$"
+    ],
+    "answer": 0,
+    "explanation": "Never subtract inequalities directly. First negate: $1<b<3\\Rightarrow -3<-b<-1$. Now **add**:\n$$-1+(-3)<a+(-b)<2+(-1),\\quad\\text{so}\\quad -4<a-b<1.$$",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-ineq-09",
+    "subject": "math",
+    "topic": "sets-inequalities",
+    "subtopic": "inequality-properties",
+    "difficulty": 3,
+    "question": "If $x>0$, $y>0$ and $2x+y=1$, the maximum value of $xy$ is",
+    "options": [
+      "$\\dfrac18$",
+      "$\\dfrac14$",
+      "$\\dfrac12$",
+      "$\\dfrac1{16}$"
+    ],
+    "answer": 0,
+    "explanation": "Write $xy=\\dfrac12(2x)\\cdot y\\le\\dfrac12\\left(\\dfrac{2x+y}{2}\\right)^2=\\dfrac12\\cdot\\dfrac14=\\dfrac18$.\n\nEquality when $2x=y=\\tfrac12$, i.e. $x=\\tfrac14$, $y=\\tfrac12$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-ineq-10",
+    "subject": "math",
+    "topic": "sets-inequalities",
+    "subtopic": "inequality-properties",
+    "difficulty": 1,
+    "question": "If $a>b$ and $c$ is any real number, which of the following must hold?",
+    "options": [
+      "$ac>bc$",
+      "$a^2>b^2$",
+      "$|a|>|b|$",
+      "$a+c>b+c$"
+    ],
+    "answer": 3,
+    "explanation": "Adding the same number to both sides keeps an inequality true, so $a+c>b+c$.\n\nThe others can fail: if $c\\le0$ then $ac>bc$ is false; with $a=1,b=-2$ we get $a^2<b^2$ and $|a|<|b|$.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "m-quad-01",
+    "subject": "math",
+    "topic": "sets-inequalities",
+    "subtopic": "quadratic-inequalities",
+    "difficulty": 1,
+    "question": "The solution set of $x^2-5x+6<0$ is",
+    "options": [
+      "$(2,3)$",
+      "$(-\\infty,2)\\cup(3,+\\infty)$",
+      "$(-3,-2)$",
+      "$[2,3]$"
+    ],
+    "answer": 0,
+    "explanation": "Factor: $x^2-5x+6=(x-2)(x-3)$. The parabola opens upward, so it is negative **between** its roots:\n$$2<x<3.$$",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-quad-02",
+    "subject": "math",
+    "topic": "sets-inequalities",
+    "subtopic": "quadratic-inequalities",
+    "difficulty": 1,
+    "question": "The solution set of $x^2-x-6\\ge0$ is",
+    "options": [
+      "$(-\\infty,-2]\\cup[3,+\\infty)$",
+      "$[-2,3]$",
+      "$(-\\infty,-3]\\cup[2,+\\infty)$",
+      "$(-\\infty,-2)\\cup(3,+\\infty)$"
+    ],
+    "answer": 0,
+    "explanation": "$x^2-x-6=(x+2)(x-3)$, roots $-2$ and $3$. Upward parabola: non-negative **outside** the roots, and the roots are included because of \"$\\ge$\":\n$$x\\le-2\\ \\text{or}\\ x\\ge3.$$",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-quad-03",
+    "subject": "math",
+    "topic": "sets-inequalities",
+    "subtopic": "quadratic-inequalities",
+    "difficulty": 2,
+    "question": "The solution set of $-x^2+2x+3>0$ is",
+    "options": [
+      "$(-\\infty,-1)\\cup(3,+\\infty)$",
+      "$(-3,1)$",
+      "$(1,3)$",
+      "$(-1,3)$"
+    ],
+    "answer": 3,
+    "explanation": "Multiply by $-1$ and **reverse** the sign: $x^2-2x-3<0$, i.e. $(x+1)(x-3)<0$. So $-1<x<3$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-quad-04",
+    "subject": "math",
+    "topic": "sets-inequalities",
+    "subtopic": "quadratic-inequalities",
+    "difficulty": 2,
+    "question": "The solution set of $x^2+2x+3<0$ is",
+    "options": [
+      "$\\mathbb{R}$",
+      "$\\varnothing$",
+      "$(-3,1)$",
+      "$(-1,3)$"
+    ],
+    "answer": 1,
+    "explanation": "Discriminant: $\\Delta=4-12=-8<0$, so the upward parabola never touches the $x$-axis and $x^2+2x+3>0$ for **every** $x$ (indeed $x^2+2x+3=(x+1)^2+2$).\n\nHence $x^2+2x+3<0$ has no solution: the solution set is $\\varnothing$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-quad-05",
+    "subject": "math",
+    "topic": "sets-inequalities",
+    "subtopic": "quadratic-inequalities",
+    "difficulty": 2,
+    "question": "The solution set of $x^2-4x+4\\le0$ is",
+    "options": [
+      "$\\varnothing$",
+      "$\\mathbb{R}$",
+      "$(-\\infty,2]$",
+      "$\\{2\\}$"
+    ],
+    "answer": 3,
+    "explanation": "$x^2-4x+4=(x-2)^2\\ge0$ for all $x$, and it equals $0$ only at $x=2$. So $(x-2)^2\\le0$ only when $x=2$: the solution set is $\\{2\\}$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-quad-06",
+    "subject": "math",
+    "topic": "sets-inequalities",
+    "subtopic": "quadratic-inequalities",
+    "difficulty": 2,
+    "question": "The solution set of $ax^2+bx+2>0$ is $\\left(-\\dfrac12,\\dfrac13\\right)$. Then $a+b=$",
+    "options": [
+      "$14$",
+      "$-14$",
+      "$-10$",
+      "$10$"
+    ],
+    "answer": 1,
+    "explanation": "The endpoints $-\\tfrac12$ and $\\tfrac13$ are the roots of $ax^2+bx+2=0$, and $a<0$ (the quadratic is positive only between its roots).\n\nBy Vieta: $-\\dfrac12\\cdot\\dfrac13=\\dfrac2a\\Rightarrow a=-12$, and $-\\dfrac12+\\dfrac13=-\\dfrac ba\\Rightarrow -\\dfrac16=\\dfrac{b}{12}\\Rightarrow b=-2$.\n\nSo $a+b=-14$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-quad-07",
+    "subject": "math",
+    "topic": "sets-inequalities",
+    "subtopic": "quadratic-inequalities",
+    "difficulty": 3,
+    "question": "The inequality $x^2+mx+1>0$ holds for **all** real $x$. The range of $m$ is",
+    "options": [
+      "$(-2,2)$",
+      "$[-2,2]$",
+      "$(-\\infty,-2)\\cup(2,+\\infty)$",
+      "$(0,2)$"
+    ],
+    "answer": 0,
+    "explanation": "An upward parabola is always positive exactly when it has no real roots: $\\Delta=m^2-4<0$, so $-2<m<2$.\n\n($m=\\pm2$ gives $\\Delta=0$: the quadratic touches $0$, so \"$>0$ for all $x$\" fails.)",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-quad-08",
+    "subject": "math",
+    "topic": "sets-inequalities",
+    "subtopic": "quadratic-inequalities",
+    "difficulty": 3,
+    "question": "The inequality $kx^2-kx+1>0$ holds for all real $x$. The range of $k$ is",
+    "options": [
+      "$(0,4)$",
+      "$[0,4]$",
+      "$(-\\infty,0)\\cup(4,+\\infty)$",
+      "$[0,4)$"
+    ],
+    "answer": 3,
+    "explanation": "**Case $k=0$:** the inequality becomes $1>0$, which is always true. ✔\n\n**Case $k\\ne0$:** we need an upward parabola with no real roots: $k>0$ and $\\Delta=k^2-4k<0$, i.e. $0<k<4$.\n\nCombining: $0\\le k<4$. Forgetting the case $k=0$ is the classic mistake.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-quad-09",
+    "subject": "math",
+    "topic": "sets-inequalities",
+    "subtopic": "quadratic-inequalities",
+    "difficulty": 2,
+    "question": "How many integers satisfy $x^2-3x-10\\le0$?",
+    "options": [
+      "$8$",
+      "$7$",
+      "$6$",
+      "$9$"
+    ],
+    "answer": 0,
+    "explanation": "$x^2-3x-10=(x+2)(x-5)\\le0\\iff -2\\le x\\le5$. The integers are $-2,-1,0,1,2,3,4,5$: there are $8$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-quad-10",
+    "subject": "math",
+    "topic": "sets-inequalities",
+    "subtopic": "quadratic-inequalities",
+    "difficulty": 1,
+    "question": "The solution set of $(x-1)(x+2)<0$ is",
+    "options": [
+      "$(-1,2)$",
+      "$(-\\infty,-2)\\cup(1,+\\infty)$",
+      "$(1,2)$",
+      "$(-2,1)$"
+    ],
+    "answer": 3,
+    "explanation": "The roots are $1$ and $-2$. The product of two factors is negative when they have opposite signs, i.e. between the roots: $-2<x<1$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-quad-11",
+    "subject": "math",
+    "topic": "sets-inequalities",
+    "subtopic": "quadratic-inequalities",
+    "difficulty": 3,
+    "question": "Given $a>1$, the solution set of $x^2-(a+1)x+a<0$ is",
+    "options": [
+      "$(a,1)$",
+      "$(-\\infty,1)\\cup(a,+\\infty)$",
+      "$(1,a)$",
+      "$\\varnothing$"
+    ],
+    "answer": 2,
+    "explanation": "Factor: $x^2-(a+1)x+a=(x-1)(x-a)$. Since $a>1$, the smaller root is $1$ and the larger is $a$.\n\nThe upward parabola is negative between the roots: $1<x<a$. (If $a<1$ the answer would be $(a,1)$ and if $a=1$ it would be $\\varnothing$ — always compare the roots first.)",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "m-quad-12",
+    "subject": "math",
+    "topic": "sets-inequalities",
+    "subtopic": "quadratic-inequalities",
+    "difficulty": 2,
+    "question": "The solution set of $x^2+px+q<0$ is $(1,4)$. Then $p+q=$",
+    "options": [
+      "$-1$",
+      "$9$",
+      "$1$",
+      "$-9$"
+    ],
+    "answer": 0,
+    "explanation": "$1$ and $4$ are the roots of $x^2+px+q=0$, so $x^2+px+q=(x-1)(x-4)=x^2-5x+4$. Thus $p=-5$, $q=4$ and $p+q=-1$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-rat-01",
+    "subject": "math",
+    "topic": "sets-inequalities",
+    "subtopic": "rational-inequalities",
+    "difficulty": 1,
+    "question": "The solution set of $\\dfrac{x-1}{x+2}<0$ is",
+    "options": [
+      "$(-\\infty,-2)\\cup(1,+\\infty)$",
+      "$(-2,1)$",
+      "$[-2,1)$",
+      "$(-1,2)$"
+    ],
+    "answer": 1,
+    "explanation": "A quotient is negative when numerator and denominator have opposite signs. Equivalent to $(x-1)(x+2)<0$, so $-2<x<1$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-rat-02",
+    "subject": "math",
+    "topic": "sets-inequalities",
+    "subtopic": "rational-inequalities",
+    "difficulty": 1,
+    "question": "The solution set of $\\dfrac{x+3}{x-2}\\ge0$ is",
+    "options": [
+      "$(-\\infty,-3]\\cup[2,+\\infty)$",
+      "$[-3,2)$",
+      "$[-3,2]$",
+      "$(-\\infty,-3]\\cup(2,+\\infty)$"
+    ],
+    "answer": 3,
+    "explanation": "Equivalent to $(x+3)(x-2)\\ge0$ **with** $x\\ne2$. The product is $\\ge0$ for $x\\le-3$ or $x\\ge2$; remove $x=2$ (division by zero):\n$$(-\\infty,-3]\\cup(2,+\\infty).$$",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-rat-03",
+    "subject": "math",
+    "topic": "sets-inequalities",
+    "subtopic": "rational-inequalities",
+    "difficulty": 2,
+    "question": "The solution set of $\\dfrac1x<1$ is",
+    "options": [
+      "$(1,+\\infty)$",
+      "$(0,1)$",
+      "$(-\\infty,1)$",
+      "$(-\\infty,0)\\cup(1,+\\infty)$"
+    ],
+    "answer": 3,
+    "explanation": "Do **not** multiply by $x$ — its sign is unknown. Move everything to one side:\n$$\\frac1x-1<0\\iff\\frac{1-x}{x}<0\\iff\\frac{x-1}{x}>0.$$\nCritical points $0$ and $1$: the quotient is positive for $x<0$ or $x>1$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-rat-04",
+    "subject": "math",
+    "topic": "sets-inequalities",
+    "subtopic": "rational-inequalities",
+    "difficulty": 2,
+    "question": "The solution set of $\\dfrac{2x-1}{x+1}\\le1$ is",
+    "options": [
+      "$[-1,2]$",
+      "$(-\\infty,2]$",
+      "$(-1,2]$",
+      "$(-\\infty,-1)\\cup[2,+\\infty)$"
+    ],
+    "answer": 2,
+    "explanation": "$$\\frac{2x-1}{x+1}-1\\le0\\iff\\frac{2x-1-(x+1)}{x+1}\\le0\\iff\\frac{x-2}{x+1}\\le0.$$\nThis holds between the critical points, including $x=2$ (numerator zero) but excluding $x=-1$ (denominator zero): $(-1,2]$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-rat-05",
+    "subject": "math",
+    "topic": "sets-inequalities",
+    "subtopic": "rational-inequalities",
+    "difficulty": 3,
+    "question": "The solution set of $\\dfrac{3}{x-1}\\ge1$ is",
+    "options": [
+      "$[1,4]$",
+      "$(1,4]$",
+      "$(-\\infty,4]$",
+      "$(1,4)$"
+    ],
+    "answer": 1,
+    "explanation": "$$\\frac3{x-1}-1\\ge0\\iff\\frac{4-x}{x-1}\\ge0\\iff\\frac{x-4}{x-1}\\le0.$$\nSo $1<x\\le4$ (the denominator cannot be zero, so $x\\neq1$).",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-rat-06",
+    "subject": "math",
+    "topic": "sets-inequalities",
+    "subtopic": "rational-inequalities",
+    "difficulty": 3,
+    "question": "The solution set of $\\dfrac{(x-1)(x+2)}{x-3}\\ge0$ is",
+    "options": [
+      "$[-2,1]\\cup[3,+\\infty)$",
+      "$(-\\infty,-2]\\cup[1,3)$",
+      "$(-2,1)\\cup(3,+\\infty)$",
+      "$[-2,1]\\cup(3,+\\infty)$"
+    ],
+    "answer": 3,
+    "explanation": "Critical points: $-2,1$ (numerator) and $3$ (denominator). Sign chart, from the right (all factors positive for large $x$): $+$ on $(3,\\infty)$, $-$ on $(1,3)$, $+$ on $(-2,1)$, $-$ on $(-\\infty,-2)$.\n\nInclude the zeros of the numerator, exclude $x=3$:\n$$[-2,1]\\cup(3,+\\infty).$$",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-rat-07",
+    "subject": "math",
+    "topic": "sets-inequalities",
+    "subtopic": "rational-inequalities",
+    "difficulty": 2,
+    "question": "The solution set of $\\dfrac{x^2-4}{x+1}<0$ is",
+    "options": [
+      "$(-2,-1)\\cup(2,+\\infty)$",
+      "$(-2,2)$",
+      "$(-\\infty,-2)\\cup(2,+\\infty)$",
+      "$(-\\infty,-2)\\cup(-1,2)$"
+    ],
+    "answer": 3,
+    "explanation": "$\\dfrac{(x-2)(x+2)}{x+1}<0$. Critical points $-2,-1,2$. From the right: $+$ on $(2,\\infty)$, $-$ on $(-1,2)$, $+$ on $(-2,-1)$, $-$ on $(-\\infty,-2)$.\n\nNegative parts: $(-\\infty,-2)\\cup(-1,2)$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-rat-08",
+    "subject": "math",
+    "topic": "sets-inequalities",
+    "subtopic": "rational-inequalities",
+    "difficulty": 2,
+    "question": "The solution set of $\\dfrac{x}{x-3}>0$ is",
+    "options": [
+      "$(-\\infty,0)\\cup(3,+\\infty)$",
+      "$(0,3)$",
+      "$(-\\infty,0]\\cup(3,+\\infty)$",
+      "$(3,+\\infty)$"
+    ],
+    "answer": 0,
+    "explanation": "The quotient is positive when $x$ and $x-3$ have the same sign: both positive ($x>3$) or both negative ($x<0$).",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-rat-09",
+    "subject": "math",
+    "topic": "sets-inequalities",
+    "subtopic": "rational-inequalities",
+    "difficulty": 3,
+    "question": "The solution set of $\\dfrac{x+1}{x^2+1}>0$ is",
+    "options": [
+      "$(-\\infty,-1)$",
+      "$(-1,+\\infty)$",
+      "$(-1,1)$",
+      "$(-\\infty,-1)\\cup(1,+\\infty)$"
+    ],
+    "answer": 1,
+    "explanation": "The denominator $x^2+1\\ge1>0$ for every $x$, so the sign of the fraction is the sign of $x+1$. Thus $x+1>0$, i.e. $x>-1$. (Treating $x^2+1$ as if it could be zero or negative is a common slip.)",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "m-rat-10",
+    "subject": "math",
+    "topic": "sets-inequalities",
+    "subtopic": "rational-inequalities",
+    "difficulty": 2,
+    "question": "How many integers satisfy $\\dfrac{x+2}{x-3}\\le0$?",
+    "options": [
+      "$6$",
+      "$4$",
+      "$5$",
+      "$7$"
+    ],
+    "answer": 2,
+    "explanation": "$\\dfrac{x+2}{x-3}\\le0\\iff -2\\le x<3$ (include the numerator's zero, exclude $x=3$). Integers: $-2,-1,0,1,2$ — five of them.",
+    "tags": [
+      "numeric"
+    ]
+  }
+]
