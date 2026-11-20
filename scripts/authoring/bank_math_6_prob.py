@@ -31,7 +31,7 @@ B.q("m-prob-01", "classical-probability", 1,
 B.q("m-prob-02", "classical-probability", 1,
     r"A fair coin is tossed twice. The probability of getting at least one head is",
     [r"$\dfrac34$", r"$\dfrac12$", r"$\dfrac14$", r"$\dfrac23$"],
-    r"Outcomes: HH, HT, TH, TT (equally likely). Only TT has no head, so $P=1-\dfrac14=\dfrac34$. (Listing only \"0, 1 or 2 heads\" as three outcomes is wrong: they are not equally likely.)",
+    r"Outcomes: HH, HT, TH, TT (equally likely). Only TT has no head, so $P=1-\dfrac14=\dfrac34$. (Listing only “0, 1 or 2 heads” as three outcomes is wrong: they are not equally likely.)",
     N(P(*count(product("HT", repeat=2), lambda v: "H" in v))))
 
 B.q("m-prob-03", "classical-probability", 2,

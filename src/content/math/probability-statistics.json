@@ -32,7 +32,7 @@
       "$\\dfrac23$"
     ],
     "answer": 2,
-    "explanation": "Outcomes: HH, HT, TH, TT (equally likely). Only TT has no head, so $P=1-\\dfrac14=\\dfrac34$. (Listing only \\\"0, 1 or 2 heads\\\" as three outcomes is wrong: they are not equally likely.)",
+    "explanation": "Outcomes: HH, HT, TH, TT (equally likely). Only TT has no head, so $P=1-\\dfrac14=\\dfrac34$. (Listing only “0, 1 or 2 heads” as three outcomes is wrong: they are not equally likely.)",
     "tags": [
       "numeric"
     ]

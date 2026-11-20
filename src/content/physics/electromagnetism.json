@@ -1,0 +1,914 @@
+[
+  {
+    "id": "p-es-01",
+    "subject": "physics",
+    "topic": "electromagnetism",
+    "subtopic": "electrostatics",
+    "difficulty": 1,
+    "question": "Two point charges of $2\\times10^{-6}$ C and $3\\times10^{-6}$ C are $0.3$ m apart. Using $k=9\\times10^9\\ \\text{N}\\cdot\\text{m}^2/\\text{C}^2$, the force between them is",
+    "options": [
+      "$0.2$ N",
+      "$1.8$ N",
+      "$6$ N",
+      "$0.6$ N"
+    ],
+    "answer": 3,
+    "explanation": "$F=k\\dfrac{q_1q_2}{r^2}=9\\times10^9\\times\\dfrac{6\\times10^{-12}}{0.09}=0.6$ N (repulsive, since both are positive).",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-es-02",
+    "subject": "physics",
+    "topic": "electromagnetism",
+    "subtopic": "electrostatics",
+    "difficulty": 1,
+    "question": "If the distance between two point charges is halved, the Coulomb force between them becomes",
+    "options": [
+      "$2$ times as large",
+      "half as large",
+      "$4$ times as large",
+      "unchanged"
+    ],
+    "answer": 2,
+    "explanation": "$F\\propto\\dfrac1{r^2}$: halving $r$ multiplies $F$ by $2^2=4$.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "p-es-03",
+    "subject": "physics",
+    "topic": "electromagnetism",
+    "subtopic": "electrostatics",
+    "difficulty": 1,
+    "question": "A charge of $2\\times10^{-8}$ C placed at a point in an electric field experiences a force of $4\\times10^{-4}$ N. The field strength there is",
+    "options": [
+      "$2\\times10^{4}$ N/C",
+      "$8\\times10^{-12}$ N/C",
+      "$5\\times10^{-5}$ N/C",
+      "$2\\times10^{-4}$ N/C"
+    ],
+    "answer": 0,
+    "explanation": "$E=\\dfrac Fq=\\dfrac{4\\times10^{-4}}{2\\times10^{-8}}=2\\times10^4$ N/C. The field strength does not depend on the test charge.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-es-04",
+    "subject": "physics",
+    "topic": "electromagnetism",
+    "subtopic": "electrostatics",
+    "difficulty": 2,
+    "question": "The electric field strength at a distance of $0.2$ m from a point charge $Q=4\\times10^{-9}$ C is ($k=9\\times10^9\\ \\text{N}\\cdot\\text{m}^2/\\text{C}^2$)",
+    "options": [
+      "$180$ N/C",
+      "$900$ N/C",
+      "$1800$ N/C",
+      "$90$ N/C"
+    ],
+    "answer": 1,
+    "explanation": "$E=\\dfrac{kQ}{r^2}=\\dfrac{9\\times10^9\\times4\\times10^{-9}}{0.04}=900$ N/C.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-es-05",
+    "subject": "physics",
+    "topic": "electromagnetism",
+    "subtopic": "electrostatics",
+    "difficulty": 2,
+    "question": "Moving a charge of $3\\times10^{-6}$ C from point $A$ to point $B$, the electric field does $6\\times10^{-4}$ J of work. The potential difference $U_{AB}$ is",
+    "options": [
+      "$18\\times10^{-10}$ V",
+      "$200$ V",
+      "$5\\times10^{-3}$ V",
+      "$-200$ V"
+    ],
+    "answer": 1,
+    "explanation": "$U_{AB}=\\dfrac{W_{AB}}{q}=\\dfrac{6\\times10^{-4}}{3\\times10^{-6}}=200$ V. Positive work on a positive charge means $A$ is at the higher potential.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-es-06",
+    "subject": "physics",
+    "topic": "electromagnetism",
+    "subtopic": "electrostatics",
+    "difficulty": 2,
+    "question": "Two parallel plates $0.02$ m apart have a potential difference of $100$ V. The uniform field between them is",
+    "options": [
+      "$5000$ V/m",
+      "$2$ V/m",
+      "$200$ V/m",
+      "$50$ V/m"
+    ],
+    "answer": 0,
+    "explanation": "In a uniform field $E=\\dfrac Ud=\\dfrac{100}{0.02}=5000$ V/m.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-es-07",
+    "subject": "physics",
+    "topic": "electromagnetism",
+    "subtopic": "electrostatics",
+    "difficulty": 1,
+    "question": "Electric field lines",
+    "options": [
+      "can cross each other",
+      "show the path of every charged particle",
+      "point from positive charges toward negative charges",
+      "are closer together where the field is weaker"
+    ],
+    "answer": 2,
+    "explanation": "Field lines start on positive charges and end on negative ones, never cross (the field has one direction at each point), and are denser where the field is stronger. A particle's path generally does not follow a field line.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "p-es-08",
+    "subject": "physics",
+    "topic": "electromagnetism",
+    "subtopic": "electrostatics",
+    "difficulty": 2,
+    "question": "An electron is accelerated from rest through a potential difference of $100$ V. Its gain in kinetic energy is ($e=1.6\\times10^{-19}$ C)",
+    "options": [
+      "$1.6\\times10^{-17}$ J",
+      "$1.6\\times10^{-19}$ J",
+      "$6.25\\times10^{20}$ J",
+      "$1.6\\times10^{-21}$ J"
+    ],
+    "answer": 0,
+    "explanation": "$E_k=eU=1.6\\times10^{-19}\\times100=1.6\\times10^{-17}$ J (that is, $100$ eV).",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-es-09",
+    "subject": "physics",
+    "topic": "electromagnetism",
+    "subtopic": "electrostatics",
+    "difficulty": 1,
+    "question": "A capacitor of capacitance $10\\ \\mu\\text{F}$ is connected to a $6$ V supply. The charge stored is",
+    "options": [
+      "$60$ C",
+      "$1.67\\times10^{-6}$ C",
+      "$6\\times10^{-6}$ C",
+      "$6\\times10^{-5}$ C"
+    ],
+    "answer": 3,
+    "explanation": "$Q=CU=10\\times10^{-6}\\times6=6\\times10^{-5}$ C. Remember $1\\ \\mu\\text{F}=10^{-6}$ F.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-es-10",
+    "subject": "physics",
+    "topic": "electromagnetism",
+    "subtopic": "electrostatics",
+    "difficulty": 3,
+    "question": "A parallel-plate capacitor stays connected to a battery while the distance between its plates is doubled. Which statement is correct?",
+    "options": [
+      "The charge on the plates is halved",
+      "The voltage between the plates is halved",
+      "The capacitance doubles",
+      "The field between the plates is unchanged"
+    ],
+    "answer": 0,
+    "explanation": "Connected to the battery, $U$ stays constant. $C=\\dfrac{\\varepsilon S}{4\\pi kd}$ halves when $d$ doubles, so $Q=CU$ halves, and $E=\\dfrac Ud$ also halves.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "p-es-11",
+    "subject": "physics",
+    "topic": "electromagnetism",
+    "subtopic": "electrostatics",
+    "difficulty": 2,
+    "question": "A positive charge moves along an electric field line in the direction of the field. Its electric potential energy",
+    "options": [
+      "decreases",
+      "increases",
+      "stays the same",
+      "first increases then decreases"
+    ],
+    "answer": 0,
+    "explanation": "The field does positive work on a positive charge moving along the field, so its potential energy decreases (it moves to lower potential). For a negative charge it would increase.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "p-es-12",
+    "subject": "physics",
+    "topic": "electromagnetism",
+    "subtopic": "electrostatics",
+    "difficulty": 3,
+    "question": "A small ball of mass $2\\times10^{-3}$ kg and charge $1\\times10^{-6}$ C hangs at rest in a uniform **vertical** electric field, with no string (take $g=10\\ \\text{m/s}^2$). The field strength is",
+    "options": [
+      "$2\\times10^{4}$ N/C",
+      "$2\\times10^{-2}$ N/C",
+      "$5\\times10^{-5}$ N/C",
+      "$2\\times10^{3}$ N/C"
+    ],
+    "answer": 0,
+    "explanation": "Balance: $qE=mg\\Rightarrow E=\\dfrac{2\\times10^{-3}\\times10}{1\\times10^{-6}}=2\\times10^4$ N/C, directed upward (for a positive charge).",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-dc-01",
+    "subject": "physics",
+    "topic": "electromagnetism",
+    "subtopic": "dc-circuits",
+    "difficulty": 1,
+    "question": "A $6$ V supply drives a current of $0.5$ A through a resistor. The resistance is",
+    "options": [
+      "$3\\ \\Omega$",
+      "$0.083\\ \\Omega$",
+      "$6.5\\ \\Omega$",
+      "$12\\ \\Omega$"
+    ],
+    "answer": 3,
+    "explanation": "Ohm's law: $R=\\dfrac UI=\\dfrac{6}{0.5}=12\\ \\Omega$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-dc-02",
+    "subject": "physics",
+    "topic": "electromagnetism",
+    "subtopic": "dc-circuits",
+    "difficulty": 1,
+    "question": "Resistors of $4\\ \\Omega$ and $6\\ \\Omega$ are connected in series. The total resistance is",
+    "options": [
+      "$10\\ \\Omega$",
+      "$2.4\\ \\Omega$",
+      "$24\\ \\Omega$",
+      "$2\\ \\Omega$"
+    ],
+    "answer": 0,
+    "explanation": "In series, resistances add: $4+6=10\\ \\Omega$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-dc-03",
+    "subject": "physics",
+    "topic": "electromagnetism",
+    "subtopic": "dc-circuits",
+    "difficulty": 1,
+    "question": "Resistors of $4\\ \\Omega$ and $6\\ \\Omega$ are connected in parallel. The total resistance is",
+    "options": [
+      "$10\\ \\Omega$",
+      "$5\\ \\Omega$",
+      "$0.42\\ \\Omega$",
+      "$2.4\\ \\Omega$"
+    ],
+    "answer": 3,
+    "explanation": "$\\dfrac1R=\\dfrac14+\\dfrac16=\\dfrac5{12}\\Rightarrow R=2.4\\ \\Omega$ (or $\\dfrac{R_1R_2}{R_1+R_2}=\\dfrac{24}{10}$). A parallel combination is always smaller than the smallest branch.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-dc-04",
+    "subject": "physics",
+    "topic": "electromagnetism",
+    "subtopic": "dc-circuits",
+    "difficulty": 1,
+    "question": "A $1000$ W kettle runs for $3$ minutes. The electrical energy it uses is",
+    "options": [
+      "$3000$ J",
+      "$1.8\\times10^{5}$ J",
+      "$333$ J",
+      "$1.8\\times10^{4}$ J"
+    ],
+    "answer": 1,
+    "explanation": "$W=Pt=1000\\times180=1.8\\times10^5$ J. Convert minutes to seconds first.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-dc-05",
+    "subject": "physics",
+    "topic": "electromagnetism",
+    "subtopic": "dc-circuits",
+    "difficulty": 2,
+    "question": "A battery of EMF $3$ V and internal resistance $1\\ \\Omega$ is connected to a $5\\ \\Omega$ resistor. The terminal voltage is",
+    "options": [
+      "$3$ V",
+      "$0.5$ V",
+      "$2.5$ V",
+      "$0.6$ V"
+    ],
+    "answer": 2,
+    "explanation": "$I=\\dfrac{E}{R+r}=\\dfrac36=0.5$ A, so $U=IR=0.5\\times5=2.5$ V. The remaining $0.5$ V is lost across the internal resistance.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-dc-06",
+    "subject": "physics",
+    "topic": "electromagnetism",
+    "subtopic": "dc-circuits",
+    "difficulty": 2,
+    "question": "A $2\\ \\Omega$ resistor carries a current of $3$ A. The power dissipated is",
+    "options": [
+      "$6$ W",
+      "$18$ W",
+      "$12$ W",
+      "$1.5$ W"
+    ],
+    "answer": 1,
+    "explanation": "$P=I^2R=9\\times2=18$ W.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-dc-07",
+    "subject": "physics",
+    "topic": "electromagnetism",
+    "subtopic": "dc-circuits",
+    "difficulty": 2,
+    "question": "A lamp is rated “$6$ V, $3$ W”. Its resistance when working normally is",
+    "options": [
+      "$2\\ \\Omega$",
+      "$12\\ \\Omega$",
+      "$18\\ \\Omega$",
+      "$0.5\\ \\Omega$"
+    ],
+    "answer": 1,
+    "explanation": "$P=\\dfrac{U^2}{R}\\Rightarrow R=\\dfrac{36}{3}=12\\ \\Omega$. (Its rated current is $\\dfrac PU=0.5$ A.)",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-dc-08",
+    "subject": "physics",
+    "topic": "electromagnetism",
+    "subtopic": "dc-circuits",
+    "difficulty": 2,
+    "question": "A $3\\ \\Omega$ resistor is connected in series with a parallel pair of $6\\ \\Omega$ resistors, across a $12$ V supply with negligible internal resistance. The current from the supply is",
+    "options": [
+      "$0.8$ A",
+      "$4$ A",
+      "$2$ A",
+      "$1.33$ A"
+    ],
+    "answer": 2,
+    "explanation": "Parallel pair: $\\dfrac{6\\times6}{12}=3\\ \\Omega$. Total $3+3=6\\ \\Omega$, so $I=\\dfrac{12}{6}=2$ A.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-dc-09",
+    "subject": "physics",
+    "topic": "electromagnetism",
+    "subtopic": "dc-circuits",
+    "difficulty": 3,
+    "question": "In a circuit with a battery (EMF $E$, internal resistance $r$) and a variable resistor $R$, as $R$ is increased the terminal voltage",
+    "options": [
+      "decreases and the current increases",
+      "stays equal to $E$",
+      "increases and the current decreases",
+      "decreases and the current decreases"
+    ],
+    "answer": 2,
+    "explanation": "$I=\\dfrac{E}{R+r}$ decreases as $R$ grows, so the internal voltage drop $Ir$ shrinks and the terminal voltage $U=E-Ir$ increases toward $E$.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "p-dc-10",
+    "subject": "physics",
+    "topic": "electromagnetism",
+    "subtopic": "dc-circuits",
+    "difficulty": 2,
+    "question": "A copper wire has resistance $R$. It is stretched uniformly to twice its length (its volume is unchanged). Its new resistance is",
+    "options": [
+      "$4R$",
+      "$2R$",
+      "$R$",
+      "$\\dfrac R2$"
+    ],
+    "answer": 0,
+    "explanation": "$R=\\rho\\dfrac LS$. Doubling $L$ at constant volume halves the cross-section $S$, so $R'=\\rho\\dfrac{2L}{S/2}=4R$.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "p-dc-11",
+    "subject": "physics",
+    "topic": "electromagnetism",
+    "subtopic": "dc-circuits",
+    "difficulty": 1,
+    "question": "Two resistors are connected in parallel. Which quantity is the same for both?",
+    "options": [
+      "The voltage across them",
+      "The current through them",
+      "The power in them",
+      "Their resistance"
+    ],
+    "answer": 0,
+    "explanation": "Parallel components are connected across the same two points, so they have the same potential difference. Currents divide in inverse proportion to resistance.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "p-dc-12",
+    "subject": "physics",
+    "topic": "electromagnetism",
+    "subtopic": "dc-circuits",
+    "difficulty": 3,
+    "question": "A battery of EMF $6$ V and internal resistance $2\\ \\Omega$ powers a variable resistor $R$. The maximum power that can be delivered to $R$ is",
+    "options": [
+      "$4.5$ W",
+      "$18$ W",
+      "$9$ W",
+      "$3$ W"
+    ],
+    "answer": 0,
+    "explanation": "The output power $P=\\dfrac{E^2R}{(R+r)^2}$ is largest when $R=r=2\\ \\Omega$: $P_{\\max}=\\dfrac{E^2}{4r}=\\dfrac{36}{8}=4.5$ W.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-mag-01",
+    "subject": "physics",
+    "topic": "electromagnetism",
+    "subtopic": "magnetic-fields",
+    "difficulty": 1,
+    "question": "A straight wire $0.5$ m long carries $2$ A perpendicular to a uniform magnetic field of $0.4$ T. The magnetic (Ampère) force on it is",
+    "options": [
+      "$1.6$ N",
+      "$0.1$ N",
+      "$4$ N",
+      "$0.4$ N"
+    ],
+    "answer": 3,
+    "explanation": "$F=BIL=0.4\\times2\\times0.5=0.4$ N.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-mag-02",
+    "subject": "physics",
+    "topic": "electromagnetism",
+    "subtopic": "magnetic-fields",
+    "difficulty": 1,
+    "question": "A current-carrying wire placed **parallel** to a uniform magnetic field experiences a magnetic force of",
+    "options": [
+      "$BIL$",
+      "zero",
+      "$\\dfrac{BIL}{2}$",
+      "a maximum value"
+    ],
+    "answer": 1,
+    "explanation": "$F=BIL\\sin\\theta$ with $\\theta=0^\\circ$ between the current and the field, so $F=0$.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "p-mag-03",
+    "subject": "physics",
+    "topic": "electromagnetism",
+    "subtopic": "magnetic-fields",
+    "difficulty": 2,
+    "question": "A proton ($q=1.6\\times10^{-19}$ C) moves at $2\\times10^{6}$ m/s perpendicular to a $0.5$ T magnetic field. The Lorentz force on it is",
+    "options": [
+      "$6.4\\times10^{-13}$ N",
+      "$1.6\\times10^{-13}$ N",
+      "$1.6\\times10^{-19}$ N",
+      "$3.2\\times10^{-14}$ N"
+    ],
+    "answer": 1,
+    "explanation": "$F=qvB=1.6\\times10^{-19}\\times2\\times10^6\\times0.5=1.6\\times10^{-13}$ N.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-mag-04",
+    "subject": "physics",
+    "topic": "electromagnetism",
+    "subtopic": "magnetic-fields",
+    "difficulty": 2,
+    "question": "The Lorentz force on a charged particle moving in a magnetic field",
+    "options": [
+      "increases the particle's speed",
+      "is parallel to the velocity",
+      "is independent of the charge",
+      "does no work on the particle"
+    ],
+    "answer": 3,
+    "explanation": "$\\vec F=q\\vec v\\times\\vec B$ is always perpendicular to the velocity, so it changes the direction of motion but never the speed: it does no work.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "p-mag-05",
+    "subject": "physics",
+    "topic": "electromagnetism",
+    "subtopic": "magnetic-fields",
+    "difficulty": 3,
+    "question": "A particle of mass $m$ and charge $q$ moves at speed $v$ perpendicular to a uniform field $B$. The radius of its circular path is",
+    "options": [
+      "$\\dfrac{mv}{qB}$",
+      "$\\dfrac{qB}{mv}$",
+      "$\\dfrac{mv^2}{qB}$",
+      "$\\dfrac{qvB}{m}$"
+    ],
+    "answer": 0,
+    "explanation": "The magnetic force provides the centripetal force: $qvB=\\dfrac{mv^2}{r}\\Rightarrow r=\\dfrac{mv}{qB}$.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "p-mag-06",
+    "subject": "physics",
+    "topic": "electromagnetism",
+    "subtopic": "magnetic-fields",
+    "difficulty": 3,
+    "question": "In a uniform magnetic field, the period of the circular motion of a charged particle",
+    "options": [
+      "is proportional to its speed",
+      "is inversely proportional to its speed",
+      "is proportional to the radius",
+      "does not depend on its speed"
+    ],
+    "answer": 3,
+    "explanation": "$T=\\dfrac{2\\pi r}{v}=\\dfrac{2\\pi m}{qB}$: the speed cancels. Faster particles move on bigger circles in the same time (the principle of the cyclotron).",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "p-mag-07",
+    "subject": "physics",
+    "topic": "electromagnetism",
+    "subtopic": "magnetic-fields",
+    "difficulty": 1,
+    "question": "The SI unit of magnetic induction (magnetic flux density) $B$ is the",
+    "options": [
+      "tesla (T)",
+      "weber (Wb)",
+      "henry (H)",
+      "newton per coulomb (N/C)"
+    ],
+    "answer": 0,
+    "explanation": "$B$ is measured in teslas: $1\\ \\text{T}=1\\ \\text{N/(A}\\cdot\\text{m)}$. The weber is the unit of magnetic **flux** $\\Phi=BS$.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "p-mag-08",
+    "subject": "physics",
+    "topic": "electromagnetism",
+    "subtopic": "magnetic-fields",
+    "difficulty": 2,
+    "question": "Two long parallel wires carry currents in the **same** direction. The wires",
+    "options": [
+      "repel each other",
+      "exert no force on each other",
+      "attract each other",
+      "twist to become perpendicular"
+    ],
+    "answer": 2,
+    "explanation": "Each wire sits in the magnetic field of the other; applying the left-hand rule shows parallel currents attract and antiparallel currents repel.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "p-mag-09",
+    "subject": "physics",
+    "topic": "electromagnetism",
+    "subtopic": "magnetic-fields",
+    "difficulty": 2,
+    "question": "An electron with speed $1\\times10^{7}$ m/s moves perpendicular to a $2\\times10^{-3}$ T field. Using $m_e=9.1\\times10^{-31}$ kg and $e=1.6\\times10^{-19}$ C, the radius of its path is about",
+    "options": [
+      "$2.8\\times10^{-5}$ m",
+      "$3.5\\times10^{1}$ m",
+      "$1.1\\times10^{-2}$ m",
+      "$2.8\\times10^{-2}$ m"
+    ],
+    "answer": 3,
+    "explanation": "$r=\\dfrac{mv}{eB}=\\dfrac{9.1\\times10^{-31}\\times10^7}{1.6\\times10^{-19}\\times2\\times10^{-3}}\\approx2.8\\times10^{-2}$ m.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-mag-10",
+    "subject": "physics",
+    "topic": "electromagnetism",
+    "subtopic": "magnetic-fields",
+    "difficulty": 1,
+    "question": "The magnetic field lines around a long straight current-carrying wire are",
+    "options": [
+      "straight lines parallel to the wire",
+      "straight lines pointing away from the wire",
+      "absent",
+      "concentric circles around the wire"
+    ],
+    "answer": 3,
+    "explanation": "The field circles the wire; its direction follows the right-hand (screw) rule: thumb along the current, fingers curl in the direction of $B$.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "p-mag-11",
+    "subject": "physics",
+    "topic": "electromagnetism",
+    "subtopic": "magnetic-fields",
+    "difficulty": 2,
+    "question": "A rectangular coil of area $0.02\\ \\text{m}^2$ is placed perpendicular to a uniform field of $0.5$ T. The magnetic flux through it is",
+    "options": [
+      "$0.1$ Wb",
+      "$25$ Wb",
+      "$0.01$ Wb",
+      "$0.04$ Wb"
+    ],
+    "answer": 2,
+    "explanation": "$\\Phi=BS=0.5\\times0.02=0.01$ Wb (the field is perpendicular to the coil's plane).",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-mag-12",
+    "subject": "physics",
+    "topic": "electromagnetism",
+    "subtopic": "magnetic-fields",
+    "difficulty": 3,
+    "question": "A $0.2$ m long, $0.05$ kg rod hangs horizontally from two light wires in a horizontal magnetic field of $0.5$ T perpendicular to the rod (take $g=10\\ \\text{m/s}^2$). The current needed for the wires to become slack is",
+    "options": [
+      "$0.5$ A",
+      "$2.5$ A",
+      "$50$ A",
+      "$5$ A"
+    ],
+    "answer": 3,
+    "explanation": "The upward Ampère force must balance the weight: $BIL=mg\\Rightarrow I=\\dfrac{0.05\\times10}{0.5\\times0.2}=5$ A.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-ind-01",
+    "subject": "physics",
+    "topic": "electromagnetism",
+    "subtopic": "em-induction",
+    "difficulty": 1,
+    "question": "The flux through a $100$-turn coil changes uniformly from $0.02$ Wb to $0.06$ Wb in $0.4$ s. The induced EMF is",
+    "options": [
+      "$10$ V",
+      "$0.1$ V",
+      "$1$ V",
+      "$40$ V"
+    ],
+    "answer": 0,
+    "explanation": "Faraday's law: $E=n\\dfrac{\\Delta\\Phi}{\\Delta t}=100\\times\\dfrac{0.04}{0.4}=10$ V.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-ind-02",
+    "subject": "physics",
+    "topic": "electromagnetism",
+    "subtopic": "em-induction",
+    "difficulty": 1,
+    "question": "A $0.5$ m rod moves at $4$ m/s perpendicular to a $0.2$ T magnetic field, cutting the field lines. The induced EMF is",
+    "options": [
+      "$0.1$ V",
+      "$0.4$ V",
+      "$10$ V",
+      "$1.6$ V"
+    ],
+    "answer": 1,
+    "explanation": "Motional EMF: $E=BLv=0.2\\times0.5\\times4=0.4$ V.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-ind-03",
+    "subject": "physics",
+    "topic": "electromagnetism",
+    "subtopic": "em-induction",
+    "difficulty": 1,
+    "question": "Lenz's law states that the induced current",
+    "options": [
+      "always flows clockwise",
+      "opposes the change in magnetic flux that produces it",
+      "strengthens the change in flux",
+      "is independent of the change in flux"
+    ],
+    "answer": 1,
+    "explanation": "The induced current creates a magnetic field that opposes the **change** in flux — a consequence of energy conservation.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "p-ind-04",
+    "subject": "physics",
+    "topic": "electromagnetism",
+    "subtopic": "em-induction",
+    "difficulty": 2,
+    "question": "A magnet's north pole is pushed toward a closed coil. The induced current makes the end of the coil facing the magnet",
+    "options": [
+      "a south pole, attracting the magnet",
+      "a north pole, repelling the magnet",
+      "a south pole, repelling the magnet",
+      "unmagnetised"
+    ],
+    "answer": 1,
+    "explanation": "By Lenz's law the coil opposes the approach, so the near face becomes a north pole and repels the incoming north pole. You must do work to push the magnet in, and that work becomes electrical energy.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "p-ind-05",
+    "subject": "physics",
+    "topic": "electromagnetism",
+    "subtopic": "em-induction",
+    "difficulty": 2,
+    "question": "A rod of length $0.5$ m slides at $2$ m/s on rails in a $0.4$ T field (perpendicular to the plane). The circuit's total resistance is $0.2\\ \\Omega$. The induced current is",
+    "options": [
+      "$0.4$ A",
+      "$2$ A",
+      "$0.08$ A",
+      "$4$ A"
+    ],
+    "answer": 1,
+    "explanation": "$E=BLv=0.4\\times0.5\\times2=0.4$ V, so $I=\\dfrac ER=\\dfrac{0.4}{0.2}=2$ A.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-ind-06",
+    "subject": "physics",
+    "topic": "electromagnetism",
+    "subtopic": "em-induction",
+    "difficulty": 3,
+    "question": "For the rod in the previous situation ($B=0.4$ T, $L=0.5$ m, $I=2$ A), the external force needed to keep it moving at constant speed is",
+    "options": [
+      "$0.2$ N",
+      "$0.8$ N",
+      "$0.4$ N",
+      "$4$ N"
+    ],
+    "answer": 2,
+    "explanation": "At constant speed the applied force balances the Ampère force on the rod: $F=BIL=0.4\\times2\\times0.5=0.4$ N.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-ind-07",
+    "subject": "physics",
+    "topic": "electromagnetism",
+    "subtopic": "em-induction",
+    "difficulty": 1,
+    "question": "An induced current is produced in a closed loop when",
+    "options": [
+      "the magnetic flux through the loop changes",
+      "the loop is in a strong steady magnetic field",
+      "the loop is made of copper",
+      "the loop is moved parallel to field lines in a uniform field"
+    ],
+    "answer": 0,
+    "explanation": "Only a **change** in flux induces an EMF. A strong but steady flux, or motion that leaves the flux unchanged, produces no current.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "p-ind-08",
+    "subject": "physics",
+    "topic": "electromagnetism",
+    "subtopic": "em-induction",
+    "difficulty": 2,
+    "question": "An ideal transformer has $200$ turns on the primary and $50$ turns on the secondary. With $220$ V on the primary, the secondary voltage is",
+    "options": [
+      "$880$ V",
+      "$220$ V",
+      "$44$ V",
+      "$55$ V"
+    ],
+    "answer": 3,
+    "explanation": "$\\dfrac{U_1}{U_2}=\\dfrac{n_1}{n_2}\\Rightarrow U_2=220\\times\\dfrac{50}{200}=55$ V (a step-down transformer).",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-ind-09",
+    "subject": "physics",
+    "topic": "electromagnetism",
+    "subtopic": "em-induction",
+    "difficulty": 2,
+    "question": "A coil of $50$ turns and area $0.01\\ \\text{m}^2$ is perpendicular to a field that increases uniformly from $0$ to $0.4$ T in $0.2$ s. The induced EMF is",
+    "options": [
+      "$1$ V",
+      "$0.02$ V",
+      "$100$ V",
+      "$0.4$ V"
+    ],
+    "answer": 0,
+    "explanation": "$E=nS\\dfrac{\\Delta B}{\\Delta t}=50\\times0.01\\times\\dfrac{0.4}{0.2}=1$ V.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-ind-10",
+    "subject": "physics",
+    "topic": "electromagnetism",
+    "subtopic": "em-induction",
+    "difficulty": 3,
+    "question": "A conducting ring falls past a fixed bar magnet held vertically. Compared with free fall, the ring's acceleration while it approaches the magnet is",
+    "options": [
+      "greater than $g$",
+      "exactly $g$",
+      "zero",
+      "less than $g$"
+    ],
+    "answer": 3,
+    "explanation": "The changing flux induces a current in the ring that opposes the relative motion (Lenz's law), giving an upward magnetic force. So the acceleration is less than $g$ both when approaching and when leaving the magnet.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "p-ind-11",
+    "subject": "physics",
+    "topic": "electromagnetism",
+    "subtopic": "em-induction",
+    "difficulty": 2,
+    "question": "A step-up transformer increases the voltage from $10$ kV to $500$ kV for transmission. With the same power transmitted, the power lost in the line becomes",
+    "options": [
+      "$\\dfrac{1}{50}$ of the original",
+      "$\\dfrac{1}{2500}$ of the original",
+      "$50$ times the original",
+      "unchanged"
+    ],
+    "answer": 1,
+    "explanation": "For the same power, $I=\\dfrac PU$ falls by a factor of $50$, and the line loss $I^2R$ falls by $50^2=2500$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-ind-12",
+    "subject": "physics",
+    "topic": "electromagnetism",
+    "subtopic": "em-induction",
+    "difficulty": 1,
+    "question": "Which device works on the principle of electromagnetic induction?",
+    "options": [
+      "An electric motor",
+      "A generator",
+      "An electric heater",
+      "An electromagnet"
+    ],
+    "answer": 1,
+    "explanation": "A generator converts mechanical energy into electrical energy by rotating a coil in a magnetic field, changing the flux. A motor uses the force on a current in a field (the reverse process).",
+    "tags": [
+      "conceptual"
+    ]
+  }
+]

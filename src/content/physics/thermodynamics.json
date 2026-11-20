@@ -1,0 +1,230 @@
+[
+  {
+    "id": "p-thm-01",
+    "subject": "physics",
+    "topic": "thermodynamics",
+    "subtopic": "thermodynamics",
+    "difficulty": 1,
+    "question": "A gas absorbs $500$ J of heat and does $200$ J of work on its surroundings. The change in its internal energy is",
+    "options": [
+      "$+700$ J",
+      "$-300$ J",
+      "$+300$ J",
+      "$-700$ J"
+    ],
+    "answer": 2,
+    "explanation": "First law: $\\Delta U=Q+W$, where $W$ is work done **on** the gas. Here $Q=+500$ J and $W=-200$ J, so $\\Delta U=+300$ J.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-thm-02",
+    "subject": "physics",
+    "topic": "thermodynamics",
+    "subtopic": "thermodynamics",
+    "difficulty": 1,
+    "question": "An ideal gas is kept at constant temperature while its pressure is doubled. Its volume becomes",
+    "options": [
+      "twice the original",
+      "half the original",
+      "four times the original",
+      "unchanged"
+    ],
+    "answer": 1,
+    "explanation": "Boyle's law (isothermal): $pV=\\text{const}$, so doubling $p$ halves $V$.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "p-thm-03",
+    "subject": "physics",
+    "topic": "thermodynamics",
+    "subtopic": "thermodynamics",
+    "difficulty": 2,
+    "question": "A gas at $27^\\circ$C is heated at constant pressure until its volume doubles. Its new temperature is",
+    "options": [
+      "$54^\\circ$C",
+      "$600^\\circ$C",
+      "$300^\\circ$C",
+      "$327^\\circ$C"
+    ],
+    "answer": 3,
+    "explanation": "Use kelvin: $T_1=300$ K. At constant pressure $\\dfrac{V}{T}=$ const, so $T_2=600$ K $=327^\\circ$C. (Doubling the Celsius value is the classic mistake.)",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-thm-04",
+    "subject": "physics",
+    "topic": "thermodynamics",
+    "subtopic": "thermodynamics",
+    "difficulty": 2,
+    "question": "A sealed rigid container of gas at $300$ K and $1.0\\times10^5$ Pa is heated to $450$ K. The new pressure is",
+    "options": [
+      "$0.67\\times10^{5}$ Pa",
+      "$1.0\\times10^{5}$ Pa",
+      "$4.5\\times10^{5}$ Pa",
+      "$1.5\\times10^{5}$ Pa"
+    ],
+    "answer": 3,
+    "explanation": "Constant volume: $\\dfrac{p}{T}=$ const, $p_2=1.0\\times10^5\\times\\dfrac{450}{300}=1.5\\times10^5$ Pa.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-thm-05",
+    "subject": "physics",
+    "topic": "thermodynamics",
+    "subtopic": "thermodynamics",
+    "difficulty": 1,
+    "question": "The absolute temperature of an ideal gas is a measure of",
+    "options": [
+      "the average kinetic energy of its molecules",
+      "the total potential energy of its molecules",
+      "the number of molecules",
+      "the size of the molecules"
+    ],
+    "answer": 0,
+    "explanation": "Kinetic theory: the average translational kinetic energy of a molecule is proportional to the absolute temperature, $\\bar E_k=\\tfrac32kT$.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "p-thm-06",
+    "subject": "physics",
+    "topic": "thermodynamics",
+    "subtopic": "thermodynamics",
+    "difficulty": 2,
+    "question": "Using $R=8.31\\ \\text{J/(mol}\\cdot\\text{K)}$, the volume of $2$ mol of an ideal gas at $300$ K and $1.0\\times10^5$ Pa is about",
+    "options": [
+      "$0.050\\ \\text{m}^3$",
+      "$0.025\\ \\text{m}^3$",
+      "$5.0\\ \\text{m}^3$",
+      "$0.0050\\ \\text{m}^3$"
+    ],
+    "answer": 0,
+    "explanation": "$pV=nRT\\Rightarrow V=\\dfrac{2\\times8.31\\times300}{1.0\\times10^5}\\approx0.050\\ \\text{m}^3$ (about $50$ L).",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-thm-07",
+    "subject": "physics",
+    "topic": "thermodynamics",
+    "subtopic": "thermodynamics",
+    "difficulty": 2,
+    "question": "A gas is compressed **adiabatically** (no heat exchange). Its temperature",
+    "options": [
+      "falls",
+      "stays the same",
+      "rises",
+      "first falls then rises"
+    ],
+    "answer": 2,
+    "explanation": "Adiabatic: $Q=0$. Compression means work is done on the gas ($W>0$), so $\\Delta U=W>0$ and the temperature rises (this is why a bicycle pump gets warm).",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "p-thm-08",
+    "subject": "physics",
+    "topic": "thermodynamics",
+    "subtopic": "thermodynamics",
+    "difficulty": 1,
+    "question": "Brownian motion of pollen grains in water shows that",
+    "options": [
+      "water molecules are in constant random motion",
+      "pollen grains are alive",
+      "the water is flowing",
+      "molecules attract each other"
+    ],
+    "answer": 0,
+    "explanation": "The grains are jostled unevenly by the random impacts of the (invisible) water molecules. Brownian motion is indirect evidence of molecular motion, not the motion of molecules themselves.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "p-thm-09",
+    "subject": "physics",
+    "topic": "thermodynamics",
+    "subtopic": "thermodynamics",
+    "difficulty": 3,
+    "question": "An ideal gas expands at constant pressure $2\\times10^5$ Pa from $0.01\\ \\text{m}^3$ to $0.03\\ \\text{m}^3$ and absorbs $1.0\\times10^4$ J of heat. The change in internal energy is",
+    "options": [
+      "$1.4\\times10^{4}$ J",
+      "$6.0\\times10^{3}$ J",
+      "$4.0\\times10^{3}$ J",
+      "$1.0\\times10^{4}$ J"
+    ],
+    "answer": 1,
+    "explanation": "Work done by the gas: $p\\Delta V=2\\times10^5\\times0.02=4.0\\times10^3$ J. $\\Delta U=Q-W_{\\text{by}}=1.0\\times10^4-4.0\\times10^3=6.0\\times10^3$ J.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-thm-10",
+    "subject": "physics",
+    "topic": "thermodynamics",
+    "subtopic": "thermodynamics",
+    "difficulty": 2,
+    "question": "For a fixed mass of ideal gas, the state changes from $(p_1,V_1,T_1)=(1\\times10^5\\ \\text{Pa},\\ 2\\ \\text{L},\\ 300\\ \\text{K})$ to $p_2=2\\times10^5$ Pa and $V_2=3$ L. Then $T_2=$",
+    "options": [
+      "$900$ K",
+      "$450$ K",
+      "$600$ K",
+      "$200$ K"
+    ],
+    "answer": 0,
+    "explanation": "$\\dfrac{p_1V_1}{T_1}=\\dfrac{p_2V_2}{T_2}\\Rightarrow T_2=300\\times\\dfrac{2\\times3}{1\\times2}=900$ K.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-thm-11",
+    "subject": "physics",
+    "topic": "thermodynamics",
+    "subtopic": "thermodynamics",
+    "difficulty": 2,
+    "question": "Which statement agrees with the second law of thermodynamics?",
+    "options": [
+      "Energy can be created in a heat engine",
+      "A heat engine can convert all absorbed heat into work",
+      "Internal energy always decreases",
+      "Heat cannot flow spontaneously from a colder body to a hotter body"
+    ],
+    "answer": 3,
+    "explanation": "The second law (Clausius form): heat does not flow by itself from cold to hot. A consequence is that no heat engine can be 100% efficient. Energy creation would violate the first law.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "p-thm-12",
+    "subject": "physics",
+    "topic": "thermodynamics",
+    "subtopic": "thermodynamics",
+    "difficulty": 1,
+    "question": "$-23^\\circ$C on the thermodynamic (Kelvin) scale is",
+    "options": [
+      "$296$ K",
+      "$-250$ K",
+      "$23$ K",
+      "$250$ K"
+    ],
+    "answer": 3,
+    "explanation": "$T=t+273=-23+273=250$ K. Kelvin temperatures are never negative.",
+    "tags": [
+      "numeric"
+    ]
+  }
+]

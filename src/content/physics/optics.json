@@ -1,0 +1,363 @@
+[
+  {
+    "id": "p-opt-01",
+    "subject": "physics",
+    "topic": "optics",
+    "subtopic": "reflection-refraction",
+    "difficulty": 1,
+    "question": "A light ray strikes a plane mirror at an angle of incidence of $30^\\circ$. The angle between the incident ray and the reflected ray is",
+    "options": [
+      "$30^\\circ$",
+      "$120^\\circ$",
+      "$60^\\circ$",
+      "$90^\\circ$"
+    ],
+    "answer": 2,
+    "explanation": "Angle of reflection $=$ angle of incidence $=30^\\circ$ (both measured from the normal), so the rays are $30^\\circ+30^\\circ=60^\\circ$ apart.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-opt-02",
+    "subject": "physics",
+    "topic": "optics",
+    "subtopic": "reflection-refraction",
+    "difficulty": 1,
+    "question": "Light travels from air into glass of refractive index $1.5$ ($c=3\\times10^8$ m/s). Its speed in the glass is",
+    "options": [
+      "$4.5\\times10^{8}$ m/s",
+      "$2\\times10^{8}$ m/s",
+      "$3\\times10^{8}$ m/s",
+      "$1.5\\times10^{8}$ m/s"
+    ],
+    "answer": 1,
+    "explanation": "$v=\\dfrac cn=\\dfrac{3\\times10^8}{1.5}=2\\times10^8$ m/s.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-opt-03",
+    "subject": "physics",
+    "topic": "optics",
+    "subtopic": "reflection-refraction",
+    "difficulty": 2,
+    "question": "Light passes from air into water at an angle of incidence of $53^\\circ$ and the angle of refraction is $37^\\circ$ ($\\sin53^\\circ=0.8$, $\\sin37^\\circ=0.6$). The refractive index of water is",
+    "options": [
+      "$\\dfrac34$",
+      "$1.43$",
+      "$\\dfrac53$",
+      "$\\dfrac43$"
+    ],
+    "answer": 3,
+    "explanation": "Snell's law: $n=\\dfrac{\\sin i}{\\sin r}=\\dfrac{0.8}{0.6}=\\dfrac43$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-opt-04",
+    "subject": "physics",
+    "topic": "optics",
+    "subtopic": "reflection-refraction",
+    "difficulty": 2,
+    "question": "The critical angle for light going from glass ($n=\\sqrt2$) into air is",
+    "options": [
+      "$30^\\circ$",
+      "$60^\\circ$",
+      "$90^\\circ$",
+      "$45^\\circ$"
+    ],
+    "answer": 3,
+    "explanation": "$\\sin C=\\dfrac1n=\\dfrac1{\\sqrt2}$, so $C=45^\\circ$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-opt-05",
+    "subject": "physics",
+    "topic": "optics",
+    "subtopic": "reflection-refraction",
+    "difficulty": 1,
+    "question": "Total internal reflection can happen only when light travels",
+    "options": [
+      "from air into glass",
+      "from an optically denser medium to a less dense one, at an angle of incidence at least the critical angle",
+      "along the normal",
+      "from a less dense medium into a denser one"
+    ],
+    "answer": 1,
+    "explanation": "Both conditions are needed: denser → less dense (e.g. glass → air), and incidence angle $\\ge$ the critical angle. Optical fibres use this.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "p-opt-06",
+    "subject": "physics",
+    "topic": "optics",
+    "subtopic": "reflection-refraction",
+    "difficulty": 2,
+    "question": "When light passes from air into glass, which quantity does **not** change?",
+    "options": [
+      "Speed",
+      "Frequency",
+      "Wavelength",
+      "Direction (for oblique incidence)"
+    ],
+    "answer": 1,
+    "explanation": "The frequency is fixed by the source. The speed drops to $c/n$, so the wavelength shortens ($\\lambda=v/f$), and an oblique ray bends toward the normal.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "p-opt-07",
+    "subject": "physics",
+    "topic": "optics",
+    "subtopic": "reflection-refraction",
+    "difficulty": 3,
+    "question": "A coin lies at the bottom of a pool $2$ m deep. Seen from directly above, with water's refractive index $\\tfrac43$, the coin appears to be at a depth of about",
+    "options": [
+      "$2.67$ m",
+      "$2$ m",
+      "$1$ m",
+      "$1.5$ m"
+    ],
+    "answer": 3,
+    "explanation": "For near-normal viewing, apparent depth $=\\dfrac{\\text{real depth}}{n}=\\dfrac{2}{4/3}=1.5$ m. Pools look shallower than they are.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-opt-08",
+    "subject": "physics",
+    "topic": "optics",
+    "subtopic": "reflection-refraction",
+    "difficulty": 1,
+    "question": "White light passing through a prism splits into colours. Violet light is deviated the most because",
+    "options": [
+      "violet light has the longest wavelength",
+      "glass has a larger refractive index for violet light",
+      "violet light travels fastest in glass",
+      "violet light is reflected inside the prism"
+    ],
+    "answer": 1,
+    "explanation": "Dispersion: the refractive index of glass increases with frequency, so violet (highest frequency, shortest wavelength) bends most and travels slowest in glass.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "p-opt-09",
+    "subject": "physics",
+    "topic": "optics",
+    "subtopic": "reflection-refraction",
+    "difficulty": 2,
+    "question": "A ray enters a glass block ($n=\\sqrt3$) from air with an angle of incidence of $60^\\circ$. The angle of refraction is",
+    "options": [
+      "$45^\\circ$",
+      "$60^\\circ$",
+      "$35^\\circ$",
+      "$30^\\circ$"
+    ],
+    "answer": 3,
+    "explanation": "$\\sin r=\\dfrac{\\sin60^\\circ}{\\sqrt3}=\\dfrac{\\sqrt3/2}{\\sqrt3}=\\dfrac12$, so $r=30^\\circ$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-opt-10",
+    "subject": "physics",
+    "topic": "optics",
+    "subtopic": "reflection-refraction",
+    "difficulty": 1,
+    "question": "A person stands $2$ m in front of a plane mirror. The distance between the person and their image is",
+    "options": [
+      "$2$ m",
+      "$4$ m",
+      "$1$ m",
+      "$8$ m"
+    ],
+    "answer": 1,
+    "explanation": "A plane mirror forms a virtual image as far behind the mirror as the object is in front: $2+2=4$ m.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-int-01",
+    "subject": "physics",
+    "topic": "optics",
+    "subtopic": "interference-diffraction",
+    "difficulty": 1,
+    "question": "In Young's double-slit experiment, the fringe spacing is $\\Delta x=\\dfrac{L}{d}\\lambda$. If the slit separation $d$ is doubled, the fringe spacing",
+    "options": [
+      "doubles",
+      "stays the same",
+      "becomes four times as large",
+      "halves"
+    ],
+    "answer": 3,
+    "explanation": "$\\Delta x\\propto\\dfrac1d$, so doubling $d$ halves the spacing.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "p-int-02",
+    "subject": "physics",
+    "topic": "optics",
+    "subtopic": "interference-diffraction",
+    "difficulty": 2,
+    "question": "In a double-slit experiment, $d=0.5$ mm, $L=1$ m and $\\lambda=600$ nm. The fringe spacing is",
+    "options": [
+      "$1.2$ mm",
+      "$0.3$ mm",
+      "$12$ mm",
+      "$0.12$ mm"
+    ],
+    "answer": 0,
+    "explanation": "$\\Delta x=\\dfrac{L\\lambda}{d}=\\dfrac{1\\times600\\times10^{-9}}{0.5\\times10^{-3}}=1.2\\times10^{-3}$ m $=1.2$ mm.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-int-03",
+    "subject": "physics",
+    "topic": "optics",
+    "subtopic": "interference-diffraction",
+    "difficulty": 2,
+    "question": "In a double-slit experiment, red light is replaced by blue light with everything else unchanged. The fringes",
+    "options": [
+      "become closer together",
+      "become farther apart",
+      "do not change",
+      "disappear"
+    ],
+    "answer": 0,
+    "explanation": "Blue light has a shorter wavelength, and $\\Delta x=\\dfrac Ld\\lambda$, so the fringe spacing decreases.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "p-int-04",
+    "subject": "physics",
+    "topic": "optics",
+    "subtopic": "interference-diffraction",
+    "difficulty": 2,
+    "question": "At a point on the screen of a double-slit experiment, the path difference from the two slits is $1.5\\lambda$. The point is",
+    "options": [
+      "a dark fringe",
+      "a bright fringe",
+      "the central bright fringe",
+      "half bright"
+    ],
+    "answer": 0,
+    "explanation": "Bright where the path difference is a whole number of wavelengths ($n\\lambda$); dark where it is an odd number of half-wavelengths: $1.5\\lambda=3\\cdot\\tfrac\\lambda2$, so dark.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "p-int-05",
+    "subject": "physics",
+    "topic": "optics",
+    "subtopic": "interference-diffraction",
+    "difficulty": 1,
+    "question": "The colours seen on a soap bubble are caused by",
+    "options": [
+      "thin-film interference",
+      "diffraction",
+      "dispersion by refraction",
+      "polarisation"
+    ],
+    "answer": 0,
+    "explanation": "Light reflected from the front and back surfaces of the thin film interferes; different thicknesses reinforce different wavelengths, giving colours.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "p-int-06",
+    "subject": "physics",
+    "topic": "optics",
+    "subtopic": "interference-diffraction",
+    "difficulty": 2,
+    "question": "Diffraction of light is most noticeable when",
+    "options": [
+      "the opening is much larger than the wavelength",
+      "the light is very bright",
+      "the size of the opening is comparable to the wavelength",
+      "the light is white"
+    ],
+    "answer": 2,
+    "explanation": "Obvious diffraction requires an obstacle or slit with size close to (or smaller than) the wavelength. Light's wavelength is tiny, so we usually do not notice light diffracting.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "p-int-07",
+    "subject": "physics",
+    "topic": "optics",
+    "subtopic": "interference-diffraction",
+    "difficulty": 1,
+    "question": "Interference and diffraction of light show that light",
+    "options": [
+      "consists of particles only",
+      "travels only in straight lines",
+      "has no energy",
+      "behaves as a wave"
+    ],
+    "answer": 3,
+    "explanation": "Interference and diffraction are characteristic wave phenomena. (The photoelectric effect shows the particle side of light.)",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "p-int-08",
+    "subject": "physics",
+    "topic": "optics",
+    "subtopic": "interference-diffraction",
+    "difficulty": 3,
+    "question": "In a double-slit experiment, the distance between the $1$st and the $5$th bright fringes on the same side is $6.0$ mm. The fringe spacing is",
+    "options": [
+      "$1.2$ mm",
+      "$6.0$ mm",
+      "$1.5$ mm",
+      "$3.0$ mm"
+    ],
+    "answer": 2,
+    "explanation": "Between the 1st and 5th bright fringes there are $5-1=4$ spacings: $\\Delta x=\\dfrac{6.0}{4}=1.5$ mm. (Dividing by $5$ is the usual slip.)",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-int-09",
+    "subject": "physics",
+    "topic": "optics",
+    "subtopic": "interference-diffraction",
+    "difficulty": 2,
+    "question": "For interference fringes to be stable, the two light sources must",
+    "options": [
+      "have the same brightness only",
+      "be white light",
+      "be placed far apart",
+      "be coherent: same frequency and constant phase difference"
+    ],
+    "answer": 3,
+    "explanation": "Only coherent sources (same frequency, fixed phase relationship) give a stable pattern. That is why Young split one source into two slits.",
+    "tags": [
+      "conceptual"
+    ]
+  }
+]

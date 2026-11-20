@@ -1,0 +1,496 @@
+[
+  {
+    "id": "p-pe-01",
+    "subject": "physics",
+    "topic": "modern-physics",
+    "subtopic": "photoelectric",
+    "difficulty": 1,
+    "question": "The energy of a photon of frequency $5\\times10^{14}$ Hz is ($h=6.63\\times10^{-34}\\ \\text{J}\\cdot\\text{s}$)",
+    "options": [
+      "$1.3\\times10^{-48}$ J",
+      "$7.5\\times10^{47}$ J",
+      "$3.3\\times10^{-20}$ J",
+      "$3.3\\times10^{-19}$ J"
+    ],
+    "answer": 3,
+    "explanation": "$E=h\\nu=6.63\\times10^{-34}\\times5\\times10^{14}\\approx3.3\\times10^{-19}$ J.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-pe-02",
+    "subject": "physics",
+    "topic": "modern-physics",
+    "subtopic": "photoelectric",
+    "difficulty": 2,
+    "question": "A metal has work function $2.0$ eV. Light with photons of energy $3.5$ eV falls on it. The maximum kinetic energy of the photoelectrons is",
+    "options": [
+      "$5.5$ eV",
+      "$2.0$ eV",
+      "$1.5$ eV",
+      "$3.5$ eV"
+    ],
+    "answer": 2,
+    "explanation": "Einstein's equation: $E_{k\\max}=h\\nu-W_0=3.5-2.0=1.5$ eV.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-pe-03",
+    "subject": "physics",
+    "topic": "modern-physics",
+    "subtopic": "photoelectric",
+    "difficulty": 2,
+    "question": "Increasing the **intensity** of light (above the threshold frequency) falling on a metal increases",
+    "options": [
+      "the maximum kinetic energy of the photoelectrons",
+      "the number of photoelectrons emitted per second",
+      "the threshold frequency",
+      "the work function"
+    ],
+    "answer": 1,
+    "explanation": "More intense light means more photons per second, hence more electrons. Each photon's energy $h\\nu$ is unchanged, so the maximum kinetic energy is unchanged.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "p-pe-04",
+    "subject": "physics",
+    "topic": "modern-physics",
+    "subtopic": "photoelectric",
+    "difficulty": 2,
+    "question": "The threshold frequency of a metal is $6\\times10^{14}$ Hz. Its work function is about ($h=6.63\\times10^{-34}\\ \\text{J}\\cdot\\text{s}$)",
+    "options": [
+      "$4.0\\times10^{-19}$ J",
+      "$1.1\\times10^{-48}$ J",
+      "$4.0\\times10^{-20}$ J",
+      "$9.0\\times10^{47}$ J"
+    ],
+    "answer": 0,
+    "explanation": "At the threshold the photon energy just equals the work function: $W_0=h\\nu_0=6.63\\times10^{-34}\\times6\\times10^{14}\\approx4.0\\times10^{-19}$ J.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-pe-05",
+    "subject": "physics",
+    "topic": "modern-physics",
+    "subtopic": "photoelectric",
+    "difficulty": 1,
+    "question": "Light of frequency below the threshold frequency shines on a metal. Then",
+    "options": [
+      "electrons are emitted after a delay",
+      "no photoelectrons are emitted, however intense the light",
+      "electrons are emitted if the light is bright enough",
+      "electrons are emitted with zero speed"
+    ],
+    "answer": 1,
+    "explanation": "Each electron absorbs one photon. If $h\\nu<W_0$, no single photon can free an electron, so intensity and exposure time do not help.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "p-pe-06",
+    "subject": "physics",
+    "topic": "modern-physics",
+    "subtopic": "photoelectric",
+    "difficulty": 3,
+    "question": "In a photoelectric experiment the stopping voltage is $2$ V. The maximum kinetic energy of the photoelectrons is ($e=1.6\\times10^{-19}$ C)",
+    "options": [
+      "$1.6\\times10^{-19}$ J",
+      "$2$ J",
+      "$3.2\\times10^{-19}$ J",
+      "$8\\times10^{-20}$ J"
+    ],
+    "answer": 2,
+    "explanation": "The stopping voltage removes all the kinetic energy: $E_{k\\max}=eU_c=1.6\\times10^{-19}\\times2=3.2\\times10^{-19}$ J ($=2$ eV).",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-pe-07",
+    "subject": "physics",
+    "topic": "modern-physics",
+    "subtopic": "photoelectric",
+    "difficulty": 2,
+    "question": "$1$ eV is equal to ($e=1.6\\times10^{-19}$ C)",
+    "options": [
+      "$1.6\\times10^{-19}$ J",
+      "$1$ J",
+      "$6.25\\times10^{18}$ J",
+      "$1.6\\times10^{19}$ J"
+    ],
+    "answer": 0,
+    "explanation": "$1$ eV is the energy gained by one electron crossing $1$ V: $1.6\\times10^{-19}\\ \\text{C}\\times1\\ \\text{V}=1.6\\times10^{-19}$ J.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-pe-08",
+    "subject": "physics",
+    "topic": "modern-physics",
+    "subtopic": "photoelectric",
+    "difficulty": 3,
+    "question": "Light of wavelength $300$ nm falls on a metal with work function $3.0$ eV. Using $h=6.63\\times10^{-34}\\ \\text{J}\\cdot\\text{s}$, $c=3\\times10^8$ m/s and $1\\ \\text{eV}=1.6\\times10^{-19}$ J, the maximum kinetic energy of the photoelectrons is about",
+    "options": [
+      "$4.1$ eV",
+      "$3.0$ eV",
+      "$1.1$ eV",
+      "$0.4$ eV"
+    ],
+    "answer": 2,
+    "explanation": "Photon energy $E=\\dfrac{hc}{\\lambda}=\\dfrac{6.63\\times10^{-34}\\times3\\times10^8}{3\\times10^{-7}}=6.63\\times10^{-19}$ J $\\approx4.1$ eV. $E_{k\\max}=4.1-3.0\\approx1.1$ eV.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-pe-09",
+    "subject": "physics",
+    "topic": "modern-physics",
+    "subtopic": "photoelectric",
+    "difficulty": 1,
+    "question": "The photoelectric effect provides evidence that light",
+    "options": [
+      "is a longitudinal wave",
+      "travels slower in a vacuum",
+      "has a particle nature (photons)",
+      "needs a medium"
+    ],
+    "answer": 2,
+    "explanation": "Instant emission, a threshold frequency and $E_{k\\max}$ depending on frequency (not intensity) can only be explained if light energy comes in quanta $h\\nu$ — photons.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "p-atm-01",
+    "subject": "physics",
+    "topic": "modern-physics",
+    "subtopic": "atomic-structure",
+    "difficulty": 1,
+    "question": "In Rutherford's $\\alpha$-particle scattering experiment, a few $\\alpha$ particles bounced back. This showed that",
+    "options": [
+      "electrons orbit in fixed shells",
+      "the atom is a uniform positive sphere",
+      "the atom has a tiny, dense, positively charged nucleus",
+      "atoms are indivisible"
+    ],
+    "answer": 2,
+    "explanation": "Most $\\alpha$ particles passed straight through (the atom is mostly empty), but a few were turned back by something small, massive and positive: the nucleus.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "p-atm-02",
+    "subject": "physics",
+    "topic": "modern-physics",
+    "subtopic": "atomic-structure",
+    "difficulty": 2,
+    "question": "A hydrogen atom drops from the $n=3$ energy level ($-1.51$ eV) to the $n=2$ level ($-3.40$ eV). The energy of the emitted photon is",
+    "options": [
+      "$4.91$ eV",
+      "$1.89$ eV",
+      "$3.40$ eV",
+      "$1.51$ eV"
+    ],
+    "answer": 1,
+    "explanation": "$h\\nu=E_3-E_2=-1.51-(-3.40)=1.89$ eV (a red line of the Balmer series).",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-atm-03",
+    "subject": "physics",
+    "topic": "modern-physics",
+    "subtopic": "atomic-structure",
+    "difficulty": 2,
+    "question": "Hydrogen atoms in the $n=4$ state return to the ground state. The maximum number of different spectral lines they can emit is",
+    "options": [
+      "$6$",
+      "$4$",
+      "$3$",
+      "$10$"
+    ],
+    "answer": 0,
+    "explanation": "Any pair of the levels $1,2,3,4$ gives a line: $C_4^2=\\dfrac{4\\times3}2=6$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-atm-04",
+    "subject": "physics",
+    "topic": "modern-physics",
+    "subtopic": "atomic-structure",
+    "difficulty": 1,
+    "question": "According to Bohr's model, an atom emits light when an electron",
+    "options": [
+      "moves in a stable orbit",
+      "jumps from a lower level to a higher one",
+      "leaves the nucleus",
+      "jumps from a higher energy level to a lower one"
+    ],
+    "answer": 3,
+    "explanation": "Electrons in stationary orbits do not radiate. A photon with $h\\nu=E_m-E_n$ is emitted when an electron jumps down; absorbing a photon makes it jump up.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "p-atm-05",
+    "subject": "physics",
+    "topic": "modern-physics",
+    "subtopic": "atomic-structure",
+    "difficulty": 2,
+    "question": "The ground-state energy of hydrogen is $-13.6$ eV. The minimum energy needed to ionise a hydrogen atom in the ground state is",
+    "options": [
+      "$-13.6$ eV",
+      "$3.4$ eV",
+      "$13.6$ eV",
+      "$10.2$ eV"
+    ],
+    "answer": 2,
+    "explanation": "Ionisation means raising the electron to $E=0$ ($n=\\infty$): $0-(-13.6)=13.6$ eV.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-atm-06",
+    "subject": "physics",
+    "topic": "modern-physics",
+    "subtopic": "atomic-structure",
+    "difficulty": 3,
+    "question": "A hydrogen atom is in its ground state ($E_1=-13.6$ eV, $E_2=-3.4$ eV, $E_3=-1.51$ eV). Which photon can it absorb?",
+    "options": [
+      "$11.0$ eV",
+      "$5.0$ eV",
+      "$2.0$ eV",
+      "$10.2$ eV"
+    ],
+    "answer": 3,
+    "explanation": "A photon is absorbed only if its energy exactly matches a level difference: $E_2-E_1=10.2$ eV ✔, $E_3-E_1=12.09$ eV. The other values match no transition (and are below $13.6$ eV, so they cannot ionise).",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-atm-07",
+    "subject": "physics",
+    "topic": "modern-physics",
+    "subtopic": "atomic-structure",
+    "difficulty": 1,
+    "question": "The line spectrum of a gas is evidence that",
+    "options": [
+      "atoms have no structure",
+      "electrons can have any energy",
+      "atomic energy levels are discrete",
+      "light is a longitudinal wave"
+    ],
+    "answer": 2,
+    "explanation": "Only certain photon energies (sharp lines) appear, so only certain energy differences — and thus only certain energy levels — exist inside the atom.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "p-atm-08",
+    "subject": "physics",
+    "topic": "modern-physics",
+    "subtopic": "atomic-structure",
+    "difficulty": 2,
+    "question": "The energy levels of hydrogen are $E_n=\\dfrac{-13.6}{n^2}$ eV. The energy of the $n=2$ level is",
+    "options": [
+      "$-6.8$ eV",
+      "$-3.4$ eV",
+      "$-27.2$ eV",
+      "$-1.51$ eV"
+    ],
+    "answer": 1,
+    "explanation": "$E_2=\\dfrac{-13.6}{4}=-3.4$ eV. Divide by $n^2$, not by $n$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-nuc-01",
+    "subject": "physics",
+    "topic": "modern-physics",
+    "subtopic": "nuclear",
+    "difficulty": 1,
+    "question": "The nucleus $^{235}_{92}\\text{U}$ contains",
+    "options": [
+      "$92$ protons and $235$ neutrons",
+      "$143$ protons and $92$ neutrons",
+      "$92$ protons and $143$ neutrons",
+      "$235$ protons and $92$ neutrons"
+    ],
+    "answer": 2,
+    "explanation": "The lower number is the proton number $Z=92$; the upper is the mass number $A=235$. Neutrons: $A-Z=143$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-nuc-02",
+    "subject": "physics",
+    "topic": "modern-physics",
+    "subtopic": "nuclear",
+    "difficulty": 2,
+    "question": "$^{238}_{92}\\text{U}$ undergoes one $\\alpha$ decay. The product nucleus is",
+    "options": [
+      "$^{234}_{92}\\text{U}$",
+      "$^{238}_{93}\\text{Np}$",
+      "$^{234}_{90}\\text{Th}$",
+      "$^{236}_{90}\\text{Th}$"
+    ],
+    "answer": 2,
+    "explanation": "An $\\alpha$ particle is $^4_2\\text{He}$: the mass number falls by $4$ and the charge number by $2$: $^{238}_{92}\\text{U}\\to{}^{234}_{90}\\text{Th}+{}^4_2\\text{He}$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-nuc-03",
+    "subject": "physics",
+    "topic": "modern-physics",
+    "subtopic": "nuclear",
+    "difficulty": 2,
+    "question": "In $\\beta^-$ decay, the nucleus",
+    "options": [
+      "keeps its mass number and its charge number increases by $1$",
+      "loses $4$ from its mass number",
+      "keeps its charge number and its mass number increases by $1$",
+      "emits a proton"
+    ],
+    "answer": 0,
+    "explanation": "In $\\beta^-$ decay a neutron turns into a proton and an electron is emitted: $A$ unchanged, $Z\\to Z+1$.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "p-nuc-04",
+    "subject": "physics",
+    "topic": "modern-physics",
+    "subtopic": "nuclear",
+    "difficulty": 2,
+    "question": "A radioactive sample has a half-life of $5$ days. After $15$ days, the fraction of the original nuclei remaining is",
+    "options": [
+      "$\\dfrac13$",
+      "$\\dfrac14$",
+      "$\\dfrac1{16}$",
+      "$\\dfrac18$"
+    ],
+    "answer": 3,
+    "explanation": "$15$ days is $3$ half-lives: $\\left(\\dfrac12\\right)^3=\\dfrac18$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-nuc-05",
+    "subject": "physics",
+    "topic": "modern-physics",
+    "subtopic": "nuclear",
+    "difficulty": 3,
+    "question": "$16$ g of a radioactive isotope decays to $1$ g in $20$ hours. Its half-life is",
+    "options": [
+      "$5$ h",
+      "$4$ h",
+      "$10$ h",
+      "$1.25$ h"
+    ],
+    "answer": 0,
+    "explanation": "$\\dfrac{1}{16}=\\left(\\dfrac12\\right)^4$, so $4$ half-lives passed in $20$ h: $T_{1/2}=5$ h.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-nuc-06",
+    "subject": "physics",
+    "topic": "modern-physics",
+    "subtopic": "nuclear",
+    "difficulty": 1,
+    "question": "The half-life of a radioactive substance",
+    "options": [
+      "doubles when the temperature doubles",
+      "depends on the amount of substance",
+      "decreases when it is made into a compound",
+      "is not changed by temperature or pressure"
+    ],
+    "answer": 3,
+    "explanation": "Radioactive decay is a nuclear process; its half-life is unaffected by physical or chemical conditions and by the sample size.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "p-nuc-07",
+    "subject": "physics",
+    "topic": "modern-physics",
+    "subtopic": "nuclear",
+    "difficulty": 2,
+    "question": "In the reaction $^{2}_{1}\\text{H}+{}^{3}_{1}\\text{H}\\to{}^{4}_{2}\\text{He}+X$, the particle $X$ is",
+    "options": [
+      "a proton",
+      "an electron",
+      "a neutron",
+      "an $\\alpha$ particle"
+    ],
+    "answer": 2,
+    "explanation": "Conserve mass number: $2+3=4+A\\Rightarrow A=1$; charge: $1+1=2+Z\\Rightarrow Z=0$. $^1_0n$ is a neutron. (This is a fusion reaction.)",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-nuc-08",
+    "subject": "physics",
+    "topic": "modern-physics",
+    "subtopic": "nuclear",
+    "difficulty": 3,
+    "question": "In a nuclear reaction the mass decreases by $1\\times10^{-29}$ kg. The energy released is ($c=3\\times10^8$ m/s)",
+    "options": [
+      "$3\\times10^{-21}$ J",
+      "$9\\times10^{-29}$ J",
+      "$3\\times10^{-13}$ J",
+      "$9\\times10^{-13}$ J"
+    ],
+    "answer": 3,
+    "explanation": "$\\Delta E=\\Delta mc^2=1\\times10^{-29}\\times9\\times10^{16}=9\\times10^{-13}$ J.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-nuc-09",
+    "subject": "physics",
+    "topic": "modern-physics",
+    "subtopic": "nuclear",
+    "difficulty": 1,
+    "question": "Which radiation is the most penetrating?",
+    "options": [
+      "$\\alpha$ particles",
+      "$\\beta$ particles",
+      "They are all equal",
+      "$\\gamma$ rays"
+    ],
+    "answer": 3,
+    "explanation": "$\\alpha$ is stopped by paper, $\\beta$ by a few mm of aluminium; $\\gamma$ rays (high-energy photons, no charge) need thick lead or concrete. $\\alpha$ is the most strongly ionising.",
+    "tags": [
+      "conceptual"
+    ]
+  }
+]

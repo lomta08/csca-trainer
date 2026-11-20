@@ -1,0 +1,1522 @@
+[
+  {
+    "id": "p-kin-01",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "kinematics",
+    "difficulty": 1,
+    "question": "A car starts from rest and accelerates uniformly at $2\\ \\text{m/s}^2$. Its speed after $5$ s is",
+    "options": [
+      "$10$ m/s",
+      "$25$ m/s",
+      "$5$ m/s",
+      "$2.5$ m/s"
+    ],
+    "answer": 0,
+    "explanation": "$v=v_0+at=0+2\\times5=10$ m/s.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-kin-02",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "kinematics",
+    "difficulty": 1,
+    "question": "A car starts from rest with constant acceleration $2\\ \\text{m/s}^2$. The distance it travels in the first $5$ s is",
+    "options": [
+      "$50$ m",
+      "$10$ m",
+      "$12.5$ m",
+      "$25$ m"
+    ],
+    "answer": 3,
+    "explanation": "$x=v_0t+\\tfrac12at^2=0+\\tfrac12\\times2\\times5^2=25$ m.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-kin-03",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "kinematics",
+    "difficulty": 1,
+    "question": "A stone is dropped from rest and falls freely for $3$ s (take $g=10\\ \\text{m/s}^2$). The distance fallen is",
+    "options": [
+      "$30$ m",
+      "$90$ m",
+      "$45$ m",
+      "$15$ m"
+    ],
+    "answer": 2,
+    "explanation": "$h=\\tfrac12gt^2=\\tfrac12\\times10\\times9=45$ m.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-kin-04",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "kinematics",
+    "difficulty": 1,
+    "question": "A ball is thrown vertically upward at $20$ m/s (take $g=10\\ \\text{m/s}^2$). The maximum height it reaches is",
+    "options": [
+      "$40$ m",
+      "$10$ m",
+      "$20$ m",
+      "$2$ m"
+    ],
+    "answer": 2,
+    "explanation": "At the top $v=0$: $v_0^2=2gh\\Rightarrow h=\\dfrac{v_0^2}{2g}=\\dfrac{400}{20}=20$ m.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-kin-05",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "kinematics",
+    "difficulty": 2,
+    "question": "A car moving at $20$ m/s brakes with a deceleration of $5\\ \\text{m/s}^2$. The distance it travels in the $6$ s after braking starts is",
+    "options": [
+      "$30$ m",
+      "$40$ m",
+      "$210$ m",
+      "$120$ m"
+    ],
+    "answer": 1,
+    "explanation": "The car stops after $t=\\dfrac{20}{5}=4$ s, so it does **not** move during the last $2$ s.\n\nStopping distance: $\\dfrac{v_0^2}{2a}=\\dfrac{400}{10}=40$ m. (Using $t=6$ s in $x=v_0t-\\tfrac12at^2$ gives $30$ m — the classic trap.)",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-kin-06",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "kinematics",
+    "difficulty": 1,
+    "question": "An object moves $30$ m east and then $40$ m north in $10$ s. The magnitude of its average velocity is",
+    "options": [
+      "$7$ m/s",
+      "$1$ m/s",
+      "$5$ m/s",
+      "$3.5$ m/s"
+    ],
+    "answer": 2,
+    "explanation": "Average velocity $=\\dfrac{\\text{displacement}}{\\text{time}}$. Displacement $=\\sqrt{30^2+40^2}=50$ m, so $\\bar v=5$ m/s. ($7$ m/s is the average **speed**, from the path length $70$ m.)",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-kin-07",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "kinematics",
+    "difficulty": 2,
+    "question": "An object accelerates uniformly from $2$ m/s to $10$ m/s over a distance of $24$ m. Its acceleration is",
+    "options": [
+      "$4\\ \\text{m/s}^2$",
+      "$2\\ \\text{m/s}^2$",
+      "$1\\ \\text{m/s}^2$",
+      "$3\\ \\text{m/s}^2$"
+    ],
+    "answer": 1,
+    "explanation": "$v^2-v_0^2=2ax\\Rightarrow a=\\dfrac{100-4}{2\\times24}=2\\ \\text{m/s}^2$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-kin-08",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "kinematics",
+    "difficulty": 2,
+    "question": "A ball is thrown horizontally at $10$ m/s from a height of $20$ m (take $g=10\\ \\text{m/s}^2$). The horizontal distance it travels before hitting the ground is",
+    "options": [
+      "$10$ m",
+      "$40$ m",
+      "$20$ m",
+      "$200$ m"
+    ],
+    "answer": 2,
+    "explanation": "Vertical motion is free fall: $20=\\tfrac12\\cdot10\\,t^2\\Rightarrow t=2$ s. Horizontal motion is uniform: $x=v_0t=10\\times2=20$ m.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-kin-09",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "kinematics",
+    "difficulty": 2,
+    "question": "For the projectile in the previous situation (thrown horizontally at $10$ m/s from $20$ m, $g=10\\ \\text{m/s}^2$), the speed when it hits the ground is",
+    "options": [
+      "$30$ m/s",
+      "$20$ m/s",
+      "$10\\sqrt5$ m/s",
+      "$10$ m/s"
+    ],
+    "answer": 2,
+    "explanation": "After $t=2$ s: $v_y=gt=20$ m/s, $v_x=10$ m/s. $v=\\sqrt{10^2+20^2}=10\\sqrt5\\approx22.4$ m/s. Speeds add as vectors, not as numbers.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-kin-10",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "kinematics",
+    "difficulty": 1,
+    "question": "On a velocity–time graph, the area between the graph and the time axis represents",
+    "options": [
+      "displacement",
+      "acceleration",
+      "velocity",
+      "force"
+    ],
+    "answer": 0,
+    "explanation": "Displacement $=\\int v\\,dt$, which is the area under the $v$–$t$ graph. The **slope** of the $v$–$t$ graph is the acceleration.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "p-kin-11",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "kinematics",
+    "difficulty": 2,
+    "question": "An object starting from rest moves with uniform acceleration. The ratio of the distances covered in the 1st, 2nd and 3rd seconds is",
+    "options": [
+      "$1:3:5$",
+      "$1:2:3$",
+      "$1:4:9$",
+      "$1:1:1$"
+    ],
+    "answer": 0,
+    "explanation": "Total distances after $1,2,3$ s are proportional to $1,4,9$ (since $x\\propto t^2$). Distances **in each** second: $1,\\ 4-1=3,\\ 9-4=5$, ratio $1:3:5$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-kin-12",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "kinematics",
+    "difficulty": 3,
+    "question": "Two cars start together from the same place along a straight road. Car A moves at a constant $10$ m/s; car B starts from rest with acceleration $2\\ \\text{m/s}^2$. The maximum distance between them before B catches up is",
+    "options": [
+      "$50$ m",
+      "$100$ m",
+      "$25$ m",
+      "$12.5$ m"
+    ],
+    "answer": 2,
+    "explanation": "The gap grows while A is faster and shrinks once B is faster, so it is greatest when the speeds are equal: $2t=10$, $t=5$ s.\n\nGap $=10\\times5-\\tfrac12\\times2\\times5^2=50-25=25$ m.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-kin-13",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "kinematics",
+    "difficulty": 2,
+    "question": "A stone is dropped from the top of a tower and takes $4$ s to reach the ground (take $g=10\\ \\text{m/s}^2$). The distance it falls during the last second is",
+    "options": [
+      "$80$ m",
+      "$45$ m",
+      "$35$ m",
+      "$40$ m"
+    ],
+    "answer": 2,
+    "explanation": "In $4$ s: $\\tfrac12\\cdot10\\cdot16=80$ m. In $3$ s: $\\tfrac12\\cdot10\\cdot9=45$ m. Last second: $80-45=35$ m.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-kin-14",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "kinematics",
+    "difficulty": 3,
+    "question": "A ball is thrown upward from the ground at $15$ m/s (take $g=10\\ \\text{m/s}^2$). At what times is it $10$ m above the ground?",
+    "options": [
+      "$1$ s only",
+      "$2$ s only",
+      "$1$ s and $2$ s",
+      "$1.5$ s and $3$ s"
+    ],
+    "answer": 2,
+    "explanation": "$10=15t-5t^2\\Rightarrow t^2-3t+2=0\\Rightarrow t=1$ s (on the way up) or $t=2$ s (on the way down). Both are valid because the ball rises to $\\dfrac{15^2}{20}=11.25$ m $>10$ m.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-new-01",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "newtons-laws",
+    "difficulty": 1,
+    "question": "A net force of $12$ N acts on a $3$ kg block. Its acceleration is",
+    "options": [
+      "$36\\ \\text{m/s}^2$",
+      "$0.25\\ \\text{m/s}^2$",
+      "$4\\ \\text{m/s}^2$",
+      "$9\\ \\text{m/s}^2$"
+    ],
+    "answer": 2,
+    "explanation": "Newton's second law: $a=\\dfrac{F}{m}=\\dfrac{12}{3}=4\\ \\text{m/s}^2$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-new-02",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "newtons-laws",
+    "difficulty": 1,
+    "question": "A book rests on a table. The reaction force (Newton's third law partner) to the gravitational force of the Earth on the book is",
+    "options": [
+      "the gravitational force of the book on the Earth",
+      "the normal force of the table on the book",
+      "the force of the book on the table",
+      "the friction force on the book"
+    ],
+    "answer": 0,
+    "explanation": "Third-law pairs act on **different** bodies and are of the same type. The Earth pulls the book down by gravity, so the book pulls the Earth up by gravity. The normal force balances the weight, but it is a different interaction (first-law balance, not a third-law pair).",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "p-new-03",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "newtons-laws",
+    "difficulty": 2,
+    "question": "A $2$ kg block is pulled along a horizontal floor by a horizontal force of $10$ N. The coefficient of kinetic friction is $0.3$ (take $g=10\\ \\text{m/s}^2$). The acceleration of the block is",
+    "options": [
+      "$2\\ \\text{m/s}^2$",
+      "$5\\ \\text{m/s}^2$",
+      "$3\\ \\text{m/s}^2$",
+      "$8\\ \\text{m/s}^2$"
+    ],
+    "answer": 0,
+    "explanation": "Friction $f=\\mu mg=0.3\\times2\\times10=6$ N. Net force $=10-6=4$ N, so $a=\\dfrac42=2\\ \\text{m/s}^2$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-new-04",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "newtons-laws",
+    "difficulty": 2,
+    "question": "A block slides down a smooth (frictionless) incline of angle $30^\\circ$ (take $g=10\\ \\text{m/s}^2$). Its acceleration is",
+    "options": [
+      "$10\\ \\text{m/s}^2$",
+      "$5\\sqrt3\\ \\text{m/s}^2$",
+      "$2.5\\ \\text{m/s}^2$",
+      "$5\\ \\text{m/s}^2$"
+    ],
+    "answer": 3,
+    "explanation": "Only the component of gravity along the slope accelerates the block: $a=g\\sin30^\\circ=10\\times\\tfrac12=5\\ \\text{m/s}^2$. The mass cancels.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-new-05",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "newtons-laws",
+    "difficulty": 2,
+    "question": "A person of mass $50$ kg stands on a scale in a lift that accelerates **upward** at $2\\ \\text{m/s}^2$ (take $g=10\\ \\text{m/s}^2$). The scale reads",
+    "options": [
+      "$500$ N",
+      "$400$ N",
+      "$600$ N",
+      "$100$ N"
+    ],
+    "answer": 2,
+    "explanation": "$N-mg=ma\\Rightarrow N=m(g+a)=50\\times12=600$ N. The person feels heavier (overweight).",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-new-06",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "newtons-laws",
+    "difficulty": 3,
+    "question": "Blocks of mass $2$ kg and $3$ kg are in contact on a smooth horizontal surface. A horizontal force of $10$ N pushes the $2$ kg block, which pushes the $3$ kg block. The force between the blocks is",
+    "options": [
+      "$4$ N",
+      "$10$ N",
+      "$6$ N",
+      "$5$ N"
+    ],
+    "answer": 2,
+    "explanation": "Whole system: $a=\\dfrac{10}{2+3}=2\\ \\text{m/s}^2$. The $3$ kg block is accelerated only by the contact force: $F_{12}=3\\times2=6$ N.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-new-07",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "newtons-laws",
+    "difficulty": 1,
+    "question": "A passenger in a bus that suddenly brakes lurches forward. This is best explained by",
+    "options": [
+      "a forward force acting on the passenger",
+      "Newton's third law",
+      "inertia (Newton's first law)",
+      "the passenger's weight increasing"
+    ],
+    "answer": 2,
+    "explanation": "The passenger's body tends to keep moving at the original speed (inertia) while the bus slows down. No forward force pushes the passenger.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "p-new-08",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "newtons-laws",
+    "difficulty": 2,
+    "question": "Two forces of $3$ N and $4$ N act on an object at right angles. The magnitude of the resultant force is",
+    "options": [
+      "$7$ N",
+      "$5$ N",
+      "$1$ N",
+      "$12$ N"
+    ],
+    "answer": 1,
+    "explanation": "Perpendicular forces add like the sides of a right triangle: $F=\\sqrt{3^2+4^2}=5$ N.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-new-09",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "newtons-laws",
+    "difficulty": 2,
+    "question": "A $10$ kg box rests on a horizontal floor with static friction coefficient $0.5$ (take $g=10\\ \\text{m/s}^2$). A horizontal push of $30$ N is applied. The friction force on the box is",
+    "options": [
+      "$50$ N",
+      "$30$ N",
+      "$20$ N",
+      "$0$ N"
+    ],
+    "answer": 1,
+    "explanation": "Maximum static friction $=\\mu_sN=0.5\\times100=50$ N. The push $30$ N is smaller, so the box does not move and static friction just balances the push: $f=30$ N.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-new-10",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "newtons-laws",
+    "difficulty": 2,
+    "question": "An object of weight $20$ N hangs from two strings, each making an angle of $60^\\circ$ with the vertical. The tension in each string is",
+    "options": [
+      "$10$ N",
+      "$10\\sqrt3$ N",
+      "$40$ N",
+      "$20$ N"
+    ],
+    "answer": 3,
+    "explanation": "Vertical equilibrium: $2T\\cos60^\\circ=20\\Rightarrow T=\\dfrac{20}{2\\times\\frac12}=20$ N.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-new-11",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "newtons-laws",
+    "difficulty": 1,
+    "question": "The SI unit of force, the newton, is equivalent to",
+    "options": [
+      "$\\text{kg}\\cdot\\text{m/s}$",
+      "$\\text{kg}\\cdot\\text{m}^2/\\text{s}^2$",
+      "$\\text{kg/s}^2$",
+      "$\\text{kg}\\cdot\\text{m/s}^2$"
+    ],
+    "answer": 3,
+    "explanation": "From $F=ma$: $1\\ \\text{N}=1\\ \\text{kg}\\times1\\ \\text{m/s}^2$. ($\\text{kg}\\cdot\\text{m/s}$ is momentum and $\\text{kg}\\cdot\\text{m}^2/\\text{s}^2$ is energy.)",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "p-new-12",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "newtons-laws",
+    "difficulty": 3,
+    "question": "Masses of $3$ kg and $2$ kg hang from the two ends of a light string over a light, frictionless pulley (take $g=10\\ \\text{m/s}^2$). The acceleration of the masses is",
+    "options": [
+      "$2\\ \\text{m/s}^2$",
+      "$10\\ \\text{m/s}^2$",
+      "$5\\ \\text{m/s}^2$",
+      "$4\\ \\text{m/s}^2$"
+    ],
+    "answer": 0,
+    "explanation": "Net driving force $=(3-2)g=10$ N; total mass $=5$ kg. $a=\\dfrac{10}{5}=2\\ \\text{m/s}^2$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-new-13",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "newtons-laws",
+    "difficulty": 3,
+    "question": "A block slides down an incline of angle $37^\\circ$ with kinetic friction coefficient $0.5$ (take $g=10\\ \\text{m/s}^2$) and $\\sin37^\\circ=0.6$, $\\cos37^\\circ=0.8$. Its acceleration is",
+    "options": [
+      "$6\\ \\text{m/s}^2$",
+      "$10\\ \\text{m/s}^2$",
+      "$2\\ \\text{m/s}^2$",
+      "$4\\ \\text{m/s}^2$"
+    ],
+    "answer": 2,
+    "explanation": "$a=g\\sin\\theta-\\mu g\\cos\\theta=10\\times0.6-0.5\\times10\\times0.8=6-4=2\\ \\text{m/s}^2$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-new-14",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "newtons-laws",
+    "difficulty": 1,
+    "question": "An object moves at constant velocity. Which statement must be true?",
+    "options": [
+      "No forces act on it",
+      "A constant force acts in the direction of motion",
+      "The net force on it is zero",
+      "Its mass is zero"
+    ],
+    "answer": 2,
+    "explanation": "Constant velocity means zero acceleration, so by Newton's first/second law the **net** force is zero. Several forces may act, but they balance.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "p-mom-01",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "momentum",
+    "difficulty": 1,
+    "question": "The momentum of a $2$ kg ball moving at $3$ m/s is",
+    "options": [
+      "$6\\ \\text{kg}\\cdot\\text{m/s}$",
+      "$9\\ \\text{kg}\\cdot\\text{m/s}$",
+      "$1.5\\ \\text{kg}\\cdot\\text{m/s}$",
+      "$18\\ \\text{kg}\\cdot\\text{m/s}$"
+    ],
+    "answer": 0,
+    "explanation": "$p=mv=2\\times3=6\\ \\text{kg}\\cdot\\text{m/s}$. ($9$ J would be the kinetic energy $\\tfrac12mv^2$.)",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-mom-02",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "momentum",
+    "difficulty": 1,
+    "question": "A constant force of $5$ N acts on an object for $4$ s. The impulse of the force is",
+    "options": [
+      "$20\\ \\text{N}\\cdot\\text{s}$",
+      "$1.25\\ \\text{N}\\cdot\\text{s}$",
+      "$9\\ \\text{N}\\cdot\\text{s}$",
+      "$80\\ \\text{N}\\cdot\\text{s}$"
+    ],
+    "answer": 0,
+    "explanation": "$I=Ft=5\\times4=20\\ \\text{N}\\cdot\\text{s}$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-mom-03",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "momentum",
+    "difficulty": 2,
+    "question": "A $0.5$ kg ball hits a wall at $6$ m/s and rebounds along the same line at $4$ m/s. The magnitude of the change in its momentum is",
+    "options": [
+      "$1\\ \\text{kg}\\cdot\\text{m/s}$",
+      "$2\\ \\text{kg}\\cdot\\text{m/s}$",
+      "$3\\ \\text{kg}\\cdot\\text{m/s}$",
+      "$5\\ \\text{kg}\\cdot\\text{m/s}$"
+    ],
+    "answer": 3,
+    "explanation": "Take the rebound direction as positive: $\\Delta p=0.5\\times4-0.5\\times(-6)=2+3=5\\ \\text{kg}\\cdot\\text{m/s}$. Forgetting that velocity reverses gives $1$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-mom-04",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "momentum",
+    "difficulty": 2,
+    "question": "A $2$ kg cart moving at $3$ m/s collides with a stationary $1$ kg cart and they stick together. Their common speed is",
+    "options": [
+      "$2$ m/s",
+      "$3$ m/s",
+      "$1.5$ m/s",
+      "$1$ m/s"
+    ],
+    "answer": 0,
+    "explanation": "Momentum is conserved: $2\\times3=(2+1)v\\Rightarrow v=2$ m/s.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-mom-05",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "momentum",
+    "difficulty": 3,
+    "question": "In the collision above ($2$ kg at $3$ m/s sticking to a stationary $1$ kg cart), the kinetic energy lost is",
+    "options": [
+      "$9$ J",
+      "$6$ J",
+      "$0$ J",
+      "$3$ J"
+    ],
+    "answer": 3,
+    "explanation": "Before: $\\tfrac12\\times2\\times9=9$ J. After: $\\tfrac12\\times3\\times2^2=6$ J. Lost: $3$ J — a perfectly inelastic collision always loses kinetic energy.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-mom-06",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "momentum",
+    "difficulty": 2,
+    "question": "A $60$ kg person standing on smooth ice throws a $2$ kg ball horizontally at $15$ m/s. The person's recoil speed is",
+    "options": [
+      "$15$ m/s",
+      "$2$ m/s",
+      "$0.5$ m/s",
+      "$0.25$ m/s"
+    ],
+    "answer": 2,
+    "explanation": "Initial momentum is zero, so $60v=2\\times15\\Rightarrow v=0.5$ m/s, in the opposite direction.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-mom-07",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "momentum",
+    "difficulty": 1,
+    "question": "An egg dropped onto a cushion is less likely to break than one dropped onto a stone floor because the cushion",
+    "options": [
+      "reduces the change in momentum",
+      "reduces the impulse",
+      "increases the egg's momentum",
+      "increases the time of impact, reducing the force"
+    ],
+    "answer": 3,
+    "explanation": "The change in momentum (and so the impulse) is the same either way. The cushion stretches the stopping time, so $F=\\dfrac{\\Delta p}{\\Delta t}$ is smaller.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "p-mom-08",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "momentum",
+    "difficulty": 2,
+    "question": "A $1000$ kg car's speed increases from $10$ m/s to $20$ m/s in $5$ s. The average net force on it is",
+    "options": [
+      "$4000$ N",
+      "$1000$ N",
+      "$10000$ N",
+      "$2000$ N"
+    ],
+    "answer": 3,
+    "explanation": "Impulse–momentum theorem: $F\\Delta t=\\Delta p=1000\\times(20-10)$, so $F=\\dfrac{10000}{5}=2000$ N.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-mom-09",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "momentum",
+    "difficulty": 3,
+    "question": "A ball of mass $m$ moving at $4$ m/s makes a perfectly **elastic** head-on collision with an identical stationary ball. Afterwards the first ball's speed is",
+    "options": [
+      "$0$ m/s",
+      "$2$ m/s",
+      "$4$ m/s",
+      "$1$ m/s"
+    ],
+    "answer": 0,
+    "explanation": "Conserving momentum and kinetic energy for equal masses gives an exchange of velocities: the first ball stops ($0$ m/s) and the second moves off at $4$ m/s.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-mom-10",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "momentum",
+    "difficulty": 2,
+    "question": "Momentum of a system is conserved when",
+    "options": [
+      "there is no friction inside the system",
+      "the net external force on the system is zero",
+      "kinetic energy is conserved",
+      "the objects do not touch"
+    ],
+    "answer": 1,
+    "explanation": "Conservation of momentum requires zero net **external** force. Internal forces (including friction between parts of the system) cannot change the total momentum. Kinetic energy may or may not be conserved.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "p-mom-11",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "momentum",
+    "difficulty": 2,
+    "question": "A $0.2$ kg ball falls from rest for $2$ s (take $g=10\\ \\text{m/s}^2$). The impulse of gravity on the ball during this time is",
+    "options": [
+      "$2\\ \\text{N}\\cdot\\text{s}$",
+      "$0.4\\ \\text{N}\\cdot\\text{s}$",
+      "$4\\ \\text{N}\\cdot\\text{s}$",
+      "$40\\ \\text{N}\\cdot\\text{s}$"
+    ],
+    "answer": 2,
+    "explanation": "$I=mgt=0.2\\times10\\times2=4\\ \\text{N}\\cdot\\text{s}$, equal to the momentum gained: $0.2\\times20=4\\ \\text{kg}\\cdot\\text{m/s}$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-mom-12",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "momentum",
+    "difficulty": 3,
+    "question": "A $3$ kg object at rest explodes into two pieces. A $1$ kg piece flies off at $8$ m/s. The speed of the other piece is",
+    "options": [
+      "$4$ m/s",
+      "$8$ m/s",
+      "$16$ m/s",
+      "$2.67$ m/s"
+    ],
+    "answer": 0,
+    "explanation": "Total momentum stays zero: $1\\times8=2\\times v\\Rightarrow v=4$ m/s in the opposite direction. (The other piece has mass $3-1=2$ kg, not $3$ kg.)",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-ene-01",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "work-energy",
+    "difficulty": 1,
+    "question": "A force of $10$ N pulls a box $5$ m along the floor. The force makes an angle of $60^\\circ$ with the displacement. The work done by the force is",
+    "options": [
+      "$50$ J",
+      "$43.3$ J",
+      "$25$ J",
+      "$2$ J"
+    ],
+    "answer": 2,
+    "explanation": "$W=Fs\\cos\\theta=10\\times5\\times\\cos60^\\circ=25$ J.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-ene-02",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "work-energy",
+    "difficulty": 1,
+    "question": "The kinetic energy of a $4$ kg object moving at $5$ m/s is",
+    "options": [
+      "$50$ J",
+      "$100$ J",
+      "$20$ J",
+      "$10$ J"
+    ],
+    "answer": 0,
+    "explanation": "$E_k=\\tfrac12mv^2=\\tfrac12\\times4\\times25=50$ J.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-ene-03",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "work-energy",
+    "difficulty": 1,
+    "question": "A $2$ kg object is lifted $3$ m vertically at constant speed (take $g=10\\ \\text{m/s}^2$). The increase in its gravitational potential energy is",
+    "options": [
+      "$6$ J",
+      "$30$ J",
+      "$600$ J",
+      "$60$ J"
+    ],
+    "answer": 3,
+    "explanation": "$\\Delta E_p=mgh=2\\times10\\times3=60$ J.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-ene-04",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "work-energy",
+    "difficulty": 2,
+    "question": "A ball is released from rest and slides down a smooth curved track, dropping a vertical height of $5$ m (take $g=10\\ \\text{m/s}^2$). Its speed at the bottom is",
+    "options": [
+      "$5$ m/s",
+      "$50$ m/s",
+      "$10$ m/s",
+      "$100$ m/s"
+    ],
+    "answer": 2,
+    "explanation": "No friction, so mechanical energy is conserved: $mgh=\\tfrac12mv^2\\Rightarrow v=\\sqrt{2gh}=\\sqrt{100}=10$ m/s. The shape of the track does not matter.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-ene-05",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "work-energy",
+    "difficulty": 2,
+    "question": "A motor lifts a $50$ kg load through $12$ m in $10$ s at constant speed (take $g=10\\ \\text{m/s}^2$). The power output of the motor is",
+    "options": [
+      "$600$ W",
+      "$6000$ W",
+      "$60$ W",
+      "$500$ W"
+    ],
+    "answer": 0,
+    "explanation": "Work $=mgh=50\\times10\\times12=6000$ J; power $P=\\dfrac Wt=\\dfrac{6000}{10}=600$ W.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-ene-06",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "work-energy",
+    "difficulty": 2,
+    "question": "A car's engine delivers a constant power of $60$ kW. When the car moves at $20$ m/s, the driving force is",
+    "options": [
+      "$1200$ N",
+      "$300$ N",
+      "$12000$ N",
+      "$3000$ N"
+    ],
+    "answer": 3,
+    "explanation": "$P=Fv\\Rightarrow F=\\dfrac{60000}{20}=3000$ N.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-ene-07",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "work-energy",
+    "difficulty": 2,
+    "question": "A $2$ kg block sliding at $6$ m/s on a rough horizontal floor stops after $9$ m. The friction force is",
+    "options": [
+      "$2$ N",
+      "$36$ N",
+      "$8$ N",
+      "$4$ N"
+    ],
+    "answer": 3,
+    "explanation": "Work–energy theorem: $-f\\cdot9=0-\\tfrac12\\times2\\times36=-36$ J, so $f=4$ N.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-ene-08",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "work-energy",
+    "difficulty": 3,
+    "question": "A $1$ kg ball is thrown upward from the ground at $20$ m/s and reaches a maximum height of $16$ m (take $g=10\\ \\text{m/s}^2$). The work done against air resistance on the way up is",
+    "options": [
+      "$160$ J",
+      "$40$ J",
+      "$200$ J",
+      "$0$ J"
+    ],
+    "answer": 1,
+    "explanation": "Initial kinetic energy $=\\tfrac12\\times1\\times400=200$ J. At the top it has potential energy $mgh=160$ J. The missing $40$ J was done against air resistance.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-ene-09",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "work-energy",
+    "difficulty": 1,
+    "question": "A satellite moves in a circular orbit around the Earth. The work done by gravity on it during one revolution is",
+    "options": [
+      "positive",
+      "zero, because gravity is perpendicular to the velocity",
+      "negative",
+      "equal to its kinetic energy"
+    ],
+    "answer": 1,
+    "explanation": "In a circular orbit the gravitational force always points to the centre, perpendicular to the velocity, so $W=Fs\\cos90^\\circ=0$ at every instant. The speed stays constant.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "p-ene-10",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "work-energy",
+    "difficulty": 2,
+    "question": "A spring with spring constant $200$ N/m is compressed by $0.1$ m. The elastic potential energy stored is",
+    "options": [
+      "$2$ J",
+      "$1$ J",
+      "$20$ J",
+      "$10$ J"
+    ],
+    "answer": 1,
+    "explanation": "$E_p=\\tfrac12kx^2=\\tfrac12\\times200\\times0.01=1$ J.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-ene-11",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "work-energy",
+    "difficulty": 2,
+    "question": "A pendulum bob is released from rest $0.45$ m above its lowest point (take $g=10\\ \\text{m/s}^2$). Its speed at the lowest point is",
+    "options": [
+      "$4.5$ m/s",
+      "$9$ m/s",
+      "$0.3$ m/s",
+      "$3$ m/s"
+    ],
+    "answer": 3,
+    "explanation": "$\\tfrac12mv^2=mgh\\Rightarrow v=\\sqrt{2\\times10\\times0.45}=\\sqrt9=3$ m/s. The string tension does no work (it is perpendicular to the motion).",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-ene-12",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "work-energy",
+    "difficulty": 1,
+    "question": "Which quantity is a scalar?",
+    "options": [
+      "Momentum",
+      "Work",
+      "Force",
+      "Displacement"
+    ],
+    "answer": 1,
+    "explanation": "Work $W=\\vec F\\cdot\\vec s$ is a dot product, so it has magnitude (and sign) but no direction. Momentum, force and displacement are vectors.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "p-ene-13",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "work-energy",
+    "difficulty": 3,
+    "question": "A $1500$ kg car has maximum engine power $60$ kW and the total resistance is a constant $2000$ N. Its maximum speed on a level road is",
+    "options": [
+      "$30$ m/s",
+      "$40$ m/s",
+      "$20$ m/s",
+      "$60$ m/s"
+    ],
+    "answer": 0,
+    "explanation": "At maximum speed the acceleration is zero, so the driving force equals the resistance: $F=2000$ N. $v_{\\max}=\\dfrac{P}{F}=\\dfrac{60000}{2000}=30$ m/s.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-ene-14",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "work-energy",
+    "difficulty": 3,
+    "question": "A $2$ kg block is released from rest at the top of a $5$ m high, $10$ m long incline and reaches the bottom at $8$ m/s (take $g=10\\ \\text{m/s}^2$). The work done by friction is",
+    "options": [
+      "$-64$ J",
+      "$-100$ J",
+      "$-36$ J",
+      "$36$ J"
+    ],
+    "answer": 2,
+    "explanation": "$W_g+W_f=\\Delta E_k$: $2\\times10\\times5+W_f=\\tfrac12\\times2\\times64$, so $W_f=64-100=-36$ J (negative because friction opposes motion).",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-cir-01",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "circular-gravitation",
+    "difficulty": 1,
+    "question": "An object moves in a circle of radius $2$ m at a constant speed of $4$ m/s. Its centripetal acceleration is",
+    "options": [
+      "$2\\ \\text{m/s}^2$",
+      "$16\\ \\text{m/s}^2$",
+      "$8\\ \\text{m/s}^2$",
+      "$0$"
+    ],
+    "answer": 2,
+    "explanation": "$a=\\dfrac{v^2}{r}=\\dfrac{16}{2}=8\\ \\text{m/s}^2$, directed toward the centre. The speed is constant but the velocity's direction changes, so $a\\ne0$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-cir-02",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "circular-gravitation",
+    "difficulty": 1,
+    "question": "A wheel turns at $2$ revolutions per second. Its angular velocity is",
+    "options": [
+      "$2\\pi$ rad/s",
+      "$4\\pi$ rad/s",
+      "$2$ rad/s",
+      "$\\pi$ rad/s"
+    ],
+    "answer": 1,
+    "explanation": "$\\omega=2\\pi n=2\\pi\\times2=4\\pi$ rad/s.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-cir-03",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "circular-gravitation",
+    "difficulty": 2,
+    "question": "A $0.5$ kg ball on a string moves in a horizontal circle of radius $0.4$ m on a smooth table at $2$ m/s. The tension in the string is",
+    "options": [
+      "$2.5$ N",
+      "$10$ N",
+      "$5$ N",
+      "$1.25$ N"
+    ],
+    "answer": 2,
+    "explanation": "The tension provides the centripetal force: $T=\\dfrac{mv^2}{r}=\\dfrac{0.5\\times4}{0.4}=5$ N.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-cir-04",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "circular-gravitation",
+    "difficulty": 2,
+    "question": "A car of mass $1000$ kg drives over the top of a hump of radius $40$ m at $10$ m/s (take $g=10\\ \\text{m/s}^2$). The normal force from the road at the top is",
+    "options": [
+      "$7500$ N",
+      "$10000$ N",
+      "$12500$ N",
+      "$2500$ N"
+    ],
+    "answer": 0,
+    "explanation": "At the top the net force points down to the centre: $mg-N=\\dfrac{mv^2}{r}$, so $N=1000\\left(10-\\dfrac{100}{40}\\right)=7500$ N. The car feels lighter.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-cir-05",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "circular-gravitation",
+    "difficulty": 3,
+    "question": "A small ball on a string of length $0.4$ m moves in a vertical circle (take $g=10\\ \\text{m/s}^2$). The minimum speed at the top for the string to stay taut is",
+    "options": [
+      "$0$ m/s",
+      "$4$ m/s",
+      "$2$ m/s",
+      "$\\sqrt2$ m/s"
+    ],
+    "answer": 2,
+    "explanation": "At the minimum speed the tension is zero and gravity alone gives the centripetal force: $mg=\\dfrac{mv^2}r\\Rightarrow v=\\sqrt{gr}=\\sqrt{4}=2$ m/s.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-cir-06",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "circular-gravitation",
+    "difficulty": 1,
+    "question": "If the distance between two point masses is doubled, the gravitational force between them becomes",
+    "options": [
+      "half of the original",
+      "one quarter of the original",
+      "twice the original",
+      "four times the original"
+    ],
+    "answer": 1,
+    "explanation": "$F=\\dfrac{Gm_1m_2}{r^2}$: doubling $r$ divides $F$ by $2^2=4$.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "p-cir-07",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "circular-gravitation",
+    "difficulty": 2,
+    "question": "For satellites in circular orbits around the Earth, a satellite in a **higher** orbit has",
+    "options": [
+      "a smaller speed and a longer period",
+      "a larger speed and a longer period",
+      "a smaller speed and a shorter period",
+      "the same speed"
+    ],
+    "answer": 0,
+    "explanation": "$\\dfrac{GMm}{r^2}=\\dfrac{mv^2}{r}\\Rightarrow v=\\sqrt{\\dfrac{GM}{r}}$, which decreases as $r$ increases, while $T=2\\pi\\sqrt{\\dfrac{r^3}{GM}}$ increases.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "p-cir-08",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "circular-gravitation",
+    "difficulty": 2,
+    "question": "Two satellites orbit the Earth in circles of radii $r$ and $4r$. The ratio of their speeds $v_1:v_2$ is",
+    "options": [
+      "$4:1$",
+      "$2:1$",
+      "$1:2$",
+      "$16:1$"
+    ],
+    "answer": 1,
+    "explanation": "$v=\\sqrt{GM/r}$, so $\\dfrac{v_1}{v_2}=\\sqrt{\\dfrac{4r}{r}}=2$. Ratio $2:1$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-cir-09",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "circular-gravitation",
+    "difficulty": 2,
+    "question": "The acceleration due to gravity at the Earth's surface is $g$. At a height equal to the Earth's radius $R$ above the surface it is",
+    "options": [
+      "$\\dfrac g2$",
+      "$\\dfrac g4$",
+      "$g$",
+      "$2g$"
+    ],
+    "answer": 1,
+    "explanation": "$g\\propto\\dfrac1{r^2}$ and the distance from the centre doubles ($R\\to2R$), so $g'=\\dfrac g4$.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "p-cir-10",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "circular-gravitation",
+    "difficulty": 1,
+    "question": "The first cosmic velocity (minimum launch speed for a circular orbit just above the Earth's surface) is about",
+    "options": [
+      "$11.2$ km/s",
+      "$7.9$ km/s",
+      "$16.7$ km/s",
+      "$340$ m/s"
+    ],
+    "answer": 1,
+    "explanation": "$v_1=\\sqrt{gR}\\approx\\sqrt{9.8\\times6.4\\times10^6}\\approx7.9$ km/s. $11.2$ km/s is the escape velocity and $16.7$ km/s the third cosmic velocity.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-cir-11",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "circular-gravitation",
+    "difficulty": 3,
+    "question": "Using $G=6.67\\times10^{-11}\\ \\text{N}\\cdot\\text{m}^2/\\text{kg}^2$, Earth mass $M=6.0\\times10^{24}$ kg and radius $R=6.4\\times10^6$ m, the gravitational acceleration at the Earth's surface is closest to",
+    "options": [
+      "$6.3\\ \\text{m/s}^2$",
+      "$62\\ \\text{m/s}^2$",
+      "$1.0\\ \\text{m/s}^2$",
+      "$9.8\\ \\text{m/s}^2$"
+    ],
+    "answer": 3,
+    "explanation": "$g=\\dfrac{GM}{R^2}=\\dfrac{6.67\\times10^{-11}\\times6.0\\times10^{24}}{(6.4\\times10^6)^2}=\\dfrac{4.0\\times10^{14}}{4.1\\times10^{13}}\\approx9.8\\ \\text{m/s}^2$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-cir-12",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "circular-gravitation",
+    "difficulty": 2,
+    "question": "A geostationary satellite has",
+    "options": [
+      "any orbit with a period of 24 hours",
+      "a period of 24 hours and an orbit above the equator",
+      "a period of 1 hour",
+      "an orbit over the poles"
+    ],
+    "answer": 1,
+    "explanation": "To stay above the same point, the satellite must turn with the Earth (period $\\approx24$ h) in the equatorial plane, which fixes its height too.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "p-cir-13",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "circular-gravitation",
+    "difficulty": 2,
+    "question": "Two points $A$ and $B$ are on a rotating disc at distances $0.1$ m and $0.3$ m from the axis. The ratio of their linear speeds $v_A:v_B$ is",
+    "options": [
+      "$3:1$",
+      "$1:3$",
+      "$1:1$",
+      "$1:9$"
+    ],
+    "answer": 1,
+    "explanation": "Points on the same rigid disc have the same angular velocity $\\omega$, and $v=\\omega r$, so $v_A:v_B=0.1:0.3=1:3$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-cir-14",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "circular-gravitation",
+    "difficulty": 3,
+    "question": "A planet has twice the Earth's mass and twice its radius. If the gravitational acceleration on Earth is $10\\ \\text{m/s}^2$, on the planet it is",
+    "options": [
+      "$10\\ \\text{m/s}^2$",
+      "$20\\ \\text{m/s}^2$",
+      "$2.5\\ \\text{m/s}^2$",
+      "$5\\ \\text{m/s}^2$"
+    ],
+    "answer": 3,
+    "explanation": "$g=\\dfrac{GM}{R^2}$: $g'=\\dfrac{G(2M)}{(2R)^2}=\\dfrac{2}{4}g=5\\ \\text{m/s}^2$.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-wav-01",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "shm-waves",
+    "difficulty": 1,
+    "question": "A wave has frequency $50$ Hz and wavelength $2$ m. Its speed is",
+    "options": [
+      "$25$ m/s",
+      "$100$ m/s",
+      "$52$ m/s",
+      "$0.04$ m/s"
+    ],
+    "answer": 1,
+    "explanation": "$v=f\\lambda=50\\times2=100$ m/s.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-wav-02",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "shm-waves",
+    "difficulty": 1,
+    "question": "A simple pendulum makes $20$ complete oscillations in $40$ s. Its period is",
+    "options": [
+      "$0.5$ s",
+      "$2$ s",
+      "$20$ s",
+      "$800$ s"
+    ],
+    "answer": 1,
+    "explanation": "$T=\\dfrac{\\text{time}}{\\text{number of oscillations}}=\\dfrac{40}{20}=2$ s.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-wav-03",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "shm-waves",
+    "difficulty": 2,
+    "question": "The period of a simple pendulum is $T$. If its length is made $4$ times as long, the period becomes",
+    "options": [
+      "$4T$",
+      "$2T$",
+      "$\\dfrac T2$",
+      "$16T$"
+    ],
+    "answer": 1,
+    "explanation": "$T=2\\pi\\sqrt{\\dfrac Lg}\\propto\\sqrt L$, so $T'=\\sqrt4\\,T=2T$. The mass of the bob does not matter.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "p-wav-04",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "shm-waves",
+    "difficulty": 2,
+    "question": "A mass of $0.4$ kg on a spring of constant $40$ N/m oscillates. Its period is",
+    "options": [
+      "$\\dfrac{\\pi}{5}$ s",
+      "$\\dfrac{\\pi}{10}$ s",
+      "$2\\pi$ s",
+      "$0.1$ s"
+    ],
+    "answer": 0,
+    "explanation": "$T=2\\pi\\sqrt{\\dfrac mk}=2\\pi\\sqrt{\\dfrac{0.4}{40}}=2\\pi\\times0.1=\\dfrac\\pi5\\approx0.63$ s.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-wav-05",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "shm-waves",
+    "difficulty": 1,
+    "question": "In simple harmonic motion, the speed of the oscillating object is greatest",
+    "options": [
+      "at maximum displacement",
+      "at the equilibrium position",
+      "halfway between equilibrium and maximum displacement",
+      "it is the same everywhere"
+    ],
+    "answer": 1,
+    "explanation": "At the equilibrium position all the energy is kinetic, so the speed is maximum (and the restoring force and acceleration are zero). At maximum displacement the speed is zero.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "p-wav-06",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "shm-waves",
+    "difficulty": 1,
+    "question": "In a transverse wave, the particles of the medium vibrate",
+    "options": [
+      "parallel to the direction the wave travels",
+      "perpendicular to the direction the wave travels",
+      "in circles",
+      "they move along with the wave"
+    ],
+    "answer": 1,
+    "explanation": "Transverse: vibration ⟂ propagation (e.g. waves on a string). Longitudinal (e.g. sound): vibration ∥ propagation. In both cases the particles oscillate about fixed positions; only energy travels.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "p-wav-07",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "shm-waves",
+    "difficulty": 2,
+    "question": "Sound travels at $340$ m/s in air. A tuning fork of frequency $680$ Hz produces sound of wavelength",
+    "options": [
+      "$2$ m",
+      "$1020$ m",
+      "$0.25$ m",
+      "$0.5$ m"
+    ],
+    "answer": 3,
+    "explanation": "$\\lambda=\\dfrac vf=\\dfrac{340}{680}=0.5$ m.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-wav-08",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "shm-waves",
+    "difficulty": 2,
+    "question": "An object performs SHM described by $x=0.05\\sin(4\\pi t)$ (SI units). Its amplitude and frequency are",
+    "options": [
+      "$0.05$ m and $4$ Hz",
+      "$0.1$ m and $2$ Hz",
+      "$0.05$ m and $2$ Hz",
+      "$0.05$ m and $4\\pi$ Hz"
+    ],
+    "answer": 2,
+    "explanation": "Compare with $x=A\\sin(\\omega t)$: $A=0.05$ m and $\\omega=4\\pi$ rad/s, so $f=\\dfrac{\\omega}{2\\pi}=2$ Hz.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-wav-09",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "shm-waves",
+    "difficulty": 3,
+    "question": "A wave travels along a string at $4$ m/s. Two adjacent crests are $0.8$ m apart. The time for a particle on the string to make one full oscillation is",
+    "options": [
+      "$0.2$ s",
+      "$5$ s",
+      "$3.2$ s",
+      "$0.4$ s"
+    ],
+    "answer": 0,
+    "explanation": "Adjacent crests are one wavelength apart: $\\lambda=0.8$ m. $f=\\dfrac v\\lambda=5$ Hz, so the period is $T=\\dfrac1f=0.2$ s.",
+    "tags": [
+      "numeric"
+    ]
+  },
+  {
+    "id": "p-wav-10",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "shm-waves",
+    "difficulty": 2,
+    "question": "When a wave passes from one medium into another, the quantity that stays the same is the",
+    "options": [
+      "wavelength",
+      "frequency",
+      "speed",
+      "amplitude only"
+    ],
+    "answer": 1,
+    "explanation": "The frequency is set by the source, so it does not change at a boundary. The speed changes with the medium, and so does $\\lambda=v/f$.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "p-wav-11",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "shm-waves",
+    "difficulty": 1,
+    "question": "Resonance occurs when",
+    "options": [
+      "the amplitude is zero",
+      "two waves cancel",
+      "the driving force is removed",
+      "the driving frequency equals the natural frequency of the system"
+    ],
+    "answer": 3,
+    "explanation": "A system driven at its natural frequency absorbs energy most efficiently, so its amplitude becomes very large. This is resonance.",
+    "tags": [
+      "conceptual"
+    ]
+  },
+  {
+    "id": "p-wav-12",
+    "subject": "physics",
+    "topic": "mechanics",
+    "subtopic": "shm-waves",
+    "difficulty": 3,
+    "question": "A spring oscillator has amplitude $0.1$ m and maximum speed $2$ m/s. Its angular frequency is",
+    "options": [
+      "$20$ rad/s",
+      "$0.2$ rad/s",
+      "$2$ rad/s",
+      "$10$ rad/s"
+    ],
+    "answer": 0,
+    "explanation": "In SHM $v_{\\max}=A\\omega$, so $\\omega=\\dfrac{2}{0.1}=20$ rad/s.",
+    "tags": [
+      "numeric"
+    ]
+  }
+]

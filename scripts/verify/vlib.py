@@ -143,9 +143,17 @@ def latex_to_py(s: str, complex_i: bool = False) -> str:
     return "".join(out)
 
 
+UNIT_TEXT = re.compile(r"(\\cdot|\\times)?\s*\\(text|mathrm)\{[^{}]*\}(\^\{?-?\d+\}?)?")
+
+
 def to_sympy(tex: str, complex_i: bool = False, strip_units: bool = True):
+    if strip_units:
+        prev = None
+        while prev != tex:
+            prev, tex = tex, UNIT_TEXT.sub(" ", tex)
     s = clean(tex)
     if strip_units:
+        s = re.sub(r"(\\cdot|\\times)\s*$", "", s.strip())
         for u in UNIT_COMMANDS:
             s = s.replace(u, " ")
         # remove plain unit words (not LaTeX commands): e.g. "12 m/s^2", "3.0 mol/L"
@@ -190,7 +198,8 @@ class N(Check):
     def match(self, opt: str) -> bool:
         v = to_sympy(opt, complex_i=self.complex_i, strip_units=not self.complex_i)
         v = complex(sp.N(v)) if self.complex_i else float(sp.N(v))
-        return abs(v - self.value) <= max(self.abs_tol, self.rel * abs(self.value))
+        tol = self.rel * abs(self.value) if self.value != 0 else self.abs_tol
+        return abs(v - self.value) <= tol
 
     def describe(self) -> str:
         return f"N({self.value:g})"
@@ -363,7 +372,7 @@ def first_number(opt: str) -> float:
 def Num(value, rel: float = 0.02):
     """Match on the first number in the option text (for options mixing words and numbers)."""
     v = float(value)
-    return Fn(lambda o: abs(first_number(o) - v) <= rel * abs(v) + 1e-12, f"Num({v:g})")
+    return Fn(lambda o: abs(first_number(o) - v) <= (rel * abs(v) if v else 1e-12), f"Num({v:g})")
 
 
 def contains(*parts: str):
@@ -388,7 +397,7 @@ def Nums(*values, rel: float = 1e-9):
     want = [float(sp.N(v)) for v in values]
     def f(o: str) -> bool:
         got = numbers(o)
-        return len(got) == len(want) and all(abs(g - w) <= max(1e-12, rel * abs(w)) for g, w in zip(got, want))
+        return len(got) == len(want) and all(abs(g - w) <= (rel * abs(w) if w else 1e-12) for g, w in zip(got, want))
     return Fn(f, f"Nums{tuple(want)}")
 
 
