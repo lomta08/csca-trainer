@@ -1,6 +1,6 @@
 # CSCA Trainer
 
-**Live site:** not published yet — the GitHub CLI was not available on the build machine. Publishing takes three commands; see [Publishing](#publishing). The site will then be at `https://<your-github-username>.github.io/csca-trainer/`.
+**Live site:** **https://lomta08.github.io/csca-trainer/**
 
 A free, mobile-friendly practice site for the **CSCA** (China Scholastic Competency Assessment) Mathematics, Physics and Chemistry papers, taken in English. It is built for one student and their tutor.
 

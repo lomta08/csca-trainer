@@ -1,8 +1,8 @@
 # Progress
 
-**Live URL:** not deployed yet. Blocker: the GitHub CLI (`gh`) is not installed on this machine and GitHub login needs you, so the repo could not be created or pushed. After you run the three commands in [README → Publishing](README.md#publishing), the site will be at `https://<your-github-username>.github.io/csca-trainer/`. Please add that URL here and at the top of README.md.
+**Live URL:** **https://lomta08.github.io/csca-trainer/** (deployed by GitHub Actions on every push to `main`; repo: https://github.com/lomta08/csca-trainer)
 
-Everything else is done, committed on the local `main` branch (`git log`), and verified locally.
+Everything is done, pushed to GitHub, and verified locally and in CI.
 
 ## Final checklist
 
@@ -13,8 +13,8 @@ Everything else is done, committed on the local `main` branch (`git log`), and v
 - [x] Mock exam: 48 questions, 60 min, 0–100 score, review with solutions, per-topic breakdown, time per question, history and score-trend chart, auto-submit at time-up (tested with a fake clock).
 - [x] Practice (keyboard 1–4/A–D, Enter, F), mistakes notebook with 2-day spaced repetition, study plan generator with checklist, tutor view with export/import progress code and "Copy report", resources page, Chinese info page, periodic table/data page, printable formula sheets.
 - [x] Mobile-friendly (checked at 390 px: no horizontal overflow on any page), dark mode (system or manual), KaTeX renders everywhere (KaTeX errors checked on every page by the e2e and screenshot scripts).
-- [x] Tests and content validation pass; build has 0 TypeScript errors. *Locally:* `npm run verify` ✔, 60 unit tests ✔, 5 Playwright e2e tests ✔, `npm run build` ✔. *In CI:* the workflow is ready but has not run on GitHub yet (not pushed).
-- [ ] Live on GitHub Pages; URL in README and PROGRESS: **blocked**, needs your GitHub login (3 commands, see README).
+- [x] Tests and content validation pass; build has 0 TypeScript errors. *Locally:* `npm run verify` ✔, 60 unit tests ✔, 5 Playwright e2e tests ✔, `npm run build` ✔. *In CI:* all steps pass on GitHub Actions (Node 24).
+- [x] Live on GitHub Pages: https://lomta08.github.io/csca-trainer/
 
 ## What was built (milestones)
 
@@ -44,7 +44,6 @@ Problems found by the screenshot review and fixed: a KaTeX CSS/JS version mismat
 
 ## Known issues / ideas for later
 
-- **Not deployed yet** (see above).
 - Performance score is 83–86 on Lighthouse's throttled-mobile simulation. The whole question bank (≈350 kB of JSON) ships in the first bundle so practice is instant. If this matters, the bank could be split per subject.
 - csca.cn could not be fetched automatically (it is a JavaScript-only site), so exam facts follow your brief. Please double-check dates and formats on csca.cn.
 - Progress lives in one browser. The Settings page has backup/restore, and the Tutor page has the progress code, but there is no automatic sync between devices (no backend, by design).
